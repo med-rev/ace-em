@@ -1178,5 +1178,165 @@ window.QUESTIONS_TINTINALLI = [
     correctAnswer: 0,
     explanation: "Patients refractory to intramuscular dosing or with cardiovascular compromise should receive intravenous epinephrine.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-PAIN-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Acute pain prevalence",
+    page: "67",
+    stem: "Approximately what proportion of emergency department visits have acute pain as the chief complaint?",
+    options: [
+      "75% to 80%",
+      "5% to 10%",
+      "15% to 20%",
+      "30% to 40%",
+      "90% to 95%"
+    ],
+    correctAnswer: 0,
+    explanation: "The chapter states that acute pain is the chief complaint for 75% to 80% of all emergency department visits.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Procedural sedation indications",
+    page: "67",
+    stem: "Procedural sedation and analgesia are often needed for which situations?",
+    options: [
+      "Painful interventions or diagnostic studies",
+      "All patients with normal vital signs",
+      "Only patients undergoing cardiac monitoring",
+      "Only patients with an abnormal ECG",
+      "Routine management of all minor wounds"
+    ],
+    correctAnswer: 0,
+    explanation: "The chapter states that procedural sedation and analgesia are often needed for painful interventions or diagnostic studies.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0003",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Physiologic responses to pain",
+    page: "67",
+    stem: "Which responses to pain are listed in the clinical features section? Select all that apply.",
+    options: [
+      "Increased heart rate",
+      "Increased blood pressure",
+      "Increased respiratory rate",
+      "Behavioural changes",
+      "Diagnostic confirmation of pain severity by vital signs alone"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Responses to pain may include increased heart rate, blood pressure, respiratory rate, and behavioural changes. The source also notes these responses may have only mild correlation and cannot be relied upon exclusively.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0004",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Pain assessment limitations",
+    page: "67",
+    stem: "Why should physiologic and behavioural responses not be relied upon exclusively when assessing pain?",
+    options: [
+      "They may have only a mild correlation with pain",
+      "They are never present in painful conditions",
+      "They replace the need for patient-reported assessment",
+      "They are accurate only in elderly patients",
+      "They are accurate only in trauma patients"
+    ],
+    correctAnswer: 0,
+    explanation: "The chapter states that physiologic and behavioural responses to pain may have only a mild correlation, so they cannot be relied upon exclusively.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0005",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Pain scales",
+    page: "67",
+    stem: "Which method is described as the most objective way to assess pain?",
+    options: [
+      "Use of validated pain scales",
+      "Heart rate alone",
+      "Blood pressure alone",
+      "Respiratory rate alone",
+      "Clinician impression without reassessment"
+    ],
+    correctAnswer: 0,
+    explanation: "Pain is most objectively assessed with the use of several validated pain scales.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Pain scales limitations",
+    page: "67",
+    stem: "In which groups may pain scales be less accurate according to the chapter?",
+    options: [
+      "Elderly patients or trauma patients",
+      "Only patients with sinus arrhythmia",
+      "Only patients with local anaesthetic exposure",
+      "Only adults without injury",
+      "Only patients receiving oxygen"
+    ],
+    correctAnswer: 0,
+    explanation: "The chapter notes that validated pain scales may not be as accurate in elderly patients or trauma patients.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Pain assessment in children",
+    page: "67",
+    stem: "What role do pain scales have in young children?",
+    options: [
+      "They are a mainstay of assessing pain",
+      "They should not be used in young children",
+      "They are replaced by blood pressure alone",
+      "They are used only after procedural sedation",
+      "They are useful only when respiratory rate is abnormal"
+    ],
+    correctAnswer: 0,
+    explanation: "Pain scales are described as a mainstay of assessing pain in young children.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
+  },
+  {
+    id: "TINT-PAIN-0008",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 7: Acute Pain Management and Procedural Sedation",
+    category: "Pain and procedural care",
+    topic: "Emergency department pain care",
+    page: "67",
+    stem: "Which actions are described during emergency department care for acute pain? Select all that apply.",
+    options: [
+      "Determine the patient's perception of the degree of pain during the primary assessment",
+      "Continue to reassess pain after any intervention",
+      "Be aware that children are vulnerable to oligoanalgesia",
+      "Recognise that difficulty assessing pain can contribute to oligoanalgesia in children",
+      "Avoid reassessment once an intervention has been given"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "The chapter states that clinicians should determine the patient's perception of pain during primary assessment and continue reassessment after intervention. It also notes that children are vulnerable to oligoanalgesia, partly because of difficulty assessing pain and medication dosing unfamiliarity.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   }
 ];
