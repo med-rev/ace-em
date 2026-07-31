@@ -262,7 +262,7 @@
       </div>
 
       <div class="warning">
-        This first version is a working quiz shell with a small verified seed bank. The larger question bank can be added by replacing this file with a larger verified question bank.
+        This page is the quiz engine. Questions are loaded from questions.js, so index.html can now stay stable.
       </div>
     </section>
 
@@ -307,84 +307,247 @@
     </section>
   </main>
 
+  questions.jsscript>
   <script>
-    const QUESTIONS = [
-      {
-        id: "TINT-AIRWAY-0001",
-        type: "mcq",
-        book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-        chapter: "Chapter 1: Advanced Airway Support",
-        topic: "Airway",
-        printedPage: "1",
-        pdfPage: "20",
-        stem: "During rapid airway assessment, which combination best reflects the initial clinical features that should be assessed?",
-        options: [
-          "Level of responsiveness, skin colour, respiratory rate, and depth of respirations",
-          "Gag reflex, chest x-ray, arterial blood gas, and serum lactate",
-          "Blood pressure, urine output, serum potassium, and ECG axis",
-          "Mallampati score, thyromental distance, fasting status, and consent",
-          "Temperature, capillary refill, pupil size, and blood glucose only"
-        ],
-        correctAnswer: 0,
-        explanation: "Rapid clinical airway assessment includes level of responsiveness, skin colour, respiratory rate, and depth of respirations, with oxygen saturation and capnography unless the patient is in impending or actual cardiac arrest.",
-        source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 1, PDF page 20."
-      },
-      {
-        id: "TINT-AIRWAY-0002",
-        type: "mcq",
-        book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-        chapter: "Chapter 1: Advanced Airway Support",
-        topic: "Airway",
-        printedPage: "1",
-        pdfPage: "20",
-        stem: "Which action is specifically discouraged during rapid airway assessment?",
-        options: [
-          "Placing something in the pharynx to assess the gag reflex",
-          "Assessing the patient's level of responsiveness",
-          "Assessing respiratory rate and depth",
-          "Obtaining oxygen saturation when appropriate",
-          "Using capnography when appropriate"
-        ],
-        correctAnswer: 0,
-        explanation: "Nothing should be placed in the pharynx to assess gag reflex.",
-        source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 1, PDF page 20."
-      },
-      {
-        id: "TINT-AIRWAY-0003",
-        type: "mcq",
-        book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-        chapter: "Chapter 1: Advanced Airway Support",
-        topic: "Airway",
-        printedPage: "2",
-        pdfPage: "21",
-        stem: "A patient has adequate ventilation but poor oxygenation. Which immediate approach is most appropriate?",
-        options: [
-          "Consider immediate initiation of noninvasive ventilation",
-          "Avoid positive pressure ventilation until intubation has been completed",
-          "Prioritise a surgical airway before attempting noninvasive support",
-          "Withhold oxygen if respiratory effort is adequate",
-          "Delay intervention until chest radiography confirms the diagnosis"
-        ],
-        correctAnswer: 0,
-        explanation: "If ventilation is adequate but oxygenation is poor, immediate initiation of noninvasive ventilation should be considered.",
-        source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 2, PDF page 21."
-      },
-      {
-        id: "TINT-AIRWAY-0004",
-        type: "multi",
-        book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-        chapter: "Chapter 1: Advanced Airway Support",
-        topic: "Airway",
-        printedPage: "4",
-        pdfPage: "23",
-        stem: "Which elements are part of preparation for orotracheal intubation? Select all that apply.",
-        options: [
-          "Prepare equipment, personnel, and drugs before attempting intubation",
-          "Assess airway difficulty and anticipate rescue needs",
-          "Place suction, bag-valve-mask, and rescue devices within easy reach",
-          "Assign tasks in advance",
-          "Use chest x-ray to confirm tracheal rather than oesophageal tube placement"
-        ],
-        correctAnswers: [0, 1, 2, 3],
-        explanation: "Preparation includes equipment, personnel, and drugs; airway difficulty assessment; suction, bag-valve-mask, and rescue devices within easy reach; and assigned tasks. Chest x-ray should not be used to confirm tracheal rather than oesophageal tube placement.",
-        source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed pp. 4 and 6, PDF pages 23
+    let activeQuestions = [];
+    let currentIndex = 0;
+    let correct = 0;
+    let incorrect = 0;
+    let answered = 0;
+
+    const bookFilter = document.getElementById("bookFilter");
+    const topicFilter = document.getElementById("topicFilter");
+    const typeFilter = document.getElementById("typeFilter");
+    const startBtn = document.getElementById("startBtn");
+    const quizPanel = document.getElementById("quizPanel");
+    const questionCounter = document.getElementById("questionCounter");
+    const questionDetails = document.getElementById("questionDetails");
+    const questionTags = document.getElementById("questionTags");
+    const questionStem = document.getElementById("questionStem");
+    const answerArea = document.getElementById("answerArea");
+    const submitBtn = document.getElementById("submitBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const feedback = document.getElementById("feedback");
+    const correctCount = document.getElementById("correctCount");
+    const incorrectCount = document.getElementById("incorrectCount");
+    const answeredCount = document.getElementById("answeredCount");
+    const accuracyRate = document.getElementById("accuracyRate");
+
+    function getQuestionTypeLabel(type) {
+      if (type === "mcq") {
+        return "MCQ";
+      }
+
+      if (type === "multi") {
+        return "Multiple response";
+      }
+
+      return String(type).toUpperCase();
+    }
+
+    function getQuestions() {
+      if (!Array.isArray(window.QUESTIONS)) {
+        alert("questions.js did not load correctly. Check that questions.js exists in the repository root and contains window.QUESTIONS = [...];");
+        return [];
+      }
+
+      return window.QUESTIONS;
+    }
+
+    function initialiseFilters() {
+      const questions = getQuestions();
+      const books = [...new Set(questions.map(question => question.book))].sort();
+      const topics = [...new Set(questions.map(question => question.topic))].sort();
+
+      books.forEach(book => {
+        const option = document.createElement("option");
+        option.value = book;
+        option.textContent = book;
+        bookFilter.appendChild(option);
+      });
+
+      topics.forEach(topic => {
+        const option = document.createElement("option");
+        option.value = topic;
+        option.textContent = topic;
+        topicFilter.appendChild(option);
+      });
+    }
+
+    function startQuiz() {
+      const questions = getQuestions();
+      const selectedBook = bookFilter.value;
+      const selectedTopic = topicFilter.value;
+      const selectedType = typeFilter.value;
+
+      activeQuestions = questions.filter(question => {
+        const bookMatch = selectedBook === "all" || question.book === selectedBook;
+        const topicMatch = selectedTopic === "all" || question.topic === selectedTopic;
+        const typeMatch = selectedType === "all" || question.type === selectedType;
+        return bookMatch && topicMatch && typeMatch;
+      });
+
+      activeQuestions = shuffle(activeQuestions);
+      currentIndex = 0;
+      correct = 0;
+      incorrect = 0;
+      answered = 0;
+
+      updateScore();
+
+      if (activeQuestions.length === 0) {
+        alert("No questions match those filters.");
+        return;
+      }
+
+      quizPanel.classList.remove("hidden");
+      showQuestion();
+    }
+
+    function showQuestion() {
+      const question = activeQuestions[currentIndex];
+
+      questionCounter.textContent = `Question ${currentIndex + 1} of ${activeQuestions.length}`;
+      questionDetails.textContent = getQuestionTypeLabel(question.type);
+
+      questionTags.innerHTML = `
+        <span class="tag">${question.topic}</span>
+        <span class="tag">${question.chapter}</span>
+        <span class="tag">${question.book}</span>
+      `;
+
+      questionStem.textContent = question.stem;
+      answerArea.innerHTML = "";
+      feedback.className = "feedback hidden";
+      feedback.innerHTML = "";
+
+      submitBtn.classList.remove("hidden");
+      nextBtn.classList.add("hidden");
+
+      if (question.type === "mcq") {
+        renderSingleBestAnswer(question);
+      }
+
+      if (question.type === "multi") {
+        renderMultipleResponse(question);
+      }
+    }
+
+    function renderSingleBestAnswer(question) {
+      question.options.forEach((optionText, index) => {
+        const label = document.createElement("label");
+        label.className = "option";
+        label.innerHTML = `
+          <input type="radio" name="answer" value="${index}">
+          ${optionText}
+        `;
+        answerArea.appendChild(label);
+      });
+    }
+
+    function renderMultipleResponse(question) {
+      question.options.forEach((optionText, index) => {
+        const label = document.createElement("label");
+        label.className = "option";
+        label.innerHTML = `
+          <input type="checkbox" name="answer" value="${index}">
+          ${optionText}
+        `;
+        answerArea.appendChild(label);
+      });
+    }
+
+    function submitAnswer() {
+      const question = activeQuestions[currentIndex];
+      let isCorrect = false;
+
+      if (question.type === "mcq") {
+        const selected = document.querySelector("input[name='answer']:checked");
+
+        if (!selected) {
+          alert("Choose an answer first.");
+          return;
+        }
+
+        isCorrect = Number(selected.value) === question.correctAnswer;
+      }
+
+      if (question.type === "multi") {
+        const selectedValues = [...document.querySelectorAll("input[name='answer']:checked")]
+          .map(input => Number(input.value))
+          .sort((a, b) => a - b);
+
+        if (selectedValues.length === 0) {
+          alert("Choose at least one answer first.");
+          return;
+        }
+
+        const correctValues = [...question.correctAnswers].sort((a, b) => a - b);
+        isCorrect = JSON.stringify(selectedValues) === JSON.stringify(correctValues);
+      }
+
+      answered += 1;
+
+      if (isCorrect) {
+        correct += 1;
+        feedback.className = "feedback correct";
+        feedback.innerHTML = `
+          <strong>Correct.</strong>
+          <p>${question.explanation}</p>
+          <div class="source"><strong>Source:</strong> ${question.source}</div>
+        `;
+      } else {
+        incorrect += 1;
+        feedback.className = "feedback incorrect";
+        feedback.innerHTML = `
+          <strong>Incorrect.</strong>
+          <p>${question.explanation}</p>
+          <div class="source"><strong>Source:</strong> ${question.source}</div>
+        `;
+      }
+
+      updateScore();
+      submitBtn.classList.add("hidden");
+      nextBtn.classList.remove("hidden");
+    }
+
+    function nextQuestion() {
+      currentIndex += 1;
+
+      if (currentIndex >= activeQuestions.length) {
+        quizPanel.classList.add("hidden");
+        alert(`Session complete. Correct: ${correct}. Incorrect: ${incorrect}.`);
+        return;
+      }
+
+      showQuestion();
+    }
+
+    function updateScore() {
+      correctCount.textContent = correct;
+      incorrectCount.textContent = incorrect;
+      answeredCount.textContent = answered;
+
+      const accuracy = answered === 0 ? 0 : Math.round((correct / answered) * 100);
+      accuracyRate.textContent = `${accuracy}%`;
+    }
+
+    function shuffle(array) {
+      const copy = [...array];
+
+      for (let i = copy.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+
+      return copy;
+    }
+
+    startBtn.addEventListener("click", startQuiz);
+    submitBtn.addEventListener("click", submitAnswer);
+    nextBtn.addEventListener("click", nextQuestion);
+
+    initialiseFilters();
+  </script>
+</body>
+</html>
