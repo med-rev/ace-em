@@ -898,8 +898,7 @@ window.QUESTIONS_TINTINALLI = [
     correctAnswers: [0, 1, 2, 3],
     explanation: "Atrial flutter is seen most commonly with ischaemic heart disease and is also associated with congestive heart failure, acute myocardial infarction, pulmonary embolus, myocarditis, blunt chest trauma, and digoxin toxicity.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 19."
-  }
-,
+  },
   {
     id: "TINT-NEONATE-0001",
     type: "mcq",
@@ -937,7 +936,7 @@ window.QUESTIONS_TINTINALLI = [
       "It is preferred over correction of oxygenation and perfusion"
     ],
     correctAnswer: 0,
-    explanation: "Sodium bicarbonate during neonatal resuscitation is generally contraindicated during initial resuscitation. If used for significant metabolic acidosis, the therapy should be guided by blood gas values.",
+    explanation: "Sodium bicarbonate during neonatal resuscitation is generally contraindicated during initial resuscitation. If used for significant metabolic acidosis, therapy should be guided by blood gas values.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 3: Resuscitation of Children and Neonates, p. 36."
   },
   {
@@ -1021,46 +1020,6 @@ window.QUESTIONS_TINTINALLI = [
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders, p. 37."
   },
   {
-    id: "TINT-ACIDBASE-0001",
-    type: "mcq",
-    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
-    category: "Endocrine and metabolic",
-    topic: "Lactic acidosis",
-    page: "",
-    stem: "Which statement best reflects the description of lactic acidosis?",
-    options: [
-      "It is a syndrome with its own differential diagnosis, not a diagnosis by itself",
-      "It is always caused by diabetic ketoacidosis",
-      "It is treated first-line with bicarbonate in all cases",
-      "It does not require assessment of tissue perfusion",
-      "It is excluded by a normal respiratory rate"
-    ],
-    correctAnswer: 0,
-    explanation: "Lactic acidosis is described as a syndrome with its own differential diagnosis rather than as a diagnosis by itself.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
-  },
-  {
-    id: "TINT-ACIDBASE-0002",
-    type: "multi",
-    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
-    category: "Endocrine and metabolic",
-    topic: "Lactic acidosis management",
-    page: "",
-    stem: "Which actions are listed in emergency department care for lactic acidosis? Select all that apply.",
-    options: [
-      "Treat the underlying disorder with emphasis on restoration of normal tissue perfusion and oxygenation",
-      "Determine whether there is a respiratory component to the acidosis",
-      "Address electrolyte disturbances",
-      "Administer antidotes for toxins as appropriate",
-      "Use bicarbonate routinely for cardiac arrest, diabetic ketoacidosis, and lactic acidosis because benefit is established"
-    ],
-    correctAnswers: [0, 1, 2, 3],
-    explanation: "Care includes treating the underlying disorder, restoring tissue perfusion and oxygenation, assessing for respiratory acidosis, addressing electrolyte disturbances, and using antidotes where appropriate. The source states bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis has not shown benefit.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
-  },
-  {
     id: "TINT-ANAPHYLAXIS-0001",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
@@ -1123,5 +1082,101 @@ window.QUESTIONS_TINTINALLI = [
   {
     id: "TINT-ANAPHYLAXIS-0004",
     type: "mcq",
-    book: "Tintinalli
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis exposure control",
+    page: "65",
+    stem: "Which action is part of limiting further exposure in anaphylaxis or acute allergic reactions?",
+    options: [
+      "Stopping an intravenous drug or removing a stinger when relevant",
+      "Performing gastric decontamination for all ingested allergens",
+      "Delaying exposure management until epinephrine fails",
+      "Avoiding local first-aid measures",
+      "Keeping clothing and jewellery in place during all presentations"
+    ],
+    correctAnswer: 0,
+    explanation: "Limiting further exposure may be as simple as stopping an intravenous drug or removing a stinger. Gastric decontamination is not recommended for ingested allergens.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0005",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis epinephrine",
+    page: "65",
+    stem: "What is the first-line therapy for anaphylaxis?",
+    options: [
+      "Epinephrine",
+      "Sodium bicarbonate",
+      "Naloxone",
+      "Lactated Ringer's solution",
+      "Carotid sinus massage"
+    ],
+    correctAnswer: 0,
+    explanation: "First-line therapy for anaphylaxis is epinephrine.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis epinephrine dosing",
+    page: "65",
+    stem: "In anaphylaxis without cardiovascular collapse, which adult intramuscular epinephrine dose is listed?",
+    options: [
+      "0.3 to 0.5 mg of 1:1000 intramuscularly in the thigh",
+      "1 mEq/kg of 4.2% solution intravenously",
+      "0.5 mg IV repeated up to 3 mg",
+      "5 mg/kg IV bolus",
+      "2 J/kg defibrillation energy"
+    ],
+    correctAnswer: 0,
+    explanation: "For patients without cardiovascular collapse, the listed adult dose is epinephrine 0.3 to 0.5 mg, or 0.3 to 0.5 mL of 1:1000, intramuscularly in the thigh.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis epinephrine dosing",
+    page: "65",
+    stem: "What paediatric epinephrine dose is listed for anaphylaxis without cardiovascular collapse?",
+    options: [
+      "0.01 mg/kg intramuscularly",
+      "0.1 mg/kg intramuscularly",
+      "1 mEq/kg intravenously",
+      "5 mg/kg intravenously",
+      "0.5 mg IV every 3 to 5 minutes"
+    ],
+    correctAnswer: 0,
+    explanation: "The listed paediatric epinephrine dose for anaphylaxis is 0.01 mg/kg intramuscularly.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0008",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis refractory treatment",
+    page: "65",
+    stem: "Which patients should receive intravenous epinephrine according to the anaphylaxis care excerpt?",
+    options: [
+      "Patients refractory to intramuscular dosing or with cardiovascular compromise",
+      "All patients with local symptoms only",
+      "All patients after first-aid measures regardless of severity",
+      "Only patients with sinus arrhythmia",
+      "Only patients with isolated urticaria and normal circulation"
+    ],
+    correctAnswer: 0,
+    explanation: "Patients refractory to intramuscular dosing or with cardiovascular compromise should receive intravenous epinephrine.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  }
 ];
