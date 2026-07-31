@@ -431,7 +431,7 @@ window.QUESTIONS_ROSEN = [
     options: [
       "SIRS with suspected or confirmed infection and hypotension despite adequate fluid resuscitation",
       "Any fever without hypotension",
-      "Cardiac failure with pulmonary oedema only",
+      "Cardiac failure with pulmonary ooedema only",
       "Suspected bleeding with normal base deficit",
       "Lactate clearance above 20% after resuscitation"
     ],
@@ -630,7 +630,7 @@ window.QUESTIONS_ROSEN = [
     stem: "What does immediate treatment of cardiogenic shock focus on?",
     options: [
       "Improving myocardial contractility and pump function",
-      "Avoiding oxygen in pulmonary oedema",
+      "Avoiding oxygen in pulmonary ooedema",
       "Delaying dysrhythmia treatment",
       "Treating only with oral fluids",
       "Performing cricothyrotomy as first-line for all cases"
@@ -649,7 +649,7 @@ window.QUESTIONS_ROSEN = [
     page: "74",
     stem: "When should intubation and mechanical ventilation be initiated in cardiogenic shock?",
     options: [
-      "When work of breathing is tiring the patient, pulmonary oedema causes significant hypoxaemia, or respiratory failure is imminent",
+      "When work of breathing is tiring the patient, pulmonary ooedema causes significant hypoxaemia, or respiratory failure is imminent",
       "Only after all vasopressors have been stopped",
       "Never in cardiogenic shock",
       "Only for mild hypertension",
@@ -898,46 +898,6 @@ window.QUESTIONS_ROSEN = [
     correctAnswers: [0, 1, 2, 3],
     explanation: "Hospitalisation is required with clinical toxicity, inability to take oral medications, immunocompromised state, third-trimester pregnancy, inadequate social circumstances, failure of oral outpatient therapy, urologic abnormalities, or significant comorbidities.",
     source: "Rosen's Emergency Medicine, 8th ed., genitourinary system content, p. 1332."
-  },
-  {
-    id: "ROSEN-CONTENTS-0001",
-    type: "multi",
-    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
-    chapter: "Rosen content coverage marker",
-    category: "Broad coverage marker",
-    topic: "Rosen chapter domains",
-    page: "",
-    stem: "Which chapter domains are visible in the Rosen file search results? Select all that apply.",
-    options: [
-      "Antidepressants",
-      "Mood Disorders",
-      "Genitourinary System",
-      "Headache",
-      "Agricultural accounting"
-    ],
-    correctAnswers: [0, 1, 2, 3],
-    explanation: "The Rosen file search results list contributors or chapter headings for Antidepressants, Mood Disorders, Genitourinary System, and Headache.",
-    source: "Rosen's Emergency Medicine, 8th ed., contributor/chapter listing content."
-  },
-  {
-    id: "ROSEN-CONTENTS-0002",
-    type: "multi",
-    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
-    chapter: "Rosen content coverage marker",
-    category: "Broad coverage marker",
-    topic: "Rosen chapter domains",
-    page: "",
-    stem: "Which additional chapter domains are visible in the Rosen file search results? Select all that apply.",
-    options: [
-      "Acute Complications of Pregnancy",
-      "Disorders of the Pancreas",
-      "General Approach to the Pediatric Patient",
-      "Ankle and Foot",
-      "Home plumbing repairs"
-    ],
-    correctAnswers: [0, 1, 2, 3],
-    explanation: "The Rosen file search results list Acute Complications of Pregnancy, Disorders of the Pancreas, General Approach to the Pediatric Patient, and Ankle and Foot.",
-    source: "Rosen's Emergency Medicine, 8th ed., contributor/chapter listing content."
   },
   {
     id: "ROSEN-RSI-0001",
@@ -1612,7 +1572,7 @@ window.QUESTIONS_ROSEN = [
       "Sudden explosive headache",
       "First or worst-ever headache",
       "New-onset headache after age 50 years",
-      "Headache associated with papilloedema, altered consciousness, or focal neurologic symptoms",
+      "Headache associated with papillooedema, altered consciousness, or focal neurologic symptoms",
       "A recurrent mild headache with a long unchanged pattern as the only finding"
     ],
     correctAnswers: [0, 1, 2, 3],
@@ -1998,5 +1958,1045 @@ window.QUESTIONS_ROSEN = [
     correctAnswer: 0,
     explanation: "Rosen describes akathisia as motor restlessness with a physical need to be moving constantly.",
     source: "Rosen's Emergency Medicine, 8th ed., Chapter 110: Thought Disorders, p. 1464."
+  },
+  {
+    id: "ROSEN-AMS-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 17: Confusion",
+    category: "Neurology",
+    topic: "Altered mental status categories",
+    page: "154",
+    stem: "Rosen divides altered mental status into categories based on which findings?",
+    options: [
+      "Diminished level of consciousness, acute focal neurologic deficit, or abnormal attention span",
+      "Pain score, temperature, and respiratory rate only",
+      "Age, gender, and height",
+      "ECG axis, QRS width, and QT interval only",
+      "Urine colour, stool colour, and appetite"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes altered mental status as divided according to diminished level of consciousness, acute focal neurologic deficit, or abnormal attention span.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 17: Confusion, p. 154."
+  },
+  {
+    id: "ROSEN-AMS-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 17: Confusion",
+    category: "Neurology",
+    topic: "Stroke and confusion",
+    page: "154",
+    stem: "Which statement best reflects Rosen's discussion of stroke and confusion?",
+    options: [
+      "Stroke rarely causes true confusion, but speech or understanding disturbances may mimic a confusional state",
+      "Stroke is the most common cause of global confusion in all patients",
+      "Stroke can be excluded when the patient is labelled confused",
+      "Stroke never causes focal neurologic symptoms",
+      "Confusion always means a primary psychiatric disorder"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that stroke rarely causes confusion, but disturbances in speech or understanding can mimic confusion.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 17: Confusion, p. 154."
+  },
+  {
+    id: "ROSEN-AMS-0003",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 16: Depressed Consciousness and Coma",
+    category: "Neurology",
+    topic: "Coma differential categories",
+    page: "142",
+    stem: "Which categories are used to organise the differential diagnosis of stupor and coma? Select all that apply.",
+    options: [
+      "Metabolic and systemic causes",
+      "Structural causes",
+      "Psychogenic causes",
+      "Dental causes as the main category",
+      "Dermatologic causes as the only category"
+    ],
+    correctAnswers: [0, 1, 2],
+    explanation: "Rosen states that the broad differential diagnosis of stupor and coma can usually be categorised into metabolic/systemic, structural, or psychogenic causes.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 16: Depressed Consciousness and Coma, p. 142."
+  },
+  {
+    id: "ROSEN-AMS-0005",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 16: Depressed Consciousness and Coma",
+    category: "Neurology",
+    topic: "History in depressed consciousness",
+    page: "144",
+    stem: "Which historical details are key in depressed consciousness assessment? Select all that apply.",
+    options: [
+      "Rate of symptom onset",
+      "History of trauma",
+      "Exposure to drugs or toxins",
+      "New medications or dosage change",
+      "Favourite food as the main diagnostic discriminator"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists rate of onset, trauma, exposure to drugs or toxins, and new medications or dosage changes as key historical information.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 16: Depressed Consciousness and Coma, p. 144."
+  },
+  {
+    id: "ROSEN-STROKE-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 101: Stroke",
+    category: "Neurology",
+    topic: "Posterior circulation stroke",
+    page: "1366",
+    stem: "Why can posterior circulation strokes be difficult to diagnose?",
+    options: [
+      "They can cause a wide variety of symptoms reflecting cranial nerve deficits, cerebellar involvement, and neurosensory tract involvement",
+      "They always present with isolated chest pain",
+      "They never affect consciousness",
+      "They are painless dental emergencies",
+      "They can be diagnosed without neurologic examination"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that vertebrobasilar pathology can produce a wide variety of symptoms, making posterior circulation stroke difficult to diagnose.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 101: Stroke, p. 1366."
+  },
+  {
+    id: "ROSEN-STROKE-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 101: Stroke",
+    category: "Neurology",
+    topic: "Ischaemic versus haemorrhagic stroke",
+    page: "1366",
+    stem: "Why is neuroimaging needed to distinguish ischaemic stroke from intracerebral haemorrhage?",
+    options: [
+      "Clinical presentation can be identical, so they cannot be reliably differentiated without neuroimaging",
+      "Haemorrhagic stroke always lacks focal deficits",
+      "Ischaemic stroke always presents with fever",
+      "Neuroimaging is never useful in stroke",
+      "Blood pressure alone reliably distinguishes the two"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the clinical presentation of intracerebral haemorrhage can be identical to ischaemic stroke and cannot be reliably differentiated without neuroimaging.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 101: Stroke, p. 1366."
+  },
+  {
+    id: "ROSEN-SEIZURE-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 18: Seizures",
+    category: "Neurology",
+    topic: "Status epilepticus definition",
+    page: "156",
+    stem: "Why has the time criterion for status epilepticus been shortened to 5 minutes?",
+    options: [
+      "Seizure duration is related to outcome and the likelihood of treatment success decreases with ictal duration",
+      "All seizures lasting less than 5 minutes are harmless",
+      "A 5-minute seizure always stops without treatment",
+      "Electrolytes cannot cause seizures shorter than 5 minutes",
+      "Children cannot develop status epilepticus"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen explains that the criterion was shortened because ictal duration is linked to outcome and treatment success decreases with seizure duration.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 18: Seizures, p. 156."
+  },
+  {
+    id: "ROSEN-SEIZURE-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 18: Seizures",
+    category: "Neurology",
+    topic: "Seizure diagnostic task",
+    page: "157",
+    stem: "What is the first diagnostic task when evaluating possible seizure?",
+    options: [
+      "Determine whether the patient actually experienced a seizure",
+      "Immediately label every collapse as epilepsy",
+      "Start long-term antiepileptic therapy without history",
+      "Avoid considering syncope",
+      "Exclude metabolic causes without testing"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the first diagnostic task is to determine whether the patient actually experienced a seizure.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 18: Seizures, p. 157."
+  },
+  {
+    id: "ROSEN-SEIZURE-0003",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 18: Seizures",
+    category: "Neurology",
+    topic: "Ictal event features",
+    page: "159",
+    stem: "Which features are listed as general properties of ictal events? Select all that apply.",
+    options: [
+      "Abrupt onset",
+      "Brief duration",
+      "Purposeless activity",
+      "Postictal state",
+      "Predictable onset only after emotional stimuli in all cases"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists abrupt onset, brief duration, loss of consciousness except focal seizures, purposeless activity, unprovoked nature, and postictal state among ictal properties.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 18: Seizures, p. 159."
+  },
+  {
+    id: "ROSEN-SEIZURE-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 102: Seizure Disorders",
+    category: "Neurology",
+    topic: "First seizure in adults",
+    page: "1380",
+    stem: "Why does a first-time seizure in an adult require thorough evaluation?",
+    options: [
+      "Idiopathic seizures are rare in adults",
+      "Adult first seizures are always benign",
+      "Adults cannot have reactive seizures",
+      "A first adult seizure always means epilepsy",
+      "No neurologic examination is needed"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that because idiopathic seizures are rare, first-time seizure in an adult requires thorough evaluation.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 102: Seizure Disorders, p. 1380."
+  },
+  {
+    id: "ROSEN-SEIZURE-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 102: Seizure Disorders",
+    category: "Neurology",
+    topic: "Hypoglycaemic seizure",
+    page: "1377",
+    stem: "How should hypoglycaemic seizures be managed?",
+    options: [
+      "They respond to glucose therapy; anticonvulsants and benzodiazepines are unnecessary when hypoglycaemia is the cause",
+      "They require phenytoin before glucose",
+      "They should be treated with antibiotics first",
+      "They always require thrombolysis",
+      "They are unaffected by glucose correction"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that hypoglycaemic seizures respond to glucose therapy and anticonvulsants and benzodiazepines are unnecessary for that cause.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 102: Seizure Disorders, p. 1377."
+  },
+  {
+    id: "ROSEN-GIB-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "Upper and lower GI bleeding",
+    page: "248",
+    stem: "How is gastrointestinal bleeding traditionally classified?",
+    options: [
+      "Upper gastrointestinal bleeding is proximal and lower gastrointestinal bleeding is distal to the ligament of Treitz",
+      "Upper bleeding is always painless and lower bleeding is always painful",
+      "Upper bleeding always causes bright red stool and lower bleeding always causes vomiting",
+      "Gastrointestinal bleeding is classified only by patient age",
+      "There is no distinction between upper and lower gastrointestinal bleeding"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen classifies upper gastrointestinal bleeding as proximal and lower gastrointestinal bleeding as distal to the ligament of Treitz.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 248."
+  },
+  {
+    id: "ROSEN-GIB-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "Bleeding appearance",
+    page: "249",
+    stem: "Which bleeding appearances are correctly linked to likely source? Select all that apply.",
+    options: [
+      "Haematemesis strongly suggests an upper gastrointestinal source",
+      "Melena suggests likely upper gastrointestinal bleeding",
+      "Haematochezia usually signifies lower gastrointestinal bleeding",
+      "Bright red blood per rectum in an unstable patient can represent brisk upper gastrointestinal bleeding",
+      "Coffee-ground vomit always proves a lower gastrointestinal source"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes haematemesis and melena as suggesting upper gastrointestinal bleeding, haematochezia as usually lower gastrointestinal bleeding, with brisk upper bleeding as an exception in unstable patients.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 249."
+  },
+  {
+    id: "ROSEN-GIB-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "High-risk GI bleeding features",
+    page: "249",
+    stem: "Which vital-sign pattern may suggest moderate hypovolaemia and early impending shock in gastrointestinal bleeding?",
+    options: [
+      "Hypotension and tachycardia",
+      "Bradycardia and hypertension only",
+      "Normal pulse with isolated rash",
+      "Afebrile state only",
+      "Normal oxygen saturation only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that hypotension and tachycardia can suggest moderate hypovolaemia and may be early indicators of impending shock.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 249."
+  },
+  {
+    id: "ROSEN-GIB-0004",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "High-risk GI bleeding characteristics",
+    page: "250",
+    stem: "Which are listed as characteristics of patients with high-risk gastrointestinal bleeds? Select all that apply.",
+    options: [
+      "Known liver disease or cirrhosis",
+      "Advanced age older than 60 years",
+      "Alcoholism",
+      "Coronary artery disease",
+      "Young age with no comorbidities as the defining high-risk feature"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists liver disease/cirrhosis, age older than 60, alcoholism, smoking, chronic comorbidities including coronary artery disease, and relevant medications as high-risk characteristics.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 250."
+  },
+  {
+    id: "ROSEN-GIB-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "Initial unstable GI bleed management",
+    page: "250",
+    stem: "What is the initial resuscitation approach for an unstable gastrointestinal bleeding patient?",
+    options: [
+      "Immediate placement of two large-bore intravenous catheters and crystalloid infusion aimed at haemodynamic stabilisation",
+      "Discharge after observation without resuscitation",
+      "Routine oral fluids only",
+      "Immediate colonoscopy before vital signs are assessed",
+      "Avoid blood transfusion consideration in all cases"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that unstable patients require immediate two large-bore IV catheters and crystalloid infusion aiming for haemodynamic stabilisation.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 250."
+  },
+  {
+    id: "ROSEN-GIB-0006",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 30: Gastrointestinal Bleeding",
+    category: "Gastrointestinal",
+    topic: "Nasogastric lavage",
+    page: "252",
+    stem: "What does Rosen state about nasogastric aspiration with gastric lavage in gastrointestinal bleeding evaluation?",
+    options: [
+      "It is generally not indicated for evaluation of gastrointestinal bleeding",
+      "It is mandatory in every suspected gastrointestinal bleed",
+      "It has perfect sensitivity for upper gastrointestinal bleeding",
+      "It has no complications",
+      "It replaces endoscopy"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that nasogastric aspiration with gastric lavage is generally not indicated for gastrointestinal bleeding evaluation.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 30: Gastrointestinal Bleeding, p. 252."
+  },
+  {
+    id: "ROSEN-SBO-0001",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Bowel obstruction content",
+    category: "Gastrointestinal",
+    topic: "Small bowel obstruction features",
+    page: "1219",
+    stem: "Which symptoms are commonly reported in small bowel obstruction? Select all that apply.",
+    options: [
+      "Crampy abdominal pain",
+      "Abdominal distention",
+      "Nausea and vomiting",
+      "Constipation or inability to pass flatus",
+      "Isolated painless visual loss"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen states that patients with small bowel obstruction commonly report crampy abdominal pain, distention, nausea, vomiting, constipation, or inability to pass flatus.",
+    source: "Rosen's Emergency Medicine, 8th ed., bowel obstruction content, p. 1219."
+  },
+  {
+    id: "ROSEN-SBO-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Bowel obstruction content",
+    category: "Gastrointestinal",
+    topic: "Small bowel obstruction distal symptoms",
+    page: "1219",
+    stem: "How do distal small bowel obstructions commonly differ from proximal obstructions?",
+    options: [
+      "They often develop over a slower period and have greater abdominal distention",
+      "They always cause no pain",
+      "They always cause immediate haematemesis",
+      "They can be excluded if stool still passes early",
+      "They are diagnosed by ECG"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes distal obstruction as typically developing over a slower period and being accompanied by greater abdominal distention.",
+    source: "Rosen's Emergency Medicine, 8th ed., bowel obstruction content, p. 1219."
+  },
+  {
+    id: "ROSEN-DIARRHOEA-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 94: Gastroenteritis",
+    category: "Gastrointestinal",
+    topic: "Acute gastroenteritis classification",
+    page: "1233",
+    stem: "How is acute gastroenteritis defined by duration?",
+    options: [
+      "Symptoms lasting less than 2 weeks",
+      "Symptoms lasting more than 6 months",
+      "Symptoms lasting exactly 30 days",
+      "Symptoms with no vomiting only",
+      "Symptoms that always require pathogen identification in the ED"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen defines acute gastroenteritis as lasting less than 2 weeks.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 94: Gastroenteritis, p. 1233."
+  },
+  {
+    id: "ROSEN-DIARRHOEA-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 94: Gastroenteritis",
+    category: "Gastrointestinal",
+    topic: "Invasive gastroenteritis",
+    page: "1233",
+    stem: "Which features support a clinical diagnosis of invasive gastroenteritis? Select all that apply.",
+    options: [
+      "Fever",
+      "Gross or occult blood in the stool",
+      "Tenesmus",
+      "Abdominal pain",
+      "Absence of fever, blood, and abdominal pain as defining features"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen states that invasive gastroenteritis is diagnosed clinically when signs or symptoms of intestinal mucosal invasion are present, including fever, blood in stool, tenesmus, or abdominal pain.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 94: Gastroenteritis, p. 1233."
+  },
+  {
+    id: "ROSEN-DIARRHOEA-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 94: Gastroenteritis",
+    category: "Gastrointestinal",
+    topic: "Clostridium difficile clinical presentation",
+    page: "1248",
+    stem: "What is the most common clinical presentation of Clostridium difficile colitis described in Rosen?",
+    options: [
+      "Mild to moderate nonbloody diarrhoea with lower abdominal cramping and few systemic symptoms",
+      "Painless jaundice only",
+      "Massive haematemesis in all cases",
+      "Isolated constipation without diarrhoea",
+      "Neurologic symptoms without gastrointestinal features"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that most often patients with C. difficile have mild to moderate nonbloody diarrhoea with lower abdominal cramping and few systemic symptoms.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 94: Gastroenteritis, p. 1248."
+  },
+  {
+    id: "ROSEN-ASTHMA-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 73: Asthma",
+    category: "Respiratory",
+    topic: "Asthma pathophysiology",
+    page: "944",
+    stem: "Which pathophysiologic changes are caused by inflammatory mediator release in asthma?",
+    options: [
+      "Bronchospasm, mucous production, airway ooedema, and amplification of inflammation",
+      "Pleural bleeding and pericardial tamponade",
+      "Renal potassium wasting and metabolic alkalosis only",
+      "Upper gastrointestinal bleeding only",
+      "Loss of ankle joint congruity"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes inflammatory mediator release in asthma as causing bronchospasm, mucous production, airway ooedema, and amplification of the inflammatory response.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 73: Asthma, p. 944."
+  },
+  {
+    id: "ROSEN-ASTHMA-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 73: Asthma",
+    category: "Respiratory",
+    topic: "Aspirin-exacerbated respiratory disease",
+    page: "945",
+    stem: "Which features are included in aspirin-exacerbated respiratory disease? Select all that apply.",
+    options: [
+      "Nasal polyps",
+      "Eosinophilic sinusitis",
+      "Asthma",
+      "Sensitivity to cyclooxygenase-1 inhibitor drugs",
+      "Renal colic as the defining feature"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes aspirin-exacerbated respiratory disease as including nasal polyps, eosinophilic sinusitis, asthma, and sensitivity to COX-1 inhibitor drugs such as aspirin.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 73: Asthma, p. 945."
+  },
+  {
+    id: "ROSEN-ASTHMA-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 73: Asthma",
+    category: "Respiratory",
+    topic: "Asthma severity assessment",
+    page: "946",
+    stem: "In acute asthma, which speaking pattern is associated with severe asthma?",
+    options: [
+      "Speaking in words",
+      "Speaking in full sentences",
+      "Speaking normally with no dyspnoea",
+      "Silent reading without respiratory effort",
+      "Speaking in paragraphs"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes patients with severe acute asthma as speaking in words, compared with sentences in mild asthma and phrases in moderate asthma.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 73: Asthma, p. 946."
+  },
+  {
+    id: "ROSEN-ASTHMA-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 73: Asthma",
+    category: "Respiratory",
+    topic: "Magnesium in severe asthma",
+    page: "951",
+    stem: "Which adjunct may improve airflow obstruction and decrease hospital admission in severe asthma attacks?",
+    options: [
+      "Intravenous magnesium sulphate",
+      "Routine methylxanthines for all ED asthma presentations",
+      "Sodium bicarbonate infusion",
+      "Nasogastric lavage",
+      "Calcium resin therapy"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes intravenous magnesium as improving airflow obstruction and decreasing the need for hospital admission in severe asthma attacks.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 73: Asthma, p. 951."
+  },
+  {
+    id: "ROSEN-PNEUMONIA-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 76: Pneumonia",
+    category: "Infectious disease",
+    topic: "Pneumonia ED priorities",
+    page: "978",
+    stem: "Once pneumonia is diagnosed, what are priority ED actions?",
+    options: [
+      "Initiate appropriate empirical antibiotics, provide respiratory support, assess severity, and recognise need for hospitalisation or intensive care",
+      "Delay treatment until a pathogen is always identified",
+      "Avoid respiratory support unless culture results are available",
+      "Treat only with analgesics",
+      "Discharge all patients regardless of severity"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that ED priorities after pneumonia diagnosis are empirical antibiotics, respiratory support, severity assessment, and recognition of need for hospitalisation and intensive care.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 76: Pneumonia, p. 978."
+  },
+  {
+    id: "ROSEN-PNEUMONIA-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 76: Pneumonia",
+    category: "Infectious disease",
+    topic: "Pneumonia clinical features",
+    page: "979",
+    stem: "Which features are typical of pneumonia in many patients? Select all that apply.",
+    options: [
+      "Cough productive of purulent sputum",
+      "Shortness of breath",
+      "Fever",
+      "Possible nonspecific acute confusion in older or debilitated patients",
+      "Always a completely normal respiratory history"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes pneumonia as commonly producing cough with purulent sputum, shortness of breath, fever, and sometimes nonspecific symptoms such as acute confusion in older or debilitated patients.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 76: Pneumonia, p. 979."
+  },
+  {
+    id: "ROSEN-PNEUMONIA-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 76: Pneumonia",
+    category: "Infectious disease",
+    topic: "Pneumonia diagnostic reliability",
+    page: "979",
+    stem: "Which statement best reflects Rosen's point about diagnosing pneumonia clinically?",
+    options: [
+      "No single isolated clinical finding is highly reliable for establishing or excluding pneumonia",
+      "Fever alone establishes pneumonia",
+      "A normal respiratory rate excludes pneumonia in every patient",
+      "Chest auscultation alone is definitive",
+      "History has no value"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that no single isolated clinical finding is highly reliable in establishing or excluding pneumonia.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 76: Pneumonia, p. 979."
+  },
+  {
+    id: "ROSEN-PNEUMONIA-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 76: Pneumonia",
+    category: "Infectious disease",
+    topic: "Pneumocystis pneumonia",
+    page: "979",
+    stem: "What presentation is typical of Pneumocystis pneumonia in immunocompromised patients?",
+    options: [
+      "Subacute fatigue, exertional dyspnoea, nonproductive cough, pleuritic chest pain, and fever",
+      "Abrupt haematemesis and melena",
+      "Isolated ankle deformity",
+      "Sudden painless monocular blindness only",
+      "Acute urinary retention only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes Pneumocystis pneumonia as typically presenting subacutely with fatigue, exertional dyspnoea, nonproductive cough, pleuritic chest pain, and fever.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 76: Pneumonia, p. 979."
+  },
+  {
+    id: "ROSEN-MENINGITIS-0001",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 109: Central Nervous System Infections",
+    category: "Neurology",
+    topic: "CNS infection clinical features",
+    page: "1450",
+    stem: "Which features may occur in acute CNS infection? Select all that apply.",
+    options: [
+      "Fever",
+      "Headache",
+      "Photophobia or nuchal rigidity",
+      "Altered sensorium or seizures",
+      "Isolated ankle swelling as the classic feature"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists fever, headache, photophobia, nuchal rigidity, lethargy, altered sensorium, seizures, vomiting, and chills among features of acute CNS infection.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 109: Central Nervous System Infections, p. 1450."
+  },
+  {
+    id: "ROSEN-MENINGITIS-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 109: Central Nervous System Infections",
+    category: "Neurology",
+    topic: "Meningitis in older adults",
+    page: "1450",
+    stem: "What may be the only presenting sign of meningitis in older adults?",
+    options: [
+      "Alteration of mental status",
+      "Isolated ankle pain",
+      "Painless rectal bleeding",
+      "Normal cognition with no systemic symptoms",
+      "Dental avulsion"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that the only presenting sign of meningitis in older adults is often an alteration of mental status.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 109: Central Nervous System Infections, p. 1450."
+  },
+  {
+    id: "ROSEN-MENINGITIS-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 109: Central Nervous System Infections",
+    category: "Neurology",
+    topic: "Bacterial meningitis complications",
+    page: "1450",
+    stem: "Which immediate complication of bacterial meningitis is listed in Rosen?",
+    options: [
+      "Coma with loss of protective airway reflexes",
+      "Simple ankle sprain",
+      "Uncomplicated corneal abrasion",
+      "Benign isolated cough",
+      "Stable chronic hypertension only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen lists immediate complications of bacterial meningitis including coma with loss of protective airway reflexes, seizures, cerebral ooedema, shock, DIC, respiratory arrest, dehydration and death.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 109: Central Nervous System Infections, p. 1450."
+  },
+  {
+    id: "ROSEN-ENDO-0001",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Endocrine and metabolic emergency content",
+    category: "Endocrine and metabolic",
+    topic: "Hyperglycaemic emergencies",
+    page: "",
+    stem: "Which conditions are listed as possible causes of altered mental status or metabolic derangement in Rosen's emergency differential? Select all that apply.",
+    options: [
+      "Diabetic ketoacidosis",
+      "Hyperosmolar hyperglycaemic state",
+      "Hypoglycaemia",
+      "Myxooedema coma",
+      "Simple lateral ankle sprain"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen's emergency differential includes DKA, hyperosmolar hyperglycaemic state, hypoglycaemia, and myxooedema coma among metabolic causes.",
+    source: "Rosen's Emergency Medicine, 8th ed., endocrine and metabolic emergency content."
+  },
+  {
+    id: "ROSEN-ENDO-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Hypertensive emergencies content",
+    category: "Endocrine and metabolic",
+    topic: "Phaeochromocytoma and catecholamine excess",
+    page: "1122",
+    stem: "In catecholamine excess states such as phaeochromocytoma, why should intravenous labetalol be used with caution?",
+    options: [
+      "Its beta-receptor effects strongly predominate and may worsen hypertension through unopposed alpha activity",
+      "It has no beta-receptor activity",
+      "It is only an antibiotic",
+      "It treats hypoglycaemia directly",
+      "It always prevents vasoconstriction"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that intravenous labetalol has strongly predominant beta effects and should be used cautiously in catecholamine excess because of possible unopposed alpha-receptor activity.",
+    source: "Rosen's Emergency Medicine, 8th ed., hypertensive emergencies content, p. 1122."
+  },
+  {
+    id: "ROSEN-RENAL-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 97: Renal Failure",
+    category: "Renal and genitourinary",
+    topic: "Hyperkalaemia risk",
+    page: "1305",
+    stem: "What is described as the most rapidly lethal complication of chronic kidney disease encountered in the ED?",
+    options: [
+      "Severe hyperkalaemia",
+      "Simple cystitis",
+      "Mild ankle sprain",
+      "Stable chronic anaemia without symptoms",
+      "Uncomplicated conjunctivitis"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes severe hyperkalaemia as potentially the most rapidly lethal complication of chronic kidney disease encountered in the ED.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 97: Renal Failure, p. 1305."
+  },
+  {
+    id: "ROSEN-RENAL-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 97: Renal Failure",
+    category: "Renal and genitourinary",
+    topic: "Hyperkalaemia ECG",
+    page: "1305",
+    stem: "Which statement about ECG findings in severe hyperkalaemia is correct?",
+    options: [
+      "ECG changes may be absent even when hyperkalaemia is severe",
+      "A normal ECG always excludes hyperkalaemia",
+      "ECG monitoring is never needed",
+      "Hyperkalaemia always causes ST elevation myocardial infarction",
+      "ECG changes are unrelated to potassium"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that ECG changes may be absent even when hyperkalaemia is severe, so a normal ECG does not preclude checking potassium.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 97: Renal Failure, p. 1305."
+  },
+  {
+    id: "ROSEN-RENAL-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 97: Renal Failure",
+    category: "Renal and genitourinary",
+    topic: "Hyperkalaemia calcium",
+    page: "1305",
+    stem: "What is the role of intravenous calcium in hyperkalaemia?",
+    options: [
+      "It transiently reverses cardiac manifestations without changing serum or total-body potassium",
+      "It removes potassium from the body permanently",
+      "It replaces dialysis in all cases",
+      "It is used only for nonsevere hypokalaemia",
+      "It is unnecessary when ECG changes are present"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes intravenous calcium as transiently reversing cardiac manifestations of hyperkalaemia without altering serum or total-body potassium.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 97: Renal Failure, p. 1305."
+  },
+  {
+    id: "ROSEN-CARDIO-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 84: Hypertension",
+    category: "Cardiovascular",
+    topic: "Hypertensive emergency definition",
+    page: "1116",
+    stem: "What defines a true hypertensive emergency?",
+    options: [
+      "Acute target-organ injury, not blood pressure elevation alone",
+      "Any high blood pressure reading regardless of symptoms or organ injury",
+      "Headache alone in every patient with hypertension",
+      "Epistaxis alone",
+      "Chronic hypertension without symptoms"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that blood pressure elevation alone does not define a clinical syndrome and true emergencies are defined by acute target-organ involvement.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 84: Hypertension, p. 1116."
+  },
+  {
+    id: "ROSEN-CARDIO-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 84: Hypertension",
+    category: "Cardiovascular",
+    topic: "Hypertensive encephalopathy",
+    page: "1116",
+    stem: "Which features may occur in hypertensive encephalopathy? Select all that apply.",
+    options: [
+      "Severe headache",
+      "Vomiting",
+      "Altered mental status progressing to seizures or coma",
+      "Blurred vision progressing to blindness from retinal involvement",
+      "Painless ankle swelling as the defining feature"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes hypertensive encephalopathy as severe headache, vomiting, altered mental status that may progress to seizures or coma, and retinal symptoms.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 84: Hypertension, p. 1116."
+  },
+  {
+    id: "ROSEN-OBGYN-0006",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Hypertension in pregnancy content",
+    category: "Obstetrics and gynaecology",
+    topic: "Preeclampsia and eclampsia",
+    page: "1122",
+    stem: "What is the definitive treatment for preeclampsia and eclampsia?",
+    options: [
+      "Delivery",
+      "Long-term oral antihypertensive therapy alone",
+      "Aspirin desensitisation",
+      "Nasogastric lavage",
+      "Sodium polystyrene sulfonate"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that delivery is the definitive treatment for preeclampsia and eclampsia, while early management includes blood pressure control.",
+    source: "Rosen's Emergency Medicine, 8th ed., hypertension in pregnancy content, p. 1122."
+  },
+  {
+    id: "ROSEN-OBGYN-0007",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Hypertension in pregnancy content",
+    category: "Obstetrics and gynaecology",
+    topic: "Magnesium in preeclampsia and eclampsia",
+    page: "1122",
+    stem: "Which medication is considered first-line therapy for all cases of preeclampsia and eclampsia?",
+    options: [
+      "Magnesium sulphate",
+      "Calcium resin",
+      "Octreotide",
+      "Phenazopyridine",
+      "Ipratropium alone"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes magnesium sulphate as first-line therapy for all cases of preeclampsia and eclampsia.",
+    source: "Rosen's Emergency Medicine, 8th ed., hypertension in pregnancy content, p. 1122."
+  },
+  {
+    id: "ROSEN-ORTHO-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 56: Femur and Hip",
+    category: "Trauma and injuries",
+    topic: "Hip dislocation as major trauma",
+    page: "687",
+    stem: "Why should a traumatic hip dislocation prompt a diligent search for other injuries?",
+    options: [
+      "It requires considerable force and is a red flag for multisystem injury",
+      "It usually occurs after trivial movement without other risks",
+      "It excludes acetabular fracture",
+      "It is never associated with knee injuries",
+      "It is primarily a metabolic emergency"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes hip dislocation as requiring considerable force and serving as a red flag for multisystem injury.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 56: Femur and Hip, p. 687."
+  },
+  {
+    id: "ROSEN-ORTHO-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 56: Femur and Hip",
+    category: "Trauma and injuries",
+    topic: "Posterior hip dislocation position",
+    page: "687",
+    stem: "What limb position is typical of posterior hip dislocation?",
+    options: [
+      "Hip flexed, adducted, and internally rotated",
+      "Hip abducted, slightly flexed, and externally rotated",
+      "Knee locked in extension with ankle plantar flexed only",
+      "Shoulder abducted above the head",
+      "Foot everted with no hip abnormality"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes posterior hip dislocation as typically held with the hip flexed, adducted, and internally rotated.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 56: Femur and Hip, p. 687."
+  },
+  {
+    id: "ROSEN-ORTHO-0003",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 58: Ankle and Foot",
+    category: "Trauma and injuries",
+    topic: "Ankle injury severity clues",
+    page: "724",
+    stem: "Which findings suggest serious ankle pathology? Select all that apply.",
+    options: [
+      "Immediate swelling and severe pain",
+      "Inability to bear weight immediately after injury",
+      "Rapid progression of symptoms",
+      "History of the ankle giving way",
+      "Complete absence of pain and swelling after injury"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes immediate swelling, severe pain, rapid progression, inability to bear weight, and giving way as important ankle injury clues.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 58: Ankle and Foot, p. 724."
+  },
+  {
+    id: "ROSEN-ORTHO-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 58: Ankle and Foot",
+    category: "Trauma and injuries",
+    topic: "Ankle radiographs",
+    page: "725",
+    stem: "What radiographic views make up the standard ankle series?",
+    options: [
+      "Anteroposterior, lateral, and mortise views",
+      "Chest AP and lateral only",
+      "Pelvic inlet and outlet views only",
+      "Single oblique wrist view",
+      "No radiographs are ever needed"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes the standard three-view ankle series as anteroposterior, lateral, and mortise views.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 58: Ankle and Foot, p. 725."
+  },
+  {
+    id: "ROSEN-ORTHO-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 58: Ankle and Foot",
+    category: "Trauma and injuries",
+    topic: "Achilles tendon rupture",
+    page: "733",
+    stem: "Which examination manoeuvre is classic for assessing Achilles tendon integrity?",
+    options: [
+      "Thompson test",
+      "Mallampati test",
+      "Seidel test",
+      "Blatchford score",
+      "Quick Confusion Scale"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes the Thompson test as the classic manoeuvre for assessing the integrity of the Achilles tendon.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 58: Ankle and Foot, p. 733."
+  },
+  {
+    id: "ROSEN-TRANSFUSION-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Transfusion content",
+    category: "Airway and resuscitation",
+    topic: "Emergency blood before compatibility testing",
+    page: "137",
+    stem: "When is universal group O blood used before compatibility testing?",
+    options: [
+      "When red cells are needed in haemorrhaging unstable patients before testing can be done",
+      "Whenever a patient has mild anaemia without bleeding",
+      "Only after full crossmatch is complete",
+      "Only for nonbleeding patients with hypertension",
+      "Never in emergency care"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that universal group O blood is used when red cells are needed in haemorrhaging unstable patients before any testing can be done.",
+    source: "Rosen's Emergency Medicine, 8th ed., transfusion content, p. 137."
+  },
+  {
+    id: "ROSEN-TRANSFUSION-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Transfusion content",
+    category: "Trauma and injuries",
+    topic: "Massive transfusion complications",
+    page: "137",
+    stem: "Which complications are associated with massive transfusion? Select all that apply.",
+    options: [
+      "Hypothermia",
+      "Electrolyte disturbances",
+      "Acidosis",
+      "Coagulopathy and thrombocytopenia",
+      "Guaranteed correction of all clotting abnormalities without monitoring"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes hypothermia, electrolyte disturbances, acidosis, coagulopathy, and thrombocytopenia as complications of massive transfusion.",
+    source: "Rosen's Emergency Medicine, 8th ed., transfusion content, p. 137."
+  },
+  {
+    id: "ROSEN-TRAUMA-0009",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 55: Pelvic Trauma",
+    category: "Trauma and injuries",
+    topic: "Pelvic fracture and associated injuries",
+    page: "667",
+    stem: "What should the diagnosis of a pelvic fracture prompt?",
+    options: [
+      "Careful evaluation for other system injuries",
+      "Immediate discharge if pelvic pain improves",
+      "Avoidance of assessment for thoracic injury",
+      "Assumption that the pelvic injury is isolated",
+      "No imaging consideration"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that severe head, spine, thorax, and abdominal injuries may accompany pelvic fractures, so diagnosis should prompt evaluation for other system injuries.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 55: Pelvic Trauma, p. 667."
+  },
+  {
+    id: "ROSEN-TRAUMA-0010",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 55: Pelvic Trauma",
+    category: "Trauma and injuries",
+    topic: "Pelvic fracture resuscitation endpoint",
+    page: "667",
+    stem: "What should be the endpoint for fluid resuscitation in severe pelvic fracture with haemorrhagic shock?",
+    options: [
+      "Evidence of end-organ perfusion",
+      "A normal ankle radiograph",
+      "Resolution of headache only",
+      "Completion of antibiotics before any blood products",
+      "Normalisation of all laboratory values before haemorrhage control"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the endpoint for fluid resuscitation should be evidence of end-organ perfusion.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 55: Pelvic Trauma, p. 667."
+  },
+  {
+    id: "ROSEN-RESP-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Hemoptysis content",
+    category: "Respiratory",
+    topic: "Massive haemoptysis lethality",
+    page: "204",
+    stem: "What is the most lethal sequela of massive haemoptysis?",
+    options: [
+      "Hypoxia",
+      "Mild anaemia alone",
+      "Urinary retention",
+      "Simple cough without airway compromise",
+      "Localized ankle pain"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that although haemodynamic instability can occur, the most lethal sequela of massive haemoptysis is hypoxia.",
+    source: "Rosen's Emergency Medicine, 8th ed., hemoptysis content, p. 204."
   }
 ];
