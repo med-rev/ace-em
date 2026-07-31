@@ -59,7 +59,7 @@
 
     .controls {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr auto;
+      grid-template-columns: 1fr 1fr auto;
       gap: 12px;
       align-items: end;
     }
@@ -230,18 +230,9 @@
         </div>
 
         <div>
-          <label for="topicFilter">Topic</label>
-          <select id="topicFilter">
-            <option value="all">All topics</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="typeFilter">Question type</label>
-          <select id="typeFilter">
-            <option value="all">All types</option>
-            <option value="mcq">MCQ</option>
-            <option value="multi">Multiple response</option>
+          <label for="categoryFilter">Category</label>
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
           </select>
         </div>
 
@@ -303,8 +294,7 @@
     let answered = 0;
 
     const bookFilter = document.getElementById("bookFilter");
-    const topicFilter = document.getElementById("topicFilter");
-    const typeFilter = document.getElementById("typeFilter");
+    const categoryFilter = document.getElementById("categoryFilter");
     const startBtn = document.getElementById("startBtn");
     const quizPanel = document.getElementById("quizPanel");
     const questionCounter = document.getElementById("questionCounter");
@@ -330,6 +320,88 @@
       }
 
       return String(type).toUpperCase();
+    }
+
+    function getBroadCategory(question) {
+      if (question.category) {
+        return question.category;
+      }
+
+      if (question.broadCategory) {
+        return question.broadCategory;
+      }
+
+      const text = `${question.chapter || ""} ${question.topic || ""}`.toLowerCase();
+
+      if (text.includes("airway") || text.includes("ventilation") || text.includes("resuscitation") || text.includes("neonatal")) {
+        return "Airway and resuscitation";
+      }
+
+      if (text.includes("cardiac") || text.includes("cardiovascular") || text.includes("rhythm") || text.includes("coronary") || text.includes("heart") || text.includes("shock") || text.includes("syncope") || text.includes("vascular") || text.includes("aortic")) {
+        return "Cardiovascular";
+      }
+
+      if (text.includes("respiratory") || text.includes("pulmonary") || text.includes("asthma") || text.includes("copd") || text.includes("pneumonia") || text.includes("pneumothorax") || text.includes("dyspnoea") || text.includes("dyspnea")) {
+        return "Respiratory";
+      }
+
+      if (text.includes("abdominal") || text.includes("gastro") || text.includes("bowel") || text.includes("pancreatitis") || text.includes("cholecystitis") || text.includes("jaundice") || text.includes("liver")) {
+        return "Gastrointestinal";
+      }
+
+      if (text.includes("renal") || text.includes("urinary") || text.includes("urolog") || text.includes("genitourinary")) {
+        return "Renal and genitourinary";
+      }
+
+      if (text.includes("pregnancy") || text.includes("obstetric") || text.includes("gyne") || text.includes("gyna") || text.includes("vaginal") || text.includes("pelvic")) {
+        return "Obstetrics and gynaecology";
+      }
+
+      if (text.includes("pediatric") || text.includes("paediatric") || text.includes("child") || text.includes("infant") || text.includes("neonate")) {
+        return "Paediatrics";
+      }
+
+      if (text.includes("toxic") || text.includes("poison") || text.includes("drug") || text.includes("overdose") || text.includes("alcohol") || text.includes("antidote")) {
+        return "Toxicology and pharmacology";
+      }
+
+      if (text.includes("trauma") || text.includes("injury") || text.includes("fracture") || text.includes("burn") || text.includes("wound") || text.includes("bite") || text.includes("sting") || text.includes("laceration")) {
+        return "Trauma and injuries";
+      }
+
+      if (text.includes("neuro") || text.includes("stroke") || text.includes("seizure") || text.includes("headache") || text.includes("coma") || text.includes("altered mental status")) {
+        return "Neurology";
+      }
+
+      if (text.includes("endocrine") || text.includes("diabetes") || text.includes("thyroid") || text.includes("adrenal") || text.includes("ketoacidosis")) {
+        return "Endocrine and metabolic";
+      }
+
+      if (text.includes("infect") || text.includes("sepsis") || text.includes("fever") || text.includes("hiv") || text.includes("rabies") || text.includes("tetanus")) {
+        return "Infectious disease";
+      }
+
+      if (text.includes("environment") || text.includes("cold") || text.includes("heat") || text.includes("drowning") || text.includes("altitude") || text.includes("diving") || text.includes("electrical")) {
+        return "Environmental emergencies";
+      }
+
+      if (text.includes("eye") || text.includes("ear") || text.includes("nose") || text.includes("throat") || text.includes("oral") || text.includes("dental") || text.includes("neck")) {
+        return "ENT, eye and oral";
+      }
+
+      if (text.includes("skin") || text.includes("dermat")) {
+        return "Skin";
+      }
+
+      if (text.includes("psych") || text.includes("behaviour") || text.includes("behavior") || text.includes("panic")) {
+        return "Behavioural health";
+      }
+
+      if (text.includes("palliative")) {
+        return "Palliative care";
+      }
+
+      return "Other";
     }
 
     function loadScript(src) {
@@ -370,10 +442,10 @@
 
     function initialiseFilters() {
       bookFilter.innerHTML = '<option value="all">All books</option>';
-      topicFilter.innerHTML = '<option value="all">All topics</option>';
+      categoryFilter.innerHTML = '<option value="all">All categories</option>';
 
       const books = [...new Set(allQuestions.map(question => question.book))].sort();
-      const topics = [...new Set(allQuestions.map(question => question.topic))].sort();
+      const categories = [...new Set(allQuestions.map(question => getBroadCategory(question)))].sort();
 
       books.forEach(book => {
         const option = document.createElement("option");
@@ -382,24 +454,22 @@
         bookFilter.appendChild(option);
       });
 
-      topics.forEach(topic => {
+      categories.forEach(category => {
         const option = document.createElement("option");
-        option.value = topic;
-        option.textContent = topic;
-        topicFilter.appendChild(option);
+        option.value = category;
+        option.textContent = category;
+        categoryFilter.appendChild(option);
       });
     }
 
     function startQuiz() {
       const selectedBook = bookFilter.value;
-      const selectedTopic = topicFilter.value;
-      const selectedType = typeFilter.value;
+      const selectedCategory = categoryFilter.value;
 
       activeQuestions = allQuestions.filter(question => {
         const bookMatch = selectedBook === "all" || question.book === selectedBook;
-        const topicMatch = selectedTopic === "all" || question.topic === selectedTopic;
-        const typeMatch = selectedType === "all" || question.type === selectedType;
-        return bookMatch && topicMatch && typeMatch;
+        const categoryMatch = selectedCategory === "all" || getBroadCategory(question) === selectedCategory;
+        return bookMatch && categoryMatch;
       });
 
       activeQuestions = shuffle(activeQuestions);
@@ -421,12 +491,13 @@
 
     function showQuestion() {
       const question = activeQuestions[currentIndex];
+      const broadCategory = getBroadCategory(question);
 
       questionCounter.textContent = `Question ${currentIndex + 1} of ${activeQuestions.length}`;
       questionDetails.textContent = getQuestionTypeLabel(question.type);
 
       questionTags.innerHTML = `
-        <span class="tag">${question.topic}</span>
+        <span class="tag">${broadCategory}</span>
         <span class="tag">${question.chapter}</span>
         <span class="tag">${question.book}</span>
       `;
