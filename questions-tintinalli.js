@@ -1,0 +1,2 @@
+window.QUESTIONS_TINTINALLI = [
+``
