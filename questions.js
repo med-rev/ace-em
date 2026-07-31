@@ -5,8 +5,7 @@ window.QUESTIONS = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 1: Advanced Airway Support",
     topic: "Airway",
-    printedPage: "1",
-    pdfPage: "20",
+    page: "1",
     stem: "During rapid airway assessment, which combination best reflects the initial clinical features that should be assessed?",
     options: [
       "Level of responsiveness, skin colour, respiratory rate, and depth of respirations",
@@ -16,8 +15,8 @@ window.QUESTIONS = [
       "Temperature, capillary refill, pupil size, and blood glucose only"
     ],
     correctAnswer: 0,
-    explanation: "Rapid clinical airway assessment includes level of responsiveness, skin colour, respiratory rate, and depth of respirations, with oxygen saturation and capnography unless the patient is in impending or actual cardiac arrest.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 1, PDF page 20."
+    explanation: "Rapid clinical airway assessment includes level of responsiveness, skin colour, respiratory rate, and depth of respirations, with oxygen saturation and capnography unless impending or actual cardiac arrest is present.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 1."
   },
   {
     id: "TINT-AIRWAY-0002",
@@ -25,8 +24,7 @@ window.QUESTIONS = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 1: Advanced Airway Support",
     topic: "Airway",
-    printedPage: "1",
-    pdfPage: "20",
+    page: "1",
     stem: "Which action is specifically discouraged during rapid airway assessment?",
     options: [
       "Placing something in the pharynx to assess the gag reflex",
@@ -37,7 +35,7 @@ window.QUESTIONS = [
     ],
     correctAnswer: 0,
     explanation: "Nothing should be placed in the pharynx to assess gag reflex.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 1, PDF page 20."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 1."
   },
   {
     id: "TINT-AIRWAY-0003",
@@ -45,48 +43,330 @@ window.QUESTIONS = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 1: Advanced Airway Support",
     topic: "Airway",
-    printedPage: "2",
-    pdfPage: "21",
-    stem: "A patient has adequate ventilation but poor oxygenation. Which immediate approach is most appropriate?",
+    page: "1",
+    stem: "In impending or actual cardiac arrest, what should be prioritised before further airway management with an extraglottic device or endotracheal intubation?",
     options: [
-      "Consider immediate initiation of noninvasive ventilation",
-      "Avoid positive pressure ventilation until intubation has been completed",
-      "Prioritise a surgical airway before attempting noninvasive support",
-      "Withhold oxygen if respiratory effort is adequate",
-      "Delay intervention until chest radiography confirms the diagnosis"
+      "Quality chest compressions and evaluation for a shockable rhythm",
+      "A gag reflex assessment using pharyngeal stimulation",
+      "Routine chest x-ray before ventilation",
+      "Blood gases before opening the airway",
+      "Three intubation attempts before compressions"
     ],
     correctAnswer: 0,
-    explanation: "If ventilation is adequate but oxygenation is poor, immediate initiation of noninvasive ventilation should be considered.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 2, PDF page 21."
+    explanation: "The initial focus of cardiopulmonary resuscitation is quality chest compressions and evaluation for a shockable rhythm. Further airway management can follow once these priorities are addressed.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 1."
   },
   {
     id: "TINT-AIRWAY-0004",
-    type: "multi",
-    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 1: Advanced Airway Support",
-    topic: "Airway",
-    printedPage: "4",
-    pdfPage: "23",
-    stem: "Which elements are part of preparation for orotracheal intubation? Select all that apply.",
-    options: [
-      "Prepare equipment, personnel, and drugs before attempting intubation",
-      "Assess airway difficulty and anticipate rescue needs",
-      "Place suction, bag-valve-mask, and rescue devices within easy reach",
-      "Assign tasks in advance",
-      "Use chest x-ray to confirm tracheal rather than oesophageal tube placement"
-    ],
-    correctAnswers: [0, 1, 2, 3],
-    explanation: "Preparation includes equipment, personnel, and drugs; airway difficulty assessment; suction, bag-valve-mask, and rescue devices within easy reach; and assigned tasks. Chest x-ray should not be used to confirm tracheal rather than oesophageal tube placement.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed pp. 4 and 6, PDF pages 23 and 25."
-  },
-  {
-    id: "TINT-AIRWAY-0005",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 1: Advanced Airway Support",
     topic: "Airway",
-    printedPage: "6",
-    pdfPage: "25",
+    page: "1",
+    stem: "Which position is preferred for a conscious patient during basic airway management, if possible?",
+    options: [
+      "Sitting position",
+      "Supine position without airway adjuncts",
+      "Prone position",
+      "Trendelenburg position",
+      "Flat lateral position regardless of procedure needs"
+    ],
+    correctAnswer: 0,
+    explanation: "Conscious patients should be placed in a sitting position if possible.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 1."
+  },
+  {
+    id: "TINT-AIRWAY-0005",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Airway",
+    page: "1",
+    stem: "Which statements reflect basic airway management for patients unable to maintain an open airway? Select all that apply.",
+    options: [
+      "Nasal trumpets may be placed if the patient is not anticoagulated or at risk for mid-face fractures",
+      "An oral airway may be used if no gag reflex is present",
+      "Supplemental oxygen is provided when room air saturation is below 94%",
+      "High-flow oxygen should be avoided when possible",
+      "Gag reflex should be tested by placing an object in the pharynx"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "For patients unable to maintain an open airway, nasal trumpets may be used when appropriate, an oral airway may be used if no gag reflex is present, supplemental oxygen is used when room air saturation is below 94%, and high-flow oxygen should be avoided when possible.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 1."
+  },
+  {
+    id: "TINT-AIRWAY-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Noninvasive ventilation",
+    page: "2",
+    stem: "A patient has adequate ventilation but poor oxygenation. Which immediate approach is most appropriate?",
+    options: [
+      "Consider immediate initiation of noninvasive ventilation",
+      "Withhold oxygen if respiratory effort is adequate",
+      "Delay care until radiography confirms the cause",
+      "Prioritise surgical airway before noninvasive support",
+      "Avoid positive-pressure support until intubation is completed"
+    ],
+    correctAnswer: 0,
+    explanation: "If ventilation is adequate but oxygenation is poor, immediate initiation of noninvasive ventilation should be considered.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 2."
+  },
+  {
+    id: "TINT-AIRWAY-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Noninvasive ventilation",
+    page: "2",
+    stem: "Which statement best describes CPAP during emergency noninvasive ventilation?",
+    options: [
+      "CPAP provides the same amount of pressure support during inspiration and positive end-expiratory pressure during exhalation",
+      "CPAP provides a higher inspiratory pressure and lower expiratory pressure in every case",
+      "CPAP is only used after failed surgical airway",
+      "CPAP requires an endotracheal tube before use",
+      "CPAP should not be used for preoxygenation before intubation"
+    ],
+    correctAnswer: 0,
+    explanation: "CPAP provides the same pressure support during inspiration and positive end-expiratory pressure during exhalation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 2."
+  },
+  {
+    id: "TINT-AIRWAY-0008",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Mask ventilation",
+    page: "2",
+    stem: "During two-person mask ventilation, which hand grip is preferred in most cases?",
+    options: [
+      "T-E grip",
+      "E-C grip",
+      "Cricoid-pressure grip",
+      "Single-finger mandibular grip",
+      "Finger-sweep grip"
+    ],
+    correctAnswer: 0,
+    explanation: "For two-person mask ventilation, the T-E grip is preferred over the E-C grip in most cases.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 2."
+  },
+  {
+    id: "TINT-AIRWAY-0009",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Extraglottic devices",
+    page: "3",
+    stem: "Which statement best describes the role of extraglottic devices in the emergency department?",
+    options: [
+      "They are commonly used after a failed airway and may also be used primarily during cardiac arrest, difficult mask ventilation, or rapid sequence airway procedures",
+      "They should replace surgical airway planning whenever critical hypoxaemia occurs",
+      "They are contraindicated in cardiac arrest",
+      "They are only used after chest x-ray confirms failed intubation",
+      "They are the preferred primary airway for conscious patients with intact protective reflexes"
+    ],
+    correctAnswer: 0,
+    explanation: "Extraglottic devices are commonly used after a failed airway and may also be used primarily during cardiac arrest, difficult mask ventilation, or rapid sequence airway procedures. They should not be relied on to the exclusion of a surgical airway when critical hypoxaemia is present.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 3."
+  },
+  {
+    id: "TINT-AIRWAY-0010",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Intubation",
+    page: "4",
+    stem: "Which patient group is most clearly described as requiring intubation unless a rapidly correctable situation is suspected?",
+    options: [
+      "Unconscious, nonarrested patients",
+      "All conscious patients who require supplemental oxygen",
+      "All patients with premature atrial contractions",
+      "All patients requiring portable chest x-ray",
+      "Conscious patients who can sit upright and handle secretions"
+    ],
+    correctAnswer: 0,
+    explanation: "Intubation is indicated for unconscious, nonarrested patients unless a rapidly correctable situation is suspected, such as opioid overdose or a simple postictal state.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 4."
+  },
+  {
+    id: "TINT-AIRWAY-0011",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "4",
+    stem: "Which anticipated difficulties are relative contraindications to rapid sequence intubation? Select all that apply.",
+    options: [
+      "Difficulty with mask ventilation",
+      "Difficulty with intubation",
+      "Difficulty with rescue using an extraglottic device",
+      "Difficulty with surgical airway placement",
+      "Normal airway assessment with no predicted difficulty"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Anticipated difficulty in mask ventilation, intubation, rescue with an extraglottic device, and surgical airway placement are relative contraindications to rapid sequence intubation; awake techniques should be considered.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 4."
+  },
+  {
+    id: "TINT-AIRWAY-0012",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Orotracheal intubation",
+    page: "4",
+    stem: "Which actions should be included before attempting orotracheal intubation? Select all that apply.",
+    options: [
+      "Prepare equipment, personnel, and drugs",
+      "Assess airway difficulty and anticipate airway rescue",
+      "Place suction, bag-valve-mask, and rescue devices within easy reach",
+      "Assign medication administration and other tasks in advance",
+      "Proceed without personnel support to reduce delays"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Preparation includes equipment, personnel, drugs, airway difficulty assessment, suction, bag-valve-mask, rescue devices, and assigned tasks before the attempt.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 4."
+  },
+  {
+    id: "TINT-AIRWAY-0013",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Preoxygenation",
+    page: "4",
+    stem: "Which oxygen saturation threshold during preoxygenation identifies risk for critical desaturation after apnea is induced?",
+    options: [
+      "Failure to achieve oxygen saturation greater than 93%",
+      "Failure to achieve oxygen saturation greater than 75%",
+      "Failure to achieve oxygen saturation greater than 80%",
+      "Failure to achieve oxygen saturation greater than 88%",
+      "Failure to achieve oxygen saturation greater than 99%"
+    ],
+    correctAnswer: 0,
+    explanation: "An inability to achieve oxygen saturation greater than 93% places the patient at risk for critical desaturation after apnea is induced.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 4."
+  },
+  {
+    id: "TINT-AIRWAY-0014",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Intubation preparation",
+    page: "4",
+    stem: "Which patient position is recommended for mask ventilation and intubation when cervical spine precautions are not indicated?",
+    options: [
+      "Sniffing or ramped position",
+      "Prone position",
+      "Trendelenburg position",
+      "Completely flat supine position without airway alignment",
+      "Left lateral position only"
+    ],
+    correctAnswer: 0,
+    explanation: "The patient should be positioned in a sniffing or ramped position to align the external ear canal and sternal notch when cervical spine precautions are not indicated.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 4."
+  },
+  {
+    id: "TINT-AIRWAY-0015",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "5",
+    stem: "Which pretreatment medication may be considered in normotensive patients with possible raised intracranial pressure, cardiac ischaemia, or aortic dissection?",
+    options: [
+      "Fentanyl 3 micrograms/kg",
+      "Atropine 0.5 mg",
+      "Ketamine 0.1 mg/kg",
+      "Rocuronium 0.3 mg/kg",
+      "Glucagon 1 mg"
+    ],
+    correctAnswer: 0,
+    explanation: "Fentanyl 3 micrograms/kg may be considered in normotensive patients with possible raised intracranial pressure, cardiac ischaemia, or aortic dissection.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 5."
+  },
+  {
+    id: "TINT-AIRWAY-0016",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "6",
+    stem: "Which induction agent is described as an excellent choice in most circumstances?",
+    options: [
+      "Etomidate 0.3 mg/kg",
+      "Propofol 3 mg/kg in patients at risk for hypotension",
+      "Succinylcholine 0.1 mg/kg",
+      "Rocuronium 0.1 mg/kg",
+      "Fentanyl 10 micrograms/kg"
+    ],
+    correctAnswer: 0,
+    explanation: "Etomidate 0.3 mg/kg is described as an excellent choice in most circumstances.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0017",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "6",
+    stem: "Which paralytic dose is listed for succinylcholine during rapid sequence intubation?",
+    options: [
+      "1 to 2 mg/kg of total body weight",
+      "0.1 to 0.2 mg/kg of ideal body weight",
+      "0.5 mg IV repeated every 3 to 5 minutes",
+      "3 micrograms/kg",
+      "1 to 5 mg/hour infusion"
+    ],
+    correctAnswer: 0,
+    explanation: "Succinylcholine is commonly used at 1 to 2 mg/kg of total body weight unless there is risk of serious hyperkalaemia.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0018",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "6",
+    stem: "Which paralytic dose is listed for rocuronium during rapid sequence intubation?",
+    options: [
+      "1 to 1.5 mg/kg of ideal body weight",
+      "0.1 to 0.2 mg/kg of total body weight",
+      "0.3 mg/kg of total body weight",
+      "3 micrograms/kg",
+      "2 to 10 micrograms/min"
+    ],
+    correctAnswer: 0,
+    explanation: "Rocuronium is increasingly common as an alternative paralytic at 1 to 1.5 mg/kg of ideal body weight.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0019",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Rapid sequence intubation",
+    page: "6",
+    stem: "Why is cricoid pressure no longer recommended during rapid sequence intubation?",
+    options: [
+      "Limited evidence of benefit and clear evidence of worsening laryngoscopic view",
+      "It reliably improves laryngoscopic view but delays paralytic administration",
+      "It prevents aspiration but causes unavoidable hypoxia",
+      "It is useful only after tube placement has been confirmed",
+      "It is contraindicated only in children younger than 10 years"
+    ],
+    correctAnswer: 0,
+    explanation: "Cricoid pressure is no longer recommended because evidence of benefit is limited and there is clear evidence that it worsens laryngoscopic view.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0020",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Tube placement",
+    page: "6",
     stem: "Which method should immediately confirm tracheal tube placement after intubation?",
     options: [
       "End-tidal carbon dioxide",
@@ -97,7 +377,102 @@ window.QUESTIONS = [
     ],
     correctAnswer: 0,
     explanation: "Tracheal tube placement should be confirmed immediately with ETCO2. Chest x-ray should not be used to assess tracheal versus oesophageal positioning.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, printed p. 6, PDF page 25."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0021",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Tube depth",
+    page: "6",
+    stem: "After the endotracheal tube balloon completely disappears through the cords in an adult, which depth is approximately appropriate at the corner of the mouth for an adult female?",
+    options: [
+      "21 cm",
+      "18 cm",
+      "19 cm",
+      "23 cm",
+      "26 cm"
+    ],
+    correctAnswer: 0,
+    explanation: "In adult females, the tube is advanced to approximately 21 cm at the corner of the mouth before removing the stylet.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0022",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Tube depth",
+    page: "6",
+    stem: "After the endotracheal tube balloon completely disappears through the cords in an adult, which depth is approximately appropriate at the corner of the mouth for an adult male?",
+    options: [
+      "23 cm",
+      "19 cm",
+      "21 cm",
+      "25 cm",
+      "28 cm"
+    ],
+    correctAnswer: 0,
+    explanation: "In adult males, the tube is advanced to approximately 23 cm at the corner of the mouth before removing the stylet.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
+  },
+  {
+    id: "TINT-AIRWAY-0023",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Failed airway",
+    page: "7",
+    stem: "What should occur if oxygen saturation is dropping during an intubation attempt?",
+    options: [
+      "Abort the attempt early and begin immediate mask ventilation",
+      "Continue the attempt until the tube is passed",
+      "Obtain chest x-ray before changing technique",
+      "Wait for paralysis to deepen before ventilating",
+      "Proceed immediately to portable chest x-ray confirmation"
+    ],
+    correctAnswer: 0,
+    explanation: "The intubation attempt should be aborted early if oxygen saturation is dropping, followed by immediate mask ventilation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 7."
+  },
+  {
+    id: "TINT-AIRWAY-0024",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Failed airway",
+    page: "7",
+    stem: "If oxygen saturation cannot be maintained with mask ventilation after an aborted intubation attempt, what should be done while preparing for a possible surgical airway?",
+    options: [
+      "Insert an extraglottic device",
+      "Continue repeated laryngoscopy until successful",
+      "Use chest x-ray to exclude oesophageal intubation first",
+      "Delay further action until blood gas results are available",
+      "Avoid rescue devices until a surgical airway is completed"
+    ],
+    correctAnswer: 0,
+    explanation: "If saturations cannot be maintained with mask ventilation, an extraglottic device should be inserted while preparing for a possible surgical airway.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 7."
+  },
+  {
+    id: "TINT-AIRWAY-0025",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 1: Advanced Airway Support",
+    topic: "Surgical airway",
+    page: "8",
+    stem: "In children younger than 10 years, which subglottic technique is preferred over surgical airway?",
+    options: [
+      "Transtracheal jet ventilation",
+      "Bougie-aided cricothyrotomy",
+      "Blind nasotracheal intubation",
+      "Portable chest x-ray guided intubation",
+      "Repeated oral laryngoscopy until successful"
+    ],
+    correctAnswer: 0,
+    explanation: "A surgical airway is contraindicated in children younger than 10 years, in whom transtracheal jet ventilation is the preferred subglottic technique.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 8."
   },
   {
     id: "TINT-RHYTHM-0001",
@@ -105,8 +480,7 @@ window.QUESTIONS = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
     topic: "Cardiac rhythm disturbance",
-    printedPage: "10",
-    pdfPage: "29",
+    page: "10",
     stem: "Which ECG feature is part of sinus arrhythmia?",
     options: [
       "Variation of at least 120 milliseconds between the shortest and longest P-P interval",
@@ -117,7 +491,7 @@ window.QUESTIONS = [
     ],
     correctAnswer: 0,
     explanation: "Sinus arrhythmia has normal sinus P waves and PR intervals, 1:1 AV conduction, and variation of at least 120 milliseconds between the shortest and longest P-P interval.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, printed p. 10, PDF page 29."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
   },
   {
     id: "TINT-RHYTHM-0002",
@@ -125,8 +499,45 @@ window.QUESTIONS = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
     topic: "Cardiac rhythm disturbance",
-    printedPage: "11",
-    pdfPage: "30",
+    page: "10",
+    stem: "Which rhythm commonly requires no treatment and is most commonly found in children and young adults?",
+    options: [
+      "Sinus arrhythmia",
+      "Unstable Mobitz II AV block",
+      "Symptomatic complete heart block",
+      "Pulseless idioventricular rhythm",
+      "Unstable sinus bradycardia with hypoperfusion"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus arrhythmia is often affected by respiration, is most commonly found in children and young adults, and requires no treatment.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0003",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Premature atrial contractions",
+    page: "10",
+    stem: "Which factors are associated with premature atrial contractions? Select all that apply.",
+    options: [
+      "Stress",
+      "Fatigue",
+      "Alcohol use",
+      "Coffee",
+      "Subarachnoid haemorrhage as the defining cause"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Premature atrial contractions are associated with stress, fatigue, alcohol use, tobacco, coffee, COPD, digoxin toxicity, and coronary artery disease.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0004",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Premature ventricular contractions",
+    page: "11",
     stem: "Which ECG feature is most consistent with a premature ventricular contraction?",
     options: [
       "A premature and wide QRS complex without a preceding P wave",
@@ -137,56 +548,186 @@ window.QUESTIONS = [
     ],
     correctAnswer: 0,
     explanation: "Premature ventricular contractions are premature, wide QRS complexes without a preceding P wave.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, printed p. 11, PDF page 30."
-  },
-  {
-    id: "TINT-RHYTHM-0003",
-    type: "mcq",
-    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
-    topic: "Cardiac rhythm disturbance",
-    printedPage: "13",
-    pdfPage: "32",
-    stem: "For unstable sinus bradycardia, which treatment is the only Class I treatment?",
-    options: [
-      "Transcutaneous cardiac pacing",
-      "Atropine alone",
-      "Dopamine infusion as first-line therapy",
-      "Glucagon as universal first-line therapy",
-      "Permanent pacemaker placement in the emergency department"
-    ],
-    correctAnswer: 0,
-    explanation: "Transcutaneous cardiac pacing is the only Class I treatment for unstable patients with sinus bradycardia.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, printed p. 13, PDF page 32."
-  },
-  {
-    id: "TINT-RHYTHM-0004",
-    type: "mcq",
-    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
-    topic: "Cardiac rhythm disturbance",
-    printedPage: "16",
-    pdfPage: "35",
-    stem: "Which statement best distinguishes Mobitz II AV block?",
-    options: [
-      "It has a constant PR interval with intermittent nonconducted atrial beats",
-      "It is defined by progressive PR prolongation before a dropped beat",
-      "It is always a benign nodal block that never progresses",
-      "It has normal sinus P waves with respiratory P-P variation",
-      "It is defined by a fully compensatory pause after each atrial ectopic beat"
-    ],
-    correctAnswer: 0,
-    explanation: "Mobitz II AV block is typically due to infranodal disease and causes a constant PR interval with intermittent nonconducted atrial beats.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, printed p. 16, PDF page 35."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 11."
   },
   {
     id: "TINT-RHYTHM-0005",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
-    topic: "Cardiac rhythm disturbance",
-    printedPage: "17",
-    pdfPage: "36",
+    topic: "Premature ventricular contractions",
+    page: "12",
+    stem: "How should stable patients with premature ventricular contractions generally be managed?",
+    options: [
+      "No treatment is required",
+      "Immediate cardioversion",
+      "Prophylactic suppressive antiarrhythmic treatment for all patients",
+      "Emergency permanent pacemaker placement",
+      "Chest x-ray confirmation before ECG interpretation"
+    ],
+    correctAnswer: 0,
+    explanation: "Stable patients with premature ventricular contractions require no treatment. Potential causes such as hypoxia, drug effects, or electrolyte disturbances should be treated.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 12."
+  },
+  {
+    id: "TINT-RHYTHM-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Sinus bradycardia",
+    page: "12",
+    stem: "Which ECG feature is part of sinus bradycardia?",
+    options: [
+      "Normal sinus P waves and PR intervals with 1:1 AV conduction and atrial rate slower than 60 beats/min",
+      "Wide QRS complexes without preceding P waves",
+      "Constant PR interval with intermittent nonconducted atrial beats",
+      "Atrial rate between 250 and 350 beats/min",
+      "Complete absence of AV conduction"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus bradycardia has normal sinus P waves and PR intervals, 1:1 AV conduction, and an atrial rate slower than 60 beats/min.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 12."
+  },
+  {
+    id: "TINT-RHYTHM-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Sinus bradycardia",
+    page: "13",
+    stem: "For unstable sinus bradycardia, which treatment is the only Class I treatment?",
+    options: [
+      "Transcutaneous cardiac pacing",
+      "Atropine alone",
+      "Dopamine infusion as universal first-line treatment",
+      "Glucagon for all unstable bradycardia",
+      "Permanent pacemaker placement in the emergency department for all cases"
+    ],
+    correctAnswer: 0,
+    explanation: "Transcutaneous cardiac pacing is the only Class I treatment for unstable patients with sinus bradycardia.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0008",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Sinus bradycardia",
+    page: "13",
+    stem: "What atropine dose is listed for symptomatic bradycardia?",
+    options: [
+      "0.5 mg IV push, repeated every 3 to 5 minutes as needed up to 3 mg IV",
+      "3 mg IV push every minute without maximum dose",
+      "0.05 mg IV push once only",
+      "5 mg IV infusion over 60 minutes",
+      "10 mg IM once only"
+    ],
+    correctAnswer: 0,
+    explanation: "Atropine for symptomatic bradycardia is 0.5 mg IV push, repeated every 3 to 5 minutes as needed up to a total of 3 mg IV.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0009",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Junctional rhythms",
+    page: "13",
+    stem: "Junctional escape beats usually occur at what rate range?",
+    options: [
+      "40 to 60 beats/min",
+      "10 to 20 beats/min",
+      "80 to 120 beats/min",
+      "150 to 250 beats/min",
+      "250 to 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "Junctional escape beats usually occur at 40 to 60 beats/min, depending on the level of the rescue pacemaker within the conduction system.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0010",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Idioventricular rhythm",
+    page: "14",
+    stem: "When is treatment generally necessary for idioventricular rhythm?",
+    options: [
+      "When the patient is unstable or pulseless",
+      "Whenever the rhythm is observed",
+      "Only when the QRS complex is narrow",
+      "Only after chest x-ray confirmation",
+      "Only when the rhythm occurs in a child"
+    ],
+    correctAnswer: 0,
+    explanation: "Treatment is not necessary for idioventricular rhythm unless the patient is unstable or pulseless.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 14."
+  },
+  {
+    id: "TINT-RHYTHM-0011",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "First-degree AV block",
+    page: "15",
+    stem: "What defines first-degree AV block?",
+    options: [
+      "Prolonged PR interval greater than 200 milliseconds",
+      "Progressive PR shortening before a dropped beat",
+      "No AV conduction with a ventricular escape rhythm",
+      "Wide premature QRS complex without a preceding P wave",
+      "Atrial rate between 250 and 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "First-degree AV block is a delay in AV conduction manifested by a prolonged PR interval greater than 200 milliseconds.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 15."
+  },
+  {
+    id: "TINT-RHYTHM-0012",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Mobitz I AV block",
+    page: "15",
+    stem: "Which statement best describes Mobitz I (Wenckebach) AV block?",
+    options: [
+      "Progressive prolongation through the AV node until an atrial impulse is blocked",
+      "Constant PR interval with intermittent nonconducted atrial beats",
+      "No AV conduction with escape pacemaker rhythm",
+      "Premature wide QRS complexes without preceding P waves",
+      "A regular atrial rate between 250 and 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "Mobitz I AV block is a nodal block causing progressive prolongation of conduction through the AV node until an atrial impulse is completely blocked.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 15."
+  },
+  {
+    id: "TINT-RHYTHM-0013",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Mobitz II AV block",
+    page: "16",
+    stem: "Which statement best distinguishes Mobitz II AV block?",
+    options: [
+      "It has a constant PR interval with intermittent nonconducted atrial beats",
+      "It is defined by progressive PR prolongation before a dropped beat",
+      "It has normal sinus P waves with respiratory P-P variation",
+      "It is always a benign nodal block that never progresses",
+      "It is defined by a fully compensatory pause after each atrial ectopic beat"
+    ],
+    correctAnswer: 0,
+    explanation: "Mobitz II AV block is typically due to infranodal disease and causes a constant PR interval with intermittent nonconducted atrial beats.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 16."
+  },
+  {
+    id: "TINT-RHYTHM-0014",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Third-degree AV block",
+    page: "17",
     stem: "In third-degree AV block, what is the core conduction abnormality?",
     options: [
       "There is no AV conduction",
@@ -197,6 +738,25 @@ window.QUESTIONS = [
     ],
     correctAnswer: 0,
     explanation: "In third-degree AV block, there is no AV conduction and the ventricles are paced by an escape pacemaker.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, printed p. 17, PDF page 36."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 17."
+  },
+  {
+    id: "TINT-RHYTHM-0015",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    topic: "Third-degree AV block",
+    page: "17",
+    stem: "What ventricular rate is associated with a junctional escape pacemaker in nodal third-degree AV block?",
+    options: [
+      "40 to 60 beats/min",
+      "Less than 20 beats/min",
+      "80 to 120 beats/min",
+      "150 to 250 beats/min",
+      "250 to 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "When third-degree AV block occurs at the AV node, a junctional escape pacemaker takes over with a ventricular rate of 40 to 60 beats/min.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 17."
   }
 ];
