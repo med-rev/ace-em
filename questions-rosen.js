@@ -998,5 +998,1005 @@ window.QUESTIONS_ROSEN = [
     correctAnswer: 0,
     explanation: "Rosen highlights that circulatory shock can occur with normal arterial pressure and that not all arterial hypotension represents circulatory shock.",
     source: "Rosen's Emergency Medicine, 8th ed., Chapter 6: Shock, p. 74."
+  },
+  {
+    id: "ROSEN-CHESTPAIN-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 26: Chest Pain",
+    category: "Cardiovascular",
+    topic: "Chest pain approach",
+    page: "214",
+    stem: "Why is an organised approach essential in evaluating chest pain?",
+    options: [
+      "Chest pain is broad and complex, and all causes must be evaluated appropriately",
+      "Chest pain can be evaluated with a single simple algorithm in all patients",
+      "History and physical examination are not useful in chest pain",
+      "ECG has no role in the first assessment",
+      "Chest pain always indicates acute myocardial infarction"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that chest pain is broad and complex, so an organised approach is needed to evaluate causes appropriately.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 26: Chest Pain, p. 214."
+  },
+  {
+    id: "ROSEN-CHESTPAIN-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 26: Chest Pain",
+    category: "Cardiovascular",
+    topic: "Chest pain diagnostic information",
+    page: "214",
+    stem: "In most patients with chest pain, where is information pertinent to the differential diagnosis obtained?",
+    options: [
+      "History, physical examination, and ECG",
+      "Only serum electrolytes",
+      "Only chest radiograph",
+      "Only oxygen saturation",
+      "Only the pain score"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that history, physical examination, and ECG provide information pertinent to the differential diagnosis in 80% to 90% of patients.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 26: Chest Pain, p. 214."
+  },
+  {
+    id: "ROSEN-CHESTPAIN-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 26: Chest Pain",
+    category: "Cardiovascular",
+    topic: "Pain onset clues",
+    page: "215",
+    stem: "Sudden-onset chest pain is more typical of which diagnoses?",
+    options: [
+      "Aortic dissection, pulmonary embolism, or pneumothorax",
+      "Uncomplicated reflux only",
+      "Stable chronic bronchitis only",
+      "Simple cystitis",
+      "Cellulitis"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that sudden-onset pain is more typical with aortic dissection, pulmonary embolism, or pneumothorax.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 26: Chest Pain, p. 215."
+  },
+  {
+    id: "ROSEN-CHESTPAIN-0004",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 26: Chest Pain",
+    category: "Cardiovascular",
+    topic: "Chest pain radiation",
+    page: "215",
+    stem: "Which radiation patterns are linked to important chest pain diagnoses? Select all that apply.",
+    options: [
+      "Radiation to arms, neck, or jaw increases the likelihood of cardiac ischaemia",
+      "Transthoracic pain through to the back should suggest aortic dissection or gastrointestinal causes",
+      "Interscapular back pain migrating to the base of the neck suggests aortic dissection",
+      "Pain radiation is irrelevant in chest pain assessment",
+      "Radiation to the toe confirms acute coronary syndrome"
+    ],
+    correctAnswers: [0, 1, 2],
+    explanation: "Rosen links these radiation patterns with cardiac ischaemia, aortic dissection, and gastrointestinal causes such as pancreatitis or posterior ulcer.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 26: Chest Pain, p. 215."
+  },
+  {
+    id: "ROSEN-CHESTPAIN-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 26: Chest Pain",
+    category: "Cardiovascular",
+    topic: "ECG timing in chest pain",
+    page: "216",
+    stem: "When should an ECG be performed for patients with chest pain in whom myocardial ischaemia is a concern?",
+    options: [
+      "Within 10 minutes of arrival",
+      "Only after cardiac biomarkers return",
+      "Only after discharge planning",
+      "Only if the chest radiograph is abnormal",
+      "Only after pain fully resolves"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that an ECG should be performed within 10 minutes of arrival in all chest pain patients in whom myocardial ischaemia is a concern.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 26: Chest Pain, p. 216."
+  },
+  {
+    id: "ROSEN-DYSPNOEA-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 25: Dyspnea",
+    category: "Respiratory",
+    topic: "Dyspnoea definition",
+    page: "206",
+    stem: "How is dyspnoea described in Rosen?",
+    options: [
+      "The sensation of breathlessness and the patient's reaction to that sensation",
+      "A measured respiratory rate only",
+      "A diagnosis of heart failure only",
+      "A synonym for hypoxaemia only",
+      "A diagnosis that always indicates pulmonary embolism"
+    ],
+    correctAnswer: 0,
+    explanation: "Dyspnoea is described as the sensation of breathlessness and the patient's reaction to that sensation.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 25: Dyspnea, p. 206."
+  },
+  {
+    id: "ROSEN-DYSPNOEA-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 25: Dyspnea",
+    category: "Respiratory",
+    topic: "Clinical severity of dyspnoea",
+    page: "206",
+    stem: "What caution does Rosen give about the patient's perception or clinical severity of dyspnoea?",
+    options: [
+      "It does not correlate well with the seriousness of the underlying pathology",
+      "It always reliably identifies life-threatening disease",
+      "It always excludes serious disease if the patient appears comfortable",
+      "It is unrelated to emotions or external stimuli",
+      "It is never affected by behavioural or cultural influences"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that clinical severity and patient perception do not correlate well with the seriousness of underlying pathology.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 25: Dyspnea, p. 206."
+  },
+  {
+    id: "ROSEN-DYSPNOEA-0003",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 25: Dyspnea",
+    category: "Respiratory",
+    topic: "Dyspnoea terminology",
+    page: "206",
+    stem: "Which definitions are correctly paired? Select all that apply.",
+    options: [
+      "Tachypnoea: respiratory rate greater than normal",
+      "Hyperpnoea: greater than normal minute ventilation to meet metabolic requirements",
+      "Orthopnoea: dyspnoea in a recumbent position",
+      "Paroxysmal nocturnal dyspnoea: sudden onset of dyspnoea while reclining at night",
+      "Hyperventilation: partial pressure of carbon dioxide is always high"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes these terms for assessment of the dyspnoeic patient. Hyperventilation is associated with low carbon dioxide and elevated pH.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 25: Dyspnea, p. 206."
+  },
+  {
+    id: "ROSEN-DYSPNOEA-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 25: Dyspnea",
+    category: "Respiratory",
+    topic: "Sudden dyspnoea",
+    page: "206",
+    stem: "Sudden onset of dyspnoea should lead to consideration of which diagnoses?",
+    options: [
+      "Pulmonary embolism or spontaneous pneumothorax",
+      "Chronic anaemia only",
+      "Uncomplicated cystitis only",
+      "Stable chronic pain only",
+      "Dental abscess only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that sudden onset dyspnoea should lead to consideration of pulmonary embolism or spontaneous pneumothorax.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 25: Dyspnea, p. 206."
+  },
+  {
+    id: "ROSEN-DYSPNOEA-0005",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 25: Dyspnea",
+    category: "Respiratory",
+    topic: "Dyspnoea critical causes",
+    page: "207",
+    stem: "Which pulmonary diagnoses are listed as critical causes of dyspnoea? Select all that apply.",
+    options: [
+      "Airway obstruction",
+      "Pulmonary embolus",
+      "Anaphylaxis",
+      "Ventilatory failure",
+      "Simple ankle sprain"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "The dyspnoea differential table lists airway obstruction, pulmonary embolus, anaphylaxis, and ventilatory failure as critical pulmonary diagnoses.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 25: Dyspnea, p. 207."
+  },
+  {
+    id: "ROSEN-TRAUMA-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 46: Abdominal Trauma",
+    category: "Trauma and injuries",
+    topic: "Abdominal trauma history reliability",
+    page: "462",
+    stem: "Which factors can compromise the patient's ability to provide an accurate abdominal trauma history? Select all that apply.",
+    options: [
+      "Head or spinal cord injury",
+      "Alcohol intoxication",
+      "Developmental delay",
+      "Psychiatric illness",
+      "Normal vital signs alone"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen notes that head or spinal cord injury, alcohol intoxication, developmental delay, psychiatric illness, and toxins can compromise the patient's ability to relate events.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 46: Abdominal Trauma, p. 462."
+  },
+  {
+    id: "ROSEN-TRAUMA-0003",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 46: Abdominal Trauma",
+    category: "Trauma and injuries",
+    topic: "Abdominal trauma signs",
+    page: "462",
+    stem: "Which signs suggest intraperitoneal injury in abdominal trauma? Select all that apply.",
+    options: [
+      "Abdominal tenderness",
+      "Peritoneal irritation",
+      "Gastrointestinal haemorrhage",
+      "Hypovolaemia not attributable to extra-abdominal causes",
+      "Normal appetite as a specific sign"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists tenderness, peritoneal irritation, gastrointestinal haemorrhage, and unexplained hypovolaemia as signs suggestive of intraperitoneal injury.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 46: Abdominal Trauma, p. 462."
+  },
+  {
+    id: "ROSEN-TRAUMA-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 46: Abdominal Trauma",
+    category: "Trauma and injuries",
+    topic: "Blunt abdominal trauma examination accuracy",
+    page: "463",
+    stem: "What accuracy range is given for physical examination in blunt abdominal trauma?",
+    options: [
+      "55% to 65%",
+      "10% to 20%",
+      "80% to 90%",
+      "99% to 100%",
+      "Physical examination is never useful"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that overall physical examination accuracy in blunt abdominal trauma is 55% to 65%.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 46: Abdominal Trauma, p. 463."
+  },
+  {
+    id: "ROSEN-TRAUMA-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 46: Abdominal Trauma",
+    category: "Trauma and injuries",
+    topic: "Unexplained hypotension in blunt trauma",
+    page: "463",
+    stem: "In significant multiple blunt trauma with unexplained hypotension, what should be assumed until excluded?",
+    options: [
+      "Intraperitoneal haemorrhage",
+      "Simple anxiety",
+      "Uncomplicated pneumothorax only",
+      "Viral illness",
+      "Drug-seeking behaviour"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that unexplained hypotension with significant multiple blunt trauma should be assumed to represent intraperitoneal haemorrhage until excluded.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 46: Abdominal Trauma, p. 463."
+  },
+  {
+    id: "ROSEN-TRAUMA-0006",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 45: Chest Trauma",
+    category: "Trauma and injuries",
+    topic: "Traumatic pneumothorax",
+    page: "438",
+    stem: "How is traumatic pneumothorax described in chest trauma?",
+    options: [
+      "Accumulation of air in the pleural space and a common complication of chest trauma",
+      "Accumulation of blood in the pericardium only",
+      "A diagnosis that excludes penetrating injury",
+      "A condition that never occurs in transpleural penetrating injuries",
+      "A benign finding that never requires assessment"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes pneumothorax as air in the pleural space and a common complication of chest trauma.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 45: Chest Trauma, p. 438."
+  },
+  {
+    id: "ROSEN-TRAUMA-0007",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 45: Chest Trauma",
+    category: "Trauma and injuries",
+    topic: "Tension pneumothorax findings",
+    page: "438",
+    stem: "Which findings are described in tension pneumothorax? Select all that apply.",
+    options: [
+      "Progressive accumulation of air under pressure in the pleural cavity",
+      "Shift of the mediastinum to the opposite hemithorax",
+      "Compression of the contralateral lung and great vessels",
+      "Rapid onset of hypoxia, acidosis, and shock",
+      "Normal cardiac output from increased venous return"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes these as features and consequences of tension pneumothorax.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 45: Chest Trauma, p. 438."
+  },
+  {
+    id: "ROSEN-TRAUMA-0008",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 41: Head Injury",
+    category: "Trauma and injuries",
+    topic: "Moderate head trauma CT",
+    page: "351",
+    stem: "Why is CT essential in moderate head trauma?",
+    options: [
+      "To avoid delayed diagnosis of traumatic mass lesions or diffuse injury",
+      "Because skull radiographs are always definitive",
+      "Because all patients can be discharged if the first examination is normal",
+      "Because anticoagulation reduces intracranial risk",
+      "Because GCS 14 excludes traumatic intracranial lesions"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that CT is essential in moderate head trauma to avoid delayed diagnosis of mass lesions or diffuse injury.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 41: Head Injury, p. 351."
+  },
+  {
+    id: "ROSEN-BURNS-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Burns content",
+    category: "Environmental emergencies",
+    topic: "Burn severity classification",
+    page: "965",
+    stem: "Which factors are used to classify burns as minor, moderate, or severe?",
+    options: [
+      "Total body surface area burned, percentage of full-thickness injury, and involvement of specific areas such as face, hands, feet, or perineum",
+      "Only the patient's pain score",
+      "Only whether blistering is present",
+      "Only the patient's age",
+      "Only whether any clothing was burned"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes classification by total body surface area, full-thickness percentage, and involvement of areas such as face, hands, feet, or perineum.",
+    source: "Rosen's Emergency Medicine, 8th ed., burns content, p. 965."
+  },
+  {
+    id: "ROSEN-BURNS-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Burns content",
+    category: "Environmental emergencies",
+    topic: "Burn severity modifiers",
+    page: "965",
+    stem: "Which additional factors are considered in burn severity? Select all that apply.",
+    options: [
+      "Inhalation injury",
+      "High-voltage electrical burns",
+      "Associated major trauma such as fractures",
+      "Extremes of age",
+      "Normal appetite"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen adds inhalation injury, high-voltage electrical burns, associated major trauma, extremes of age, and comorbid conditions as severity considerations.",
+    source: "Rosen's Emergency Medicine, 8th ed., burns content, p. 965."
+  },
+  {
+    id: "ROSEN-TAR-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Environmental emergencies",
+    topic: "Tar burns",
+    page: "824",
+    stem: "What is the immediate scene management priority for hot tar on skin?",
+    options: [
+      "Cool the tar with cold water until it has cooled and hardened",
+      "Remove adherent tar forcefully at the scene",
+      "Apply hot water to keep the tar liquid",
+      "Pack the wound with dry gauze only",
+      "Delay cooling until definitive surgery"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that cooling with cold water limits tissue damage and prevents spread, and adherent tar should not be removed at the scene.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 824."
+  },
+  {
+    id: "ROSEN-TOX-0001",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Methemoglobinaemia symptoms",
+    page: "823",
+    stem: "Which features can occur when methemoglobin levels exceed 20% in non-anaemic individuals? Select all that apply.",
+    options: [
+      "Headache",
+      "Anxiety",
+      "Dyspnoea",
+      "Tachycardia",
+      "Immediate coma in all patients"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen states that headache, anxiety, dyspnoea, and tachycardia can occur when methemoglobin levels exceed 20% in non-anaemic individuals.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 823."
+  },
+  {
+    id: "ROSEN-TOX-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Methemoglobinaemia diagnosis",
+    page: "823",
+    stem: "Methemoglobinaemia should be sought in which patient?",
+    options: [
+      "A cyanotic patient with pulse oximetry at 85% to 88% unresponsive to oxygen and chocolate-brown arterial blood",
+      "A patient with normal colour, normal oxygen response, and clear arterial blood",
+      "A patient with isolated ankle pain",
+      "A patient with simple dysuria",
+      "A patient with isolated vomiting after motion sickness"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes this pattern as prompting evaluation for methemoglobinaemia.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 823."
+  },
+  {
+    id: "ROSEN-TOX-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Hydrocarbon toxicity",
+    page: "823",
+    stem: "What is the primary toxicity from hydrocarbons?",
+    options: [
+      "Aspiration",
+      "Dysrhythmia from all dermal exposures",
+      "Severe systemic toxicity from every brief inhalation",
+      "Instant renal failure after skin contact",
+      "Metabolic alkalosis from all exposures"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that primary hydrocarbon toxicity occurs from aspiration.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 823."
+  },
+  {
+    id: "ROSEN-TOX-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Hydrocarbon ingestion observation",
+    page: "823",
+    stem: "After hydrocarbon ingestion, how long does Rosen recommend monitoring patients?",
+    options: [
+      "6 hours",
+      "15 minutes",
+      "24 hours for every patient regardless of symptoms",
+      "One week",
+      "No observation is needed"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen recommends monitoring patients for 6 hours after hydrocarbon ingestion.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 823."
+  },
+  {
+    id: "ROSEN-TOX-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Hydrocarbon treatment",
+    page: "824",
+    stem: "What role is described for gastric decontamination after hydrocarbon ingestion?",
+    options: [
+      "There is no role for gastric decontamination",
+      "It is mandatory in every patient",
+      "It replaces respiratory observation",
+      "It is indicated only after 48 hours",
+      "It prevents all pneumonitis"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states there is no role for gastric decontamination after hydrocarbon ingestion.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 824."
+  },
+  {
+    id: "ROSEN-TOX-0006",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Cyanide mechanism",
+    page: "826",
+    stem: "How does cyanide cause toxicity?",
+    options: [
+      "It inhibits oxidative phosphorylation by binding and inactivating cytochrome oxidase",
+      "It causes toxicity by blocking renal prostaglandins only",
+      "It causes toxicity by producing isolated histamine release",
+      "It directly causes pneumothorax",
+      "It produces toxicity only by lowering temperature"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes cyanide as a cellular toxin that inhibits oxidative phosphorylation by inactivating cytochrome oxidase.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 826."
+  },
+  {
+    id: "ROSEN-TOX-0007",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Cyanide pulse oximetry",
+    page: "826",
+    stem: "What limitation of pulse oximetry is described in cyanide toxicity?",
+    options: [
+      "The pulse oximeter may read near normal despite significant cellular hypoxia",
+      "Pulse oximetry always reads zero",
+      "Pulse oximetry confirms cyanide level",
+      "Pulse oximetry provides the antidote dose",
+      "Pulse oximetry replaces airway assessment"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that pulse oximetry may be near normal in cyanide toxicity despite significant cellular hypoxia.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 826."
+  },
+  {
+    id: "ROSEN-TOX-0008",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Nerve agent muscarinic effects",
+    page: "826",
+    stem: "Which effects are included in the DUMBELS mnemonic for muscarinic toxicity? Select all that apply.",
+    options: [
+      "Diarrhoea",
+      "Urination",
+      "Miosis",
+      "Bronchoconstriction or bronchorrhoea",
+      "Hyperglycaemia as the defining feature"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists DUMBELS as diarrhoea, urination, miosis, bronchoconstriction or bronchorrhoea, emesis, lacrimation, and salivation.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 826."
+  },
+  {
+    id: "ROSEN-TOX-0009",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 64: Chemical Injuries",
+    category: "Toxicology and pharmacology",
+    topic: "Nerve agent atropine endpoint",
+    page: "826",
+    stem: "What endpoint is used to stop atropine administration in nerve agent or organophosphate toxicity?",
+    options: [
+      "Drying of bronchial secretions",
+      "Improvement in heart rate alone",
+      "Complete reversal of nicotinic weakness",
+      "Normalisation of blood glucose",
+      "A normal chest radiograph"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the endpoint for stopping atropine is drying of bronchial secretions, not improvement in heart rate.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 64: Chemical Injuries, p. 826."
+  },
+  {
+    id: "ROSEN-TOX-0010",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 3: Pain Management",
+    category: "Toxicology and pharmacology",
+    topic: "Naloxone duration",
+    page: "42",
+    stem: "Why is monitoring needed after naloxone reversal of opioid adverse effects?",
+    options: [
+      "Naloxone duration is shorter than most opioids, so opioid adverse effects can recur",
+      "Naloxone permanently removes all opioid effects",
+      "Naloxone has no effect on respiratory depression",
+      "Naloxone treats only NSAID toxicity",
+      "Naloxone prevents all future overdose risk"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that naloxone lasts about 45 minutes, shorter than most opioids, so recurrence of opioid adverse effects must be monitored for.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 3: Pain Management, p. 42."
+  },
+  {
+    id: "ROSEN-HEADACHE-0001",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 103: Headache Disorders",
+    category: "Neurology",
+    topic: "Headache red flags",
+    page: "1397",
+    stem: "Which headache presentations are listed as risks for serious underlying disease? Select all that apply.",
+    options: [
+      "Sudden explosive headache",
+      "First or worst-ever headache",
+      "New-onset headache after age 50 years",
+      "Headache associated with papilloedema, altered consciousness, or focal neurologic symptoms",
+      "A recurrent mild headache with a long unchanged pattern as the only finding"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists these features as headache presentations at risk for serious underlying disease.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 103: Headache Disorders, p. 1397."
+  },
+  {
+    id: "ROSEN-HEADACHE-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 103: Headache Disorders",
+    category: "Neurology",
+    topic: "Headache assessment",
+    page: "1397",
+    stem: "What does Rosen identify as key to successful diagnosis in most ED headache presentations?",
+    options: [
+      "A thorough and systematic history",
+      "Routine CT angiography for every patient",
+      "Avoiding history because neurologic findings are usually abnormal",
+      "Treating all headache as migraine first",
+      "Using pain score alone"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that most patients do not have abnormal neurologic findings, so thorough systematic history is key.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 103: Headache Disorders, p. 1397."
+  },
+  {
+    id: "ROSEN-HEADACHE-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 103: Headache Disorders",
+    category: "Neurology",
+    topic: "Exertional headache",
+    page: "1397",
+    stem: "For previously undiagnosed cough or exertional headache, what evaluation is recommended to rule out intracranial disease?",
+    options: [
+      "CT, or preferably MRI, followed by lumbar puncture",
+      "No testing under any circumstances",
+      "Urine dipstick only",
+      "Chest radiograph only",
+      "Dental radiograph only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that previously undiagnosed patients require CT, or preferably MRI, followed by lumbar puncture to rule out intracranial disease including subarachnoid haemorrhage.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 103: Headache Disorders, p. 1397."
+  },
+  {
+    id: "ROSEN-GI-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 91: Disorders of the Pancreas",
+    category: "Gastrointestinal",
+    topic: "Pancreatitis presentation",
+    page: "1208",
+    stem: "In which patients should pancreatitis be suspected?",
+    options: [
+      "All patients with epigastric abdominal pain, regardless of age",
+      "Only patients with fever and no pain",
+      "Only patients with flank pain and haematuria",
+      "Only patients with respiratory symptoms",
+      "Only patients with isolated headache"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that pancreatitis should be suspected in all patients with epigastric abdominal pain, regardless of age.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 91: Disorders of the Pancreas, p. 1208."
+  },
+  {
+    id: "ROSEN-GI-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 91: Disorders of the Pancreas",
+    category: "Gastrointestinal",
+    topic: "Pancreatitis clinical features",
+    page: "1208",
+    stem: "Which features are described for pancreatitis pain? Select all that apply.",
+    options: [
+      "Most commonly midepigastric",
+      "May be in the right or left upper quadrant",
+      "Typically increases in severity over a few hours",
+      "May radiate to the midback",
+      "Always resolves completely after vomiting"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes pancreatitis pain as commonly midepigastric, sometimes right or left upper quadrant, relatively rapid in onset, severe and constant, and sometimes radiating to the midback.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 91: Disorders of the Pancreas, p. 1208."
+  },
+  {
+    id: "ROSEN-GI-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 91: Disorders of the Pancreas",
+    category: "Gastrointestinal",
+    topic: "Pancreatitis complications",
+    page: "1208",
+    stem: "Which pulmonary complications are described in pancreatitis?",
+    options: [
+      "Pleural effusions, hypoxia, and ARDS",
+      "Pneumothorax in every patient",
+      "Upper airway obstruction from dental trauma",
+      "Foreign body aspiration only",
+      "No pulmonary complications"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes pulmonary complications including pleural effusions, hypoxia, and ARDS.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 91: Disorders of the Pancreas, p. 1208."
+  },
+  {
+    id: "ROSEN-GI-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 91: Disorders of the Pancreas",
+    category: "Gastrointestinal",
+    topic: "Pancreatitis disposition",
+    page: "1212",
+    stem: "What disposition principle is described for acute pancreatitis?",
+    options: [
+      "Almost all patients with acute pancreatitis should be admitted to hospital",
+      "All patients should be discharged after analgesia",
+      "Only patients with no pain should be admitted",
+      "Admission is never required unless CT is normal",
+      "Disposition is based only on age"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the course is unpredictable and complications may occur hours or days after onset, so almost all patients should be admitted.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 91: Disorders of the Pancreas, p. 1212."
+  },
+  {
+    id: "ROSEN-OBGYN-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 33: Acute Pelvic Pain in Women",
+    category: "Obstetrics and gynaecology",
+    topic: "Pelvic pain differential",
+    page: "266",
+    stem: "Why is a pregnancy test a key branch point in acute pelvic pain assessment?",
+    options: [
+      "A subset of pelvic pain causes occurs only in pregnancy",
+      "Pregnancy status never changes the differential diagnosis",
+      "Pregnancy testing replaces history and examination",
+      "Pregnancy testing is useful only after CT",
+      "Pregnancy testing is only relevant after menopause"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that because some causes of pelvic pain are found only in pregnancy, the pregnancy test is a key branch point.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 33: Acute Pelvic Pain in Women, p. 266."
+  },
+  {
+    id: "ROSEN-OBGYN-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 33: Acute Pelvic Pain in Women",
+    category: "Obstetrics and gynaecology",
+    topic: "Pelvic pain causes",
+    page: "267",
+    stem: "Which conditions are listed causes of pelvic pain in women? Select all that apply.",
+    options: [
+      "Ovarian torsion",
+      "Pelvic inflammatory disease",
+      "Ectopic pregnancy",
+      "Appendicitis",
+      "Dental avulsion"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen lists reproductive, pregnancy-related, intestinal, urinary, vascular, musculoskeletal, and neurologic or psychiatric causes of pelvic pain.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 33: Acute Pelvic Pain in Women, p. 267."
+  },
+  {
+    id: "ROSEN-OBGYN-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 33: Acute Pelvic Pain in Women",
+    category: "Obstetrics and gynaecology",
+    topic: "Ectopic pregnancy",
+    page: "267",
+    stem: "Which statement about ectopic pregnancy diagnosis is emphasised in Rosen's pelvic pain table?",
+    options: [
+      "It cannot be reliably excluded based on history and physical examination",
+      "It is excluded by mild pain",
+      "It is excluded if vaginal bleeding is absent",
+      "It is always diagnosed by bimanual examination alone",
+      "It occurs only after 20 weeks' gestation"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen notes that ectopic pregnancy cannot be reliably excluded based on history and physical examination.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 33: Acute Pelvic Pain in Women, p. 267."
+  },
+  {
+    id: "ROSEN-OBGYN-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 34: Vaginal Bleeding",
+    category: "Obstetrics and gynaecology",
+    topic: "Vaginal bleeding pregnancy status",
+    page: "275",
+    stem: "What is the most important factor in Rosen's diagnostic approach to vaginal bleeding?",
+    options: [
+      "Determine pregnancy status",
+      "Assume all bleeding is dysfunctional uterine bleeding",
+      "Avoid ultrasound in all pregnant patients",
+      "Perform pelvic examination before ultrasound after 20 weeks' gestation",
+      "Ignore haemodynamic status"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that the most important factor in the diagnostic algorithm is determining pregnancy status.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 34: Vaginal Bleeding, p. 275."
+  },
+  {
+    id: "ROSEN-OBGYN-0005",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 34: Vaginal Bleeding",
+    category: "Obstetrics and gynaecology",
+    topic: "Pregnancy testing",
+    page: "276",
+    stem: "If a urine pregnancy test is negative but ectopic pregnancy is still being considered, what should be performed?",
+    options: [
+      "Quantitative serum pregnancy test",
+      "No further pregnancy testing",
+      "Dental radiograph",
+      "Peak flow measurement",
+      "Patch testing"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that when a urine test is negative and ectopic pregnancy is still considered, a quantitative serum test should be performed.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 34: Vaginal Bleeding, p. 276."
+  },
+  {
+    id: "ROSEN-EYEENT-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 71: Ophthalmology",
+    category: "ENT, eye and oral",
+    topic: "Corneal abrasion symptoms",
+    page: "912",
+    stem: "Which symptoms may occur with corneal abrasion?",
+    options: [
+      "Foreign body sensation, pain, photophobia, and decreased visual acuity",
+      "Painless bilateral visual field loss only",
+      "Isolated dysuria",
+      "Chest pain radiating to the jaw",
+      "Abdominal distension only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen lists foreign body sensation, pain, photophobia, and decreased visual acuity as symptoms of corneal abrasion.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 71: Ophthalmology, p. 912."
+  },
+  {
+    id: "ROSEN-EYEENT-0002",
+    type: "multi",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 71: Ophthalmology",
+    category: "ENT, eye and oral",
+    topic: "Corneal abrasion management",
+    page: "912",
+    stem: "Which management points are described for corneal abrasions? Select all that apply.",
+    options: [
+      "Cycloplegia and topical antibiotics",
+      "Topical antibiotics with pseudomonal coverage for contact lens wearers",
+      "Avoid routine eye patching for simple corneal abrasions",
+      "Avoid wearing contact lenses while healing",
+      "Routine topical anaesthetic prescription for home use"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Rosen describes cycloplegia and topical antibiotics, pseudomonal coverage for contact lens wearers, avoiding routine eye patching, and avoiding contact lens wear.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 71: Ophthalmology, p. 912."
+  },
+  {
+    id: "ROSEN-EYEENT-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 71: Ophthalmology",
+    category: "ENT, eye and oral",
+    topic: "Acute angle closure glaucoma",
+    page: "922",
+    stem: "Which symptom cluster is described for primary angle closure glaucoma?",
+    options: [
+      "Abrupt severe eye pain, blurred vision, headache, nausea, vomiting, and halos around lights",
+      "Painless chronic bilateral visual field loss only",
+      "Isolated tooth mobility",
+      "Pain-free subconjunctival redness after Valsalva only",
+      "Transient dry eye only"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes abrupt severe eye pain, blurred vision, headache, nausea, vomiting, sometimes abdominal pain, and halos around lights.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 71: Ophthalmology, p. 922."
+  },
+  {
+    id: "ROSEN-EYEENT-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 70: Oral Medicine",
+    category: "ENT, eye and oral",
+    topic: "Avulsed tooth storage",
+    page: "904",
+    stem: "What is the best environment for an avulsed permanent tooth?",
+    options: [
+      "Its socket",
+      "A dry tissue",
+      "Plain water as the preferred medium",
+      "A sealed plastic bag without fluid",
+      "A hot drink"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that ideally the best environment for an avulsed tooth is its socket.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 70: Oral Medicine, p. 904."
+  },
+  {
+    id: "ROSEN-BEHAVIOUR-0001",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 110: Thought Disorders",
+    category: "Behavioural health",
+    topic: "Organic causes of abnormal behaviour",
+    page: "1465",
+    stem: "Which feature suggests an organic cause in a patient with abnormal behaviour?",
+    options: [
+      "New onset of symptoms after age 35 years",
+      "Long-standing unchanged symptoms from adolescence only",
+      "Normal vital signs and full orientation as the only finding",
+      "A known psychiatric diagnosis without any change",
+      "Isolated dental pain"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen lists new onset after age 35, rapid onset in a previously normal person, visual hallucinations, abnormal vital signs, and lethargy or disorientation as suggesting an organic cause.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 110: Thought Disorders, p. 1465."
+  },
+  {
+    id: "ROSEN-BEHAVIOUR-0002",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 110: Thought Disorders",
+    category: "Behavioural health",
+    topic: "Physical restraints",
+    page: "1465",
+    stem: "When should physical restraints be considered according to Rosen's key concepts?",
+    options: [
+      "Violent behaviour, verbal threats to staff, or escalating agitation despite verbal attempts to calm the patient",
+      "All patients with anxiety",
+      "All patients requiring blood tests",
+      "Patients with mild headache only",
+      "Patients with chest pain awaiting ECG"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen states that restraints should be considered for violent behaviour, verbal threats, or escalating agitation despite verbal de-escalation attempts.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 110: Thought Disorders, p. 1465."
+  },
+  {
+    id: "ROSEN-BEHAVIOUR-0003",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 110: Thought Disorders",
+    category: "Behavioural health",
+    topic: "Acute dystonia treatment",
+    page: "1464",
+    stem: "Which treatment is described for acute dystonic reactions from neuroleptic agents?",
+    options: [
+      "Intramuscular or intravenous benztropine 1 to 2 mg or diphenhydramine 25 to 50 mg",
+      "Discharge without therapy in all cases",
+      "High-dose salbutamol",
+      "Phenazopyridine",
+      "Needle thoracostomy"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes benztropine or diphenhydramine as treatment, usually resulting in immediate reversal of symptoms.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 110: Thought Disorders, p. 1464."
+  },
+  {
+    id: "ROSEN-BEHAVIOUR-0004",
+    type: "mcq",
+    book: "Rosen's Emergency Medicine: Concepts and Clinical Practice, 8th ed.",
+    chapter: "Chapter 110: Thought Disorders",
+    category: "Behavioural health",
+    topic: "Akathisia",
+    page: "1464",
+    stem: "How is akathisia characterised?",
+    options: [
+      "Motor restlessness with a physical need to be moving constantly",
+      "Complete paralysis with sensory loss",
+      "Painless visual field loss",
+      "An isolated fever syndrome",
+      "A form of dental avulsion"
+    ],
+    correctAnswer: 0,
+    explanation: "Rosen describes akathisia as motor restlessness with a physical need to be moving constantly.",
+    source: "Rosen's Emergency Medicine, 8th ed., Chapter 110: Thought Disorders, p. 1464."
   }
 ];
