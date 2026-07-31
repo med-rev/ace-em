@@ -311,7 +311,7 @@ window.QUESTIONS_TINTINALLI = [
     options: [
       "Etomidate 0.3 mg/kg",
       "Propofol 3 mg/kg in patients at risk for hypotension",
-      "Succinylcholine 0.1 mg/kg",
+      "Suxamethonium 0.1 mg/kg",
       "Rocuronium 0.1 mg/kg",
       "Fentanyl 10 micrograms/kg"
     ],
@@ -327,7 +327,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Airway and resuscitation",
     topic: "Rapid sequence intubation paralysis",
     page: "6",
-    stem: "Which paralytic dose is listed for succinylcholine during rapid sequence intubation?",
+    stem: "Which paralytic dose is listed for suxamethonium during rapid sequence intubation?",
     options: [
       "1 to 2 mg/kg of total body weight",
       "0.1 to 0.2 mg/kg of ideal body weight",
@@ -336,7 +336,7 @@ window.QUESTIONS_TINTINALLI = [
       "1 to 5 mg/hour infusion"
     ],
     correctAnswer: 0,
-    explanation: "Succinylcholine is commonly used at 1 to 2 mg/kg of total body weight unless there is risk of serious hyperkalaemia.",
+    explanation: "Suxamethonium is commonly used at 1 to 2 mg/kg of total body weight unless there is risk of serious hyperkalaemia.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 6."
   },
   {
@@ -970,7 +970,7 @@ window.QUESTIONS_TINTINALLI = [
     stem: "Which medication is no longer recommended in resuscitation for newborns with respiratory depression?",
     options: [
       "Naloxone",
-      "Epinephrine",
+      "Adrenaline",
       "Normal saline",
       "Oxygen",
       "Sodium bicarbonate for blood gas-guided significant metabolic acidosis"
@@ -1023,7 +1023,7 @@ window.QUESTIONS_TINTINALLI = [
     id: "TINT-ANAPHYLAXIS-0001",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
     topic: "Anaphylaxis initial care",
     page: "65",
@@ -1037,13 +1037,13 @@ window.QUESTIONS_TINTINALLI = [
     ],
     correctAnswer: 0,
     explanation: "Emergency department care and disposition begins with airway, breathing, and circulation.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0002",
     type: "multi",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
     topic: "Anaphylaxis monitoring and access",
     page: "65",
@@ -1056,34 +1056,34 @@ window.QUESTIONS_TINTINALLI = [
       "Avoid considering intubation in respiratory distress"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists cardiac monitoring, pulse oximetry, intravenous access, and oxygen as indicated by oximetry. Angioedema or respiratory distress should prompt early consideration for intubation.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "cardiac monitoring, pulse oximetry, intravenous access, and oxygen as indicated by oximetry. Angiooedema or respiratory distress should prompt early consideration for intubation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0003",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
     topic: "Anaphylaxis airway",
     page: "65",
     stem: "Which finding should prompt early consideration for intubation in an acute allergic reaction?",
     options: [
-      "Angioedema or respiratory distress",
+      "Angiooedema or respiratory distress",
       "Local itch without airway symptoms",
       "Resolved urticaria after exposure removal",
       "Mild nausea after oral intake",
       "Stable localised skin redness only"
     ],
     correctAnswer: 0,
-    explanation: "Angioedema or respiratory distress should prompt early consideration for intubation.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "Angiooedema or respiratory distress should prompt early consideration for intubation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0004",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
     topic: "Anaphylaxis exposure control",
     page: "65",
@@ -1091,43 +1091,43 @@ window.QUESTIONS_TINTINALLI = [
     options: [
       "Stopping an intravenous drug or removing a stinger when relevant",
       "Performing gastric decontamination for all ingested allergens",
-      "Delaying exposure management until epinephrine fails",
+      "Delaying exposure management until adrenaline fails",
       "Avoiding local first-aid measures",
       "Keeping clothing and jewellery in place during all presentations"
     ],
     correctAnswer: 0,
     explanation: "Limiting further exposure may be as simple as stopping an intravenous drug or removing a stinger. Gastric decontamination is not recommended for ingested allergens.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0005",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
-    topic: "Anaphylaxis epinephrine",
+    topic: "Anaphylaxis adrenaline",
     page: "65",
     stem: "What is the first-line therapy for anaphylaxis?",
     options: [
-      "Epinephrine",
+      "Adrenaline",
       "Sodium bicarbonate",
       "Naloxone",
       "Lactated Ringer's solution",
       "Carotid sinus massage"
     ],
     correctAnswer: 0,
-    explanation: "First-line therapy for anaphylaxis is epinephrine.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "First-line therapy for anaphylaxis is adrenaline.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0006",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
-    topic: "Anaphylaxis epinephrine dosing",
+    topic: "Anaphylaxis adrenaline dosing",
     page: "65",
-    stem: "In anaphylaxis without cardiovascular collapse, which adult intramuscular epinephrine dose is listed?",
+    stem: "In anaphylaxis without cardiovascular collapse, which adult intramuscular adrenaline dose is listed?",
     options: [
       "0.3 to 0.5 mg of 1:1000 intramuscularly in the thigh",
       "1 mEq/kg of 4.2% solution intravenously",
@@ -1136,18 +1136,18 @@ window.QUESTIONS_TINTINALLI = [
       "2 J/kg defibrillation energy"
     ],
     correctAnswer: 0,
-    explanation: "For patients without cardiovascular collapse, the listed adult dose is epinephrine 0.3 to 0.5 mg, or 0.3 to 0.5 mL of 1:1000, intramuscularly in the thigh.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "For patients without cardiovascular collapse, the listed adult dose is adrenaline 0.3 to 0.5 mg, or 0.3 to 0.5 mL of 1:1000, intramuscularly in the thigh.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0007",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
-    topic: "Anaphylaxis epinephrine dosing",
+    topic: "Anaphylaxis adrenaline dosing",
     page: "65",
-    stem: "What paediatric epinephrine dose is listed for anaphylaxis without cardiovascular collapse?",
+    stem: "What paediatric adrenaline dose is listed for anaphylaxis without cardiovascular collapse?",
     options: [
       "0.01 mg/kg intramuscularly",
       "0.1 mg/kg intramuscularly",
@@ -1156,18 +1156,18 @@ window.QUESTIONS_TINTINALLI = [
       "0.5 mg IV every 3 to 5 minutes"
     ],
     correctAnswer: 0,
-    explanation: "The listed paediatric epinephrine dose for anaphylaxis is 0.01 mg/kg intramuscularly.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "The listed paediatric adrenaline dose for anaphylaxis is 0.01 mg/kg intramuscularly.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-ANAPHYLAXIS-0008",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema",
     category: "Airway and resuscitation",
     topic: "Anaphylaxis refractory treatment",
     page: "65",
-    stem: "Which patients should receive intravenous epinephrine according to the anaphylaxis care excerpt?",
+    stem: "Which patients should receive intravenous adrenaline according to the anaphylaxis care excerpt?",
     options: [
       "Patients refractory to intramuscular dosing or with cardiovascular compromise",
       "All patients with local symptoms only",
@@ -1176,8 +1176,8 @@ window.QUESTIONS_TINTINALLI = [
       "Only patients with isolated urticaria and normal circulation"
     ],
     correctAnswer: 0,
-    explanation: "Patients refractory to intramuscular dosing or with cardiovascular compromise should receive intravenous epinephrine.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+    explanation: "Patients refractory to intramuscular dosing or with cardiovascular compromise should receive intravenous adrenaline.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angiooedema, p. 65."
   },
   {
     id: "TINT-PAIN-0001",
@@ -1196,7 +1196,7 @@ window.QUESTIONS_TINTINALLI = [
       "90% to 95%"
     ],
     correctAnswer: 0,
-    explanation: "The chapter states that acute pain is the chief complaint for 75% to 80% of all emergency department visits.",
+    explanation: "acute pain is the chief complaint for 75% to 80% of all emergency department visits.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   },
   {
@@ -1216,7 +1216,7 @@ window.QUESTIONS_TINTINALLI = [
       "Routine management of all minor wounds"
     ],
     correctAnswer: 0,
-    explanation: "The chapter states that procedural sedation and analgesia are often needed for painful interventions or diagnostic studies.",
+    explanation: "procedural sedation and analgesia are often needed for painful interventions or diagnostic studies.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   },
   {
@@ -1256,7 +1256,7 @@ window.QUESTIONS_TINTINALLI = [
       "They are accurate only in trauma patients"
     ],
     correctAnswer: 0,
-    explanation: "The chapter states that physiologic and behavioural responses to pain may have only a mild correlation, so they cannot be relied upon exclusively.",
+    explanation: "physiologic and behavioural responses to pain may have only a mild correlation, so they cannot be relied upon exclusively.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   },
   {
@@ -1296,7 +1296,7 @@ window.QUESTIONS_TINTINALLI = [
       "Only patients receiving oxygen"
     ],
     correctAnswer: 0,
-    explanation: "The chapter notes that validated pain scales may not be as accurate in elderly patients or trauma patients.",
+    explanation: "that validated pain scales may not be as accurate in elderly patients or trauma patients.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   },
   {
@@ -1336,18 +1336,18 @@ window.QUESTIONS_TINTINALLI = [
       "Avoid reassessment once an intervention has been given"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The chapter states that clinicians should determine the patient's perception of pain during primary assessment and continue reassessment after intervention. It also notes that children are vulnerable to oligoanalgesia, partly because of difficulty assessing pain and medication dosing unfamiliarity.",
+    explanation: "clinicians should determine the patient's perception of pain during primary assessment and continue reassessment after intervention. It also notes that children are vulnerable to oligoanalgesia, partly because of difficulty assessing pain and medication dosing unfamiliarity.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 7: Acute Pain Management and Procedural Sedation, p. 67."
   },
   {
     id: "TINT-LOCAL-0001",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Local anaesthetic with epinephrine",
+    topic: "Local anaesthetic with adrenaline",
     page: "",
-    stem: "What is one effect of adding epinephrine to local anaesthetic before administration?",
+    stem: "What is one effect of adding adrenaline to local anaesthetic before administration?",
     options: [
       "It increases the duration of anaesthesia",
       "It removes the need for wound haemostasis",
@@ -1356,38 +1356,38 @@ window.QUESTIONS_TINTINALLI = [
       "It makes maximum dose limits unnecessary"
     ],
     correctAnswer: 0,
-    explanation: "The source states that adding epinephrine increases the duration of anaesthesia, provides wound haemostasis, and slows systemic absorption.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "adding adrenaline increases the duration of anaesthesia, provides wound haemostasis, and slows systemic absorption.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0002",
     type: "multi",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Local anaesthetic with epinephrine",
+    topic: "Local anaesthetic with adrenaline",
     page: "",
-    stem: "Which effects are listed for adding epinephrine to local anaesthetic? Select all that apply.",
+    stem: "Which effects are listed for adding adrenaline to local anaesthetic? Select all that apply.",
     options: [
       "Increases duration of anaesthesia",
       "Provides wound haemostasis",
       "Slows systemic absorption",
       "Eliminates the need to observe dose limits",
-      "Makes bupivacaine onset faster than lidocaine in all cases"
+      "Makes bupivacaine onset faster than lignocaine in all cases"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source states that adding epinephrine increases duration, provides haemostasis, and slows systemic absorption.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "adding adrenaline increases duration, provides haemostasis, and slows systemic absorption.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0003",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Epinephrine precautions",
+    topic: "Adrenaline precautions",
     page: "",
-    stem: "In which situation should epinephrine be avoided with local anaesthetic according to the source excerpt?",
+    stem: "In which situation should adrenaline be avoided with local anaesthetic?",
     options: [
       "Suspected digital vascular injury or known peripheral vascular disease",
       "Any wound requiring local anaesthesia",
@@ -1396,18 +1396,18 @@ window.QUESTIONS_TINTINALLI = [
       "All scalp wounds"
     ],
     correctAnswer: 0,
-    explanation: "The source states epinephrine is safe for end-arterial fields but should be avoided where digital vascular injury is suspected or peripheral vascular disease is known.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "adrenaline is safe for end-arterial fields but should be avoided where digital vascular injury is suspected or peripheral vascular disease is known.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0004",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Lidocaine onset and duration",
+    topic: "Lignocaine onset and duration",
     page: "",
-    stem: "What onset and duration are listed for lidocaine, the most commonly used local anaesthetic in the emergency department?",
+    stem: "What onset and duration are listed for lignocaine, the most commonly used local anaesthetic in the emergency department?",
     options: [
       "2 to 5 minutes onset and 1 to 2 hours duration",
       "3 to 7 minutes onset and 90 minutes to 6 hours duration",
@@ -1416,18 +1416,18 @@ window.QUESTIONS_TINTINALLI = [
       "10 to 20 minutes onset and 20 minutes duration"
     ],
     correctAnswer: 0,
-    explanation: "The source states lidocaine has a 2- to 5-minute onset of effect and a 1- to 2-hour duration of effect.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "lignocaine has a 2- to 5-minute onset of effect and a 1- to 2-hour duration of effect.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0005",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Lidocaine maximum dose",
+    topic: "Lignocaine maximum dose",
     page: "",
-    stem: "What maximum infiltrative lidocaine dose is listed without epinephrine?",
+    stem: "What maximum infiltrative lignocaine dose is listed without adrenaline?",
     options: [
       "4.5 mg/kg",
       "7 mg/kg",
@@ -1436,18 +1436,18 @@ window.QUESTIONS_TINTINALLI = [
       "1 mEq/kg"
     ],
     correctAnswer: 0,
-    explanation: "The source lists the maximum dose of infiltrative lidocaine as 4.5 mg/kg without epinephrine.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "the maximum dose of infiltrative lignocaine as 4.5 mg/kg without adrenaline.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0006",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Lidocaine maximum dose with epinephrine",
+    topic: "Lignocaine maximum dose with adrenaline",
     page: "",
-    stem: "What maximum infiltrative lidocaine dose is listed with epinephrine?",
+    stem: "What maximum infiltrative lignocaine dose is listed with adrenaline?",
     options: [
       "7 mg/kg",
       "4.5 mg/kg",
@@ -1456,48 +1456,48 @@ window.QUESTIONS_TINTINALLI = [
       "0.01 mg/kg"
     ],
     correctAnswer: 0,
-    explanation: "The source lists the maximum dose of infiltrative lidocaine as 7 mg/kg with epinephrine.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "the maximum dose of infiltrative lignocaine as 7 mg/kg with adrenaline.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0007",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
-    topic: "Buffered lidocaine",
+    topic: "Buffered lignocaine",
     page: "",
-    stem: "What buffering approach is described to decrease the pain of lidocaine injection?",
+    stem: "What buffering approach is described to decrease the pain of lignocaine injection?",
     options: [
-      "Add 1 mL sodium bicarbonate to 9 mL lidocaine immediately before use",
-      "Add 9 mL sodium bicarbonate to 1 mL lidocaine several days before use",
-      "Add epinephrine only after injection",
-      "Dilute lidocaine with lactated Ringer's solution",
-      "Add bupivacaine to lidocaine in equal volumes"
+      "Add 1 mL sodium bicarbonate to 9 mL lignocaine immediately before use",
+      "Add 9 mL sodium bicarbonate to 1 mL lignocaine several days before use",
+      "Add adrenaline only after injection",
+      "Dilute lignocaine with lactated Ringer's solution",
+      "Add bupivacaine to lignocaine in equal volumes"
     ],
     correctAnswer: 0,
-    explanation: "The source states lidocaine is buffered by adding 1 mL sodium bicarbonate to 9 mL lidocaine, and for maximum effectiveness it should be added immediately before use.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "lignocaine is buffered by adding 1 mL sodium bicarbonate to 9 mL lignocaine, and for maximum effectiveness it should be added immediately before use.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-LOCAL-0008",
     type: "mcq",
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
-    chapter: "Chapter 8: Local Anesthesia and Regional Nerve Blocks",
+    chapter: "Chapter 8: Local Anaesthesia and Regional Nerve Blocks",
     category: "Pain and procedural care",
     topic: "Bupivacaine onset and duration",
     page: "",
-    stem: "Which statement best describes bupivacaine according to the source excerpt?",
+    stem: "Which statement best describes bupivacaine?",
     options: [
       "It has 3 to 7 minutes onset and 90 minutes to 6 hours duration, and is preferred for prolonged procedures",
       "It has 2 to 5 minutes onset and 1 to 2 hours duration, and is the most commonly used ED local anaesthetic",
-      "It has no dose maximum when used with epinephrine",
+      "It has no dose maximum when used with adrenaline",
       "It should never be used for prolonged procedures",
       "It is buffered by adding 1 mL sodium bicarbonate to 9 mL bupivacaine for maximum effect"
     ],
     correctAnswer: 0,
-    explanation: "The source states bupivacaine has a 3- to 7-minute onset and 90 minutes to 6 hours duration, and is preferred for prolonged procedures.",
-    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anesthesia and Regional Nerve Blocks."
+    explanation: "bupivacaine has a 3- to 7-minute onset and 90 minutes to 6 hours duration, and is preferred for prolonged procedures.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 8: Local Anaesthesia and Regional Nerve Blocks."
   },
   {
     id: "TINT-WOUND-0001",
@@ -1516,7 +1516,7 @@ window.QUESTIONS_TINTINALLI = [
       "To close the wound before assessment"
     ],
     correctAnswer: 0,
-    explanation: "The source states that repositioning the joint or extremity in the position assumed during injury may help identify underlying damaged structures.",
+    explanation: "repositioning the joint or extremity in the position assumed during injury may help identify underlying damaged structures.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 9: Principles of Wound Management."
   },
   {
@@ -1527,7 +1527,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Trauma and injuries",
     topic: "Wound assessment",
     page: "",
-    stem: "Which wound characteristics should be assessed according to the source excerpt? Select all that apply.",
+    stem: "Which wound characteristics should be assessed? Select all that apply.",
     options: [
       "Location",
       "Size",
@@ -1536,7 +1536,7 @@ window.QUESTIONS_TINTINALLI = [
       "Patient preference for suture colour as a primary diagnostic feature"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source states that wound location, size, shape, margins, and depth should be assessed.",
+    explanation: "wound location, size, shape, margins, and depth should be assessed.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 9: Principles of Wound Management."
   },
   {
@@ -1556,7 +1556,7 @@ window.QUESTIONS_TINTINALLI = [
       "Avoiding palpation of the wound area"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source says to pay particular attention to sensory and motor functions, tendon injury, vascular compromise, and injuries to specialised structures.",
+    explanation: "to pay particular attention to sensory and motor functions, tendon injury, vascular compromise, and injuries to specialised structures.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 9: Principles of Wound Management."
   },
   {
@@ -1576,7 +1576,7 @@ window.QUESTIONS_TINTINALLI = [
       "Deferring all pain control until after discharge"
     ],
     correctAnswer: 0,
-    explanation: "The source says to carefully palpate and inspect the wound and surrounding area to identify retained foreign body or bone injury, and to consider radiographic imaging when these complicating features are suspected.",
+    explanation: "to carefully palpate and inspect the wound and surrounding area to identify retained foreign body or bone injury, and to consider radiographic imaging when these complicating features are suspected.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 9: Principles of Wound Management."
   },
   {
@@ -1592,7 +1592,7 @@ window.QUESTIONS_TINTINALLI = [
       "Whether violation of the joint space may have occurred",
       "Whether the patient has sinus arrhythmia",
       "Whether routine antihistamine therapy is required",
-      "Whether epinephrine should be administered intramuscularly",
+      "Whether adrenaline should be administered intramuscularly",
       "Whether gastric decontamination is required"
     ],
     correctAnswer: 0,
@@ -1616,7 +1616,7 @@ window.QUESTIONS_TINTINALLI = [
       "Replacing assessment of vascular compromise"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source says proper wound preparation is an important first step to restoring integrity and function, preventing infection, and maximising cosmetic results.",
+    explanation: "proper wound preparation is an important first step to restoring integrity and function, preventing infection, and maximising cosmetic results.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 9: Principles of Wound Management."
   },
   {
@@ -1627,7 +1627,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Infectious disease",
     topic: "Rabies prognosis",
     page: "",
-    stem: "Which statement best reflects the prognosis of rabies infection described in the source excerpt?",
+    stem: "Which statement best reflects the prognosis of rabies infection described?",
     options: [
       "Almost all rabies infections are fatal, with only a few case reports of survival",
       "Rabies infection is usually self-limiting",
@@ -1636,7 +1636,7 @@ window.QUESTIONS_TINTINALLI = [
       "Rabies infection has no neurologic manifestations"
     ],
     correctAnswer: 0,
-    explanation: "The source states that almost all rabies infections are fatal, with only a few case reports of patient survival.",
+    explanation: "almost all rabies infections are fatal, with only a few case reports of patient survival.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., rabies content."
   },
   {
@@ -1656,7 +1656,7 @@ window.QUESTIONS_TINTINALLI = [
       "Diagnosis can be excluded by a normal pulse oximetry reading"
     ],
     correctAnswer: 0,
-    explanation: "The source states that during the incubation period there are no definitive diagnostic tests to confirm rabies infection.",
+    explanation: "during the incubation period there are no definitive diagnostic tests to confirm rabies infection.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., rabies content."
   },
   {
@@ -1676,7 +1676,7 @@ window.QUESTIONS_TINTINALLI = [
       "Isolated uncomplicated laceration without neurologic features"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source says rabies may be considered in unexplained rapidly progressive encephalitis, especially with autonomic instability, dysphagia, hydrophobia, or neurologic symptoms.",
+    explanation: "rabies may be considered in unexplained rapidly progressive encephalitis, especially with autonomic instability, dysphagia, hydrophobia, or neurologic symptoms.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., rabies content."
   },
   {
@@ -1687,7 +1687,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Infectious disease",
     topic: "Rabies final diagnosis",
     page: "",
-    stem: "How is the final diagnosis of rabies made according to the source excerpt?",
+    stem: "How is the final diagnosis of rabies made?",
     options: [
       "Postmortem analysis of brain tissue",
       "Pulse oximetry",
@@ -1696,7 +1696,7 @@ window.QUESTIONS_TINTINALLI = [
       "Immediate bedside blood glucose"
     ],
     correctAnswer: 0,
-    explanation: "The source states that the final diagnosis of rabies is made by postmortem analysis of brain tissue.",
+    explanation: "the final diagnosis of rabies is made by postmortem analysis of brain tissue.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., rabies content."
   },
   {
@@ -1716,7 +1716,7 @@ window.QUESTIONS_TINTINALLI = [
       "Replace ECG and biomarker assessment entirely"
     ],
     correctAnswer: 0,
-    explanation: "The source states that a detailed history and physical examination allows an emergency provider to risk stratify serious pathology in the differential diagnosis of a chest pain patient.",
+    explanation: "a detailed history and physical examination allows an emergency provider to risk stratify serious pathology in the differential diagnosis of a chest pain patient.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., chest pain content."
   },
   {
@@ -1736,7 +1736,7 @@ window.QUESTIONS_TINTINALLI = [
       "It confirms noncardiac chest pain in isolation"
     ],
     correctAnswer: 0,
-    explanation: "The source states that chest wall tenderness has been demonstrated in up to 15% of patients with acute myocardial infarction, making it unlikely to be useful by itself to completely exclude acute coronary syndrome.",
+    explanation: "chest wall tenderness has been demonstrated in up to 15% of patients with acute myocardial infarction, making it unlikely to be useful by itself to completely exclude acute coronary syndrome.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., chest pain content."
   },
   {
@@ -1756,7 +1756,7 @@ window.QUESTIONS_TINTINALLI = [
       "It is more reliable than history and physical examination"
     ],
     correctAnswer: 0,
-    explanation: "The source states that response to nitroglycerin or a gastrointestinal cocktail poorly discriminates between cardiac and noncardiac chest pain in isolation.",
+    explanation: "response to nitroglycerin or a gastrointestinal cocktail poorly discriminates between cardiac and noncardiac chest pain in isolation.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., chest pain content."
   },
   {
@@ -1767,7 +1767,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Cardiovascular",
     topic: "Acute ischaemia clinical findings",
     page: "",
-    stem: "Which findings may be present in patients with acute ischaemia according to the source excerpt? Select all that apply.",
+    stem: "Which findings may be present in patients with acute ischaemia? Select all that apply.",
     options: [
       "A third or fourth heart sound from changes in ventricular compliance",
       "A new murmur from ruptured cordae tendineae or aortic root dissection",
@@ -1776,7 +1776,7 @@ window.QUESTIONS_TINTINALLI = [
       "Chest wall tenderness that completely excludes acute myocardial infarction"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists third or fourth heart sounds, new murmurs, crackles from congestive heart failure, and tachycardia mechanisms. It specifically warns that chest wall tenderness can occur in AMI and does not completely exclude ACS by itself.",
+    explanation: "third or fourth heart sounds, new murmurs, crackles from congestive heart failure, and tachycardia mechanisms. It specifically warns that chest wall tenderness can occur in AMI and does not completely exclude ACS by itself.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., chest pain content."
   },
   {
@@ -1785,9 +1785,9 @@ window.QUESTIONS_TINTINALLI = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Chest pain content",
     category: "Cardiovascular",
-    topic: "Hemodynamic instability in acute ischaemia",
+    topic: "Haemodynamic instability in acute ischaemia",
     page: "",
-    stem: "What does the degree of haemodynamic instability in acute ischaemia depend on according to the source excerpt?",
+    stem: "What does the degree of haemodynamic instability in acute ischaemia depend on?",
     options: [
       "Amount of myocardium at risk, associated dysrhythmias, or pre-existing valvular or myocardial dysfunction",
       "Chest wall tenderness alone",
@@ -1796,7 +1796,7 @@ window.QUESTIONS_TINTINALLI = [
       "Patient age alone"
     ],
     correctAnswer: 0,
-    explanation: "The source states that haemodynamic instability depends on the amount of myocardium at risk, associated dysrhythmias, or pre-existing valvular or myocardial dysfunction.",
+    explanation: "haemodynamic instability depends on the amount of myocardium at risk, associated dysrhythmias, or pre-existing valvular or myocardial dysfunction.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., chest pain content."
   },
   {
@@ -1816,7 +1816,7 @@ window.QUESTIONS_TINTINALLI = [
       "Upper airway foreign body obstruction causing persistent stridor"
     ],
     correctAnswer: 0,
-    explanation: "The source describes airway inflammation causing recurrent wheezing, dyspnoea, and cough with airflow obstruction that is variably reversible as the primary pathologic event.",
+    explanation: "airway inflammation causing recurrent wheezing, dyspnoea, and cough with airflow obstruction that is variably reversible as the primary pathologic event.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1836,7 +1836,7 @@ window.QUESTIONS_TINTINALLI = [
       "Chest wall tenderness alone"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists viral infections, allergens, exercise, and environmental irritants such as cigarette smoke and cold air as common triggers.",
+    explanation: "viral infections, allergens, exercise, and environmental irritants such as cigarette smoke and cold air as common triggers.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1856,7 +1856,7 @@ window.QUESTIONS_TINTINALLI = [
       "Postmortem brain tissue confirmation"
     ],
     correctAnswer: 0,
-    explanation: "The source states that wheezing is the hallmark of an acute asthma exacerbation.",
+    explanation: "wheezing is the hallmark of an acute asthma exacerbation.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1876,7 +1876,7 @@ window.QUESTIONS_TINTINALLI = [
       "Definitive rabies diagnosis"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists wheezing as the hallmark and notes associated findings may include cough, shortness of breath, and chest tightness or pain.",
+    explanation: "wheezing as the hallmark and notes associated findings may include cough, shortness of breath, and chest tightness or pain.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1887,7 +1887,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Respiratory",
     topic: "Asthma severity assessment",
     page: "",
-    stem: "Which clinical features help define asthma illness severity according to the source excerpt? Select all that apply.",
+    stem: "Which clinical features help define asthma illness severity? Select all that apply.",
     options: [
       "Degree of wheezing",
       "Respiratory rate",
@@ -1896,7 +1896,7 @@ window.QUESTIONS_TINTINALLI = [
       "Response to nitroglycerin alone"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source states severity is defined using degree of wheezing, respiratory rate, work of breathing indicated by retractions or nasal flaring, aeration quality, and inspiratory/expiratory ratio.",
+    explanation: "severity is defined using degree of wheezing, respiratory rate, work of breathing indicated by retractions or nasal flaring, aeration quality, and inspiratory/expiratory ratio.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1916,7 +1916,7 @@ window.QUESTIONS_TINTINALLI = [
       "It eliminates the need to assess work of breathing"
     ],
     correctAnswer: 0,
-    explanation: "The source states serial assessments are key because changes in clinical status and response to treatment are usually more relevant to outcome and need for admission than severity at presentation.",
+    explanation: "serial assessments are key because changes in clinical status and response to treatment are usually more relevant to outcome and need for admission than severity at presentation.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., asthma and obstructive pulmonary disease content."
   },
   {
@@ -1936,7 +1936,7 @@ window.QUESTIONS_TINTINALLI = [
       "Sepsis is excluded by tachycardia"
     ],
     correctAnswer: 0,
-    explanation: "The source states that sepsis may be apparent initially in some critically ill patients, but in other cases it can be challenging to identify early in the evaluation.",
+    explanation: "sepsis may be apparent initially in some critically ill patients, but in other cases it can be challenging to identify early in the evaluation.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -1956,7 +1956,7 @@ window.QUESTIONS_TINTINALLI = [
       "Normal vital signs as definitive confirmation of sepsis"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists hyperthermia or hypothermia, tachycardia, hypotension, and tachypnoea as abnormal vital signs that may suggest sepsis in the right clinical circumstances.",
+    explanation: "hyperthermia or hypothermia, tachycardia, hypotension, and tachypnoea as abnormal vital signs that may suggest sepsis in the right clinical circumstances.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -1976,7 +1976,7 @@ window.QUESTIONS_TINTINALLI = [
       "All patients"
     ],
     correctAnswer: 0,
-    explanation: "The source states that up to 40% of patients presenting with undifferentiated hypotension are later diagnosed with septic shock when a source of infection is identified through diagnostic testing.",
+    explanation: "up to 40% of patients presenting with undifferentiated hypotension are later diagnosed with septic shock when a source of infection is identified through diagnostic testing.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -1996,7 +1996,7 @@ window.QUESTIONS_TINTINALLI = [
       "Cardiogenic shock only"
     ],
     correctAnswer: 0,
-    explanation: "The source states that sepsis has traditionally been categorised as a type of distributive shock.",
+    explanation: "sepsis has traditionally been categorised as a type of distributive shock.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -2016,7 +2016,7 @@ window.QUESTIONS_TINTINALLI = [
       "No relationship to infection source"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source describes traditional sepsis shock as distributive shock associated with peripheral vasodilation, warm extremities, and a compensatory increase in cardiac output, while noting this does not reflect all presentations.",
+    explanation: "traditional sepsis shock as distributive shock associated with peripheral vasodilation, warm extremities, and a compensatory increase in cardiac output, while noting this does not reflect all presentations.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -2027,7 +2027,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Infectious disease",
     topic: "Cold shock in sepsis",
     page: "",
-    stem: "What combination may manifest as cold shock in sepsis according to the source excerpt?",
+    stem: "What combination may manifest as cold shock in sepsis?",
     options: [
       "Intravascular volume depletion and septic cardiomyopathy",
       "Validated pain scales and local anaesthetic buffering",
@@ -2036,7 +2036,7 @@ window.QUESTIONS_TINTINALLI = [
       "Tissue adhesive and local wound haemostasis"
     ],
     correctAnswer: 0,
-    explanation: "The source states that the combination of intravascular volume depletion and septic cardiomyopathy may manifest as cold shock with impaired peripheral perfusion and cool extremities.",
+    explanation: "the combination of intravascular volume depletion and septic cardiomyopathy may manifest as cold shock with impaired peripheral perfusion and cool extremities.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -2056,7 +2056,7 @@ window.QUESTIONS_TINTINALLI = [
       "It makes vital signs irrelevant"
     ],
     correctAnswer: 0,
-    explanation: "The source explicitly cautions that the traditional distributive shock description does not accurately reflect the presentation of all patients with sepsis.",
+    explanation: "the traditional distributive shock description does not accurately reflect the presentation of all patients with sepsis.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., sepsis content."
   },
   {
@@ -2067,16 +2067,16 @@ window.QUESTIONS_TINTINALLI = [
     category: "Toxicology and pharmacology",
     topic: "Empiric toxicology testing",
     page: "557",
-    stem: "Which empiric tests should be considered in all potentially poisoned patients according to the source excerpt?",
+    stem: "Which empiric tests should be considered in all potentially poisoned patients?",
     options: [
-      "Acetaminophen and aspirin",
+      "Paracetamol and aspirin",
       "Rabies antigen and antibody testing",
       "Pain scale and wound margin measurement",
       "Carotid sinus massage response and Valsalva response",
       "Troponin only"
     ],
     correctAnswer: 0,
-    explanation: "The source states to consider empiric testing for acetaminophen and aspirin in all potentially poisoned patients.",
+    explanation: "to consider empiric testing for paracetamol and aspirin in all potentially poisoned patients.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 557."
   },
   {
@@ -2107,7 +2107,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Toxicology and pharmacology",
     topic: "Gross decontamination",
     page: "557",
-    stem: "When should gross decontamination occur for a poisoned patient according to the source excerpt?",
+    stem: "When should gross decontamination occur for a poisoned patient?",
     options: [
       "Before patient entry into the emergency department",
       "Only after discharge",
@@ -2116,7 +2116,7 @@ window.QUESTIONS_TINTINALLI = [
       "Never before emergency department entry"
     ],
     correctAnswer: 0,
-    explanation: "The source states that gross decontamination should occur prior to patient entry into the emergency department.",
+    explanation: "gross decontamination should occur prior to patient entry into the emergency department.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 557."
   },
   {
@@ -2136,7 +2136,7 @@ window.QUESTIONS_TINTINALLI = [
       "Avoid personal protective gear when contamination is suspected"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source lists universal precautions, personal protective gear, and removal/bagging of the victim's clothing and jewellery.",
+    explanation: "universal precautions, personal protective gear, and removal/bagging of the victim's clothing and jewellery.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 557."
   },
   {
@@ -2147,7 +2147,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Toxicology and pharmacology",
     topic: "Sympathomimetic toxidrome",
     page: "556",
-    stem: "Which features are listed with sympathomimetic poisoning in the source excerpt?",
+    stem: "Which features are listed with sympathomimetic poisoning?",
     options: [
       "Agitation, tachycardia, hypertension, hyperpyrexia, and diaphoresis",
       "Hydrophobia, dysphagia, and postmortem brain tissue confirmation",
@@ -2156,7 +2156,7 @@ window.QUESTIONS_TINTINALLI = [
       "Joint-space violation and wound margin assessment"
     ],
     correctAnswer: 0,
-    explanation: "The source associates sympathomimetic agents such as amphetamines, cocaine, and cathinones with agitation, tachycardia, hypertension, hyperpyrexia, and diaphoresis.",
+    explanation: "sympathomimetic agents such as amphetamines, cocaine, and cathinones with agitation, tachycardia, hypertension, hyperpyrexia, and diaphoresis.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 556."
   },
   {
@@ -2176,7 +2176,7 @@ window.QUESTIONS_TINTINALLI = [
       "Lactated Ringer's solution"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source lists amphetamines, cocaine, and cathinones as sympathomimetic agents.",
+    explanation: "amphetamines, cocaine, and cathinones as sympathomimetic agents.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 556."
   },
   {
@@ -2196,7 +2196,7 @@ window.QUESTIONS_TINTINALLI = [
       "Postmortem brain tissue requirement for confirmation"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source lists hyperpyrexia among features and seizures and acute coronary syndrome among complications associated with sympathomimetic poisoning.",
+    explanation: "hyperpyrexia among features and seizures and acute coronary syndrome among complications associated with sympathomimetic poisoning.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 100: General Management of the Poisoned Patient, p. 556."
   },
   {
@@ -2207,7 +2207,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Headache classification",
     page: "",
-    stem: "How can headaches be classified according to the source excerpt?",
+    stem: "How can headaches be classified?",
     options: [
       "Primary or secondary",
       "Warm or cold shock",
@@ -2216,7 +2216,7 @@ window.QUESTIONS_TINTINALLI = [
       "Local or regional anaesthetic"
     ],
     correctAnswer: 0,
-    explanation: "The source states that headaches can be classified as primary or secondary.",
+    explanation: "headaches can be classified as primary or secondary.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., headache content."
   },
   {
@@ -2227,7 +2227,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Primary headache",
     page: "",
-    stem: "Which description best fits primary headaches in the source excerpt?",
+    stem: "Which description best fits primary headaches?",
     options: [
       "They are associated with normal physical examination findings, are self-limited, and may be recurrent",
       "They are always caused by tumour or vascular malformation",
@@ -2256,7 +2256,7 @@ window.QUESTIONS_TINTINALLI = [
       "Tumour as the primary headache category"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source lists physiologic or functional primary headaches, including migraine, tension, and cluster headaches.",
+    explanation: "physiologic or functional primary headaches, including migraine, tension, and cluster headaches.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., headache content."
   },
   {
@@ -2267,7 +2267,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Secondary headache",
     page: "",
-    stem: "Which statement best describes secondary headaches according to the source excerpt?",
+    stem: "Which statement best describes secondary headaches?",
     options: [
       "They are usually anatomic or infectious and have higher morbidity and mortality if left untreated",
       "They are always self-limited with normal examination findings",
@@ -2287,7 +2287,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Secondary headache historical red flags",
     page: "",
-    stem: "Which historical findings suggest secondary headache according to the source excerpt? Select all that apply.",
+    stem: "Which historical findings suggest secondary headache? Select all that apply.",
     options: [
       "Acute onset",
       "Associated fever or stiff neck",
@@ -2296,7 +2296,7 @@ window.QUESTIONS_TINTINALLI = [
       "Normal recurrent self-limited headache with no associated features"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists acute onset, fever or stiff neck, morning vomiting, behavioural changes, altered mental status, worst-ever headache, sleep disturbance, trauma or toxic exposure, and aggravation by cough, Valsalva, or lying down as historical findings suggesting secondary headache.",
+    explanation: "acute onset, fever or stiff neck, morning vomiting, behavioural changes, altered mental status, worst-ever headache, sleep disturbance, trauma or toxic exposure, and aggravation by cough, Valsalva, or lying down as historical findings suggesting secondary headache.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., headache content."
   },
   {
@@ -2307,16 +2307,16 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Secondary headache physical findings",
     page: "",
-    stem: "Which physical findings are suggestive of secondary headache according to the source excerpt? Select all that apply.",
+    stem: "Which physical findings are suggestive of secondary headache? Select all that apply.",
     options: [
       "Blood pressure abnormalities",
       "Nuchal rigidity",
-      "Papilledema or retinal haemorrhage",
+      "Papilloedema or retinal haemorrhage",
       "Neurologic findings such as altered mental status, ataxia, or hemiparesis",
       "Normal physical examination findings as the defining feature"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "Physical findings suggestive of secondary headache include blood pressure abnormalities, nuchal rigidity, head tilt, ptosis, retinal haemorrhage or papilledema, visual field defects, and neurologic findings such as altered mental status, ataxia, and hemiparesis.",
+    explanation: "Physical findings suggestive of secondary headache include blood pressure abnormalities, nuchal rigidity, head tilt, ptosis, retinal haemorrhage or papilloedema, visual field defects, and neurologic findings such as altered mental status, ataxia, and hemiparesis.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., headache content."
   },
   {
@@ -2336,7 +2336,7 @@ window.QUESTIONS_TINTINALLI = [
       "Assessing wound margins only"
     ],
     correctAnswer: 0,
-    explanation: "The source states that careful history and physical examination should focus on identifying or excluding secondary headaches.",
+    explanation: "careful history and physical examination should focus on identifying or excluding secondary headaches.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., headache content."
   },
   {
@@ -2351,12 +2351,12 @@ window.QUESTIONS_TINTINALLI = [
     options: [
       "Dyspnoea and pleuritic chest pain",
       "Hydrophobia and dysphagia",
-      "Morning vomiting and papilledema",
+      "Morning vomiting and papilloedema",
       "Local wound pain and retained foreign body sensation",
       "Ear pain and dental abscess"
     ],
     correctAnswer: 0,
-    explanation: "The source states that the most common symptoms of acute pulmonary embolism are dyspnoea and pleuritic chest pain.",
+    explanation: "the most common symptoms of acute pulmonary embolism are dyspnoea and pleuritic chest pain.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2367,7 +2367,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Cardiovascular",
     topic: "Pulmonary embolism syncope",
     page: "168",
-    stem: "Syncope occurs in approximately what proportion of patients with pulmonary embolism according to the source excerpt?",
+    stem: "Syncope occurs in approximately what proportion of patients with pulmonary embolism?",
     options: [
       "3% to 4%",
       "15% to 20%",
@@ -2376,7 +2376,7 @@ window.QUESTIONS_TINTINALLI = [
       "Nearly all patients"
     ],
     correctAnswer: 0,
-    explanation: "The source states that syncope occurs in 3% to 4% of patients with pulmonary embolism and can be accompanied by convulsions or seizures.",
+    explanation: "syncope occurs in 3% to 4% of patients with pulmonary embolism and can be accompanied by convulsions or seizures.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2387,7 +2387,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Cardiovascular",
     topic: "Pulmonary embolism physical findings",
     page: "168",
-    stem: "Which physical findings may accompany pulmonary embolism according to the source excerpt? Select all that apply.",
+    stem: "Which physical findings may accompany pulmonary embolism? Select all that apply.",
     options: [
       "Hypoxaemia",
       "Tachypnoea",
@@ -2396,7 +2396,7 @@ window.QUESTIONS_TINTINALLI = [
       "Definitive postmortem brain tissue findings"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists hypoxaemia, tachypnoea, tachycardia, haemoptysis, diaphoresis, and low-grade fever as possible physical findings accompanying pulmonary embolism.",
+    explanation: "hypoxaemia, tachypnoea, tachycardia, haemoptysis, diaphoresis, and low-grade fever as possible physical findings accompanying pulmonary embolism.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2416,7 +2416,7 @@ window.QUESTIONS_TINTINALLI = [
       "None"
     ],
     correctAnswer: 0,
-    explanation: "The source states that clinical signs of deep vein thrombosis occur in about 50% of patients with pulmonary embolism.",
+    explanation: "clinical signs of deep vein thrombosis occur in about 50% of patients with pulmonary embolism.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2436,7 +2436,7 @@ window.QUESTIONS_TINTINALLI = [
       "Exclusion of DVT signs"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source states that massive pulmonary embolism can cause hypotension, severe hypoxaemia, or cardiopulmonary arrest.",
+    explanation: "massive pulmonary embolism can cause hypotension, severe hypoxaemia, or cardiopulmonary arrest.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2447,7 +2447,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Cardiovascular",
     topic: "Pulmonary embolism presentation",
     page: "168",
-    stem: "Which statement best reflects the clinical presentation of venous thromboembolism according to the source excerpt?",
+    stem: "Which statement best reflects the clinical presentation of venous thromboembolism?",
     options: [
       "The presentation can be insidious, and PE size may correlate poorly with symptom severity",
       "The presentation is always sudden and severe",
@@ -2456,7 +2456,7 @@ window.QUESTIONS_TINTINALLI = [
       "PE always presents with clinical DVT signs"
     ],
     correctAnswer: 0,
-    explanation: "The source states that VTE presentation can be insidious and that there may be poor correlation between PE size and symptom severity.",
+    explanation: "VTE presentation can be insidious and that there may be poor correlation between PE size and symptom severity.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2476,7 +2476,7 @@ window.QUESTIONS_TINTINALLI = [
       "Primary headache only"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists asthma, bronchitis, chronic obstructive pulmonary disease, pleural effusion, pneumonia, and pneumothorax among pulmonary disorders in the differential diagnosis for symptoms concerning for pulmonary embolism.",
+    explanation: "asthma, bronchitis, chronic obstructive pulmonary disease, pleural effusion, pneumonia, and pneumothorax among pulmonary disorders in the differential diagnosis for symptoms concerning for pulmonary embolism.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2496,7 +2496,7 @@ window.QUESTIONS_TINTINALLI = [
       "Migraine without neurologic features"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source states that DVT-associated extremity pain and swelling may resemble cellulitis, congestive heart failure, musculoskeletal injuries, and venous stasis without thrombosis.",
+    explanation: "DVT-associated extremity pain and swelling may resemble cellulitis, congestive heart failure, musculoskeletal injuries, and venous stasis without thrombosis.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., pulmonary embolism content, p. 168."
   },
   {
@@ -2507,7 +2507,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Gastrointestinal",
     topic: "Surgical consultation and admission",
     page: "",
-    stem: "Which diagnoses require immediate surgical consultation with hospital admission according to the source excerpt? Select all that apply.",
+    stem: "Which diagnoses require immediate surgical consultation with hospital admission? Select all that apply.",
     options: [
       "Acute cholecystitis",
       "Gallstone pancreatitis",
@@ -2516,7 +2516,7 @@ window.QUESTIONS_TINTINALLI = [
       "Primary tension headache"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source states that patients diagnosed with acute cholecystitis, gallstone pancreatitis, or ascending cholangitis require immediate surgical consultation with hospital admission.",
+    explanation: "patients diagnosed with acute cholecystitis, gallstone pancreatitis, or ascending cholangitis require immediate surgical consultation with hospital admission.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., biliary and pancreatic disease content."
   },
   {
@@ -2536,7 +2536,7 @@ window.QUESTIONS_TINTINALLI = [
       "Sinus arrhythmia"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source states that choledocholithiasis, gallstone pancreatitis, or ascending cholangitis may require urgent gastroenterology consultation to facilitate ERCP and sphincterotomy.",
+    explanation: "choledocholithiasis, gallstone pancreatitis, or ascending cholangitis may require urgent gastroenterology consultation to facilitate ERCP and sphincterotomy.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., biliary and pancreatic disease content."
   },
   {
@@ -2547,7 +2547,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Gastrointestinal",
     topic: "Systemic toxicity or sepsis",
     page: "",
-    stem: "What disposition is warranted by signs of systemic toxicity or sepsis in biliary/pancreatic disease according to the source excerpt?",
+    stem: "What disposition is warranted by signs of systemic toxicity or sepsis in biliary/pancreatic disease?",
     options: [
       "Admission to the intensive care unit pending surgical treatment",
       "Discharge after symptoms abate for 1 hour",
@@ -2556,7 +2556,7 @@ window.QUESTIONS_TINTINALLI = [
       "No further assessment required"
     ],
     correctAnswer: 0,
-    explanation: "The source states that signs of systemic toxicity or sepsis warrant admission to the intensive care unit pending surgical treatment.",
+    explanation: "signs of systemic toxicity or sepsis warrant admission to the intensive care unit pending surgical treatment.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., biliary and pancreatic disease content."
   },
   {
@@ -2567,7 +2567,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Gastrointestinal",
     topic: "Uncomplicated biliary colic disposition",
     page: "",
-    stem: "Which patient with uncomplicated biliary colic may be discharged home according to the source excerpt?",
+    stem: "Which patient with uncomplicated biliary colic may be discharged home?",
     options: [
       "A patient whose symptoms abate with supportive therapy within 4 to 6 hours of onset and who can maintain oral hydration",
       "A patient with ascending cholangitis",
@@ -2576,7 +2576,7 @@ window.QUESTIONS_TINTINALLI = [
       "A patient with acute cholecystitis"
     ],
     correctAnswer: 0,
-    explanation: "The source states that patients with uncomplicated biliary colic whose symptoms abate with supportive therapy within 4 to 6 hours of onset can be discharged if they are able to maintain oral hydration.",
+    explanation: "patients with uncomplicated biliary colic whose symptoms abate with supportive therapy within 4 to 6 hours of onset can be discharged if they are able to maintain oral hydration.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., biliary and pancreatic disease content."
   },
   {
@@ -2596,7 +2596,7 @@ window.QUESTIONS_TINTINALLI = [
       "No follow-up concerns are needed after discharge"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source states patients should return if fever develops, abdominal pain worsens, intractable vomiting occurs, or another significant attack occurs before follow-up.",
+    explanation: "patients should return if fever develops, abdominal pain worsens, intractable vomiting occurs, or another significant attack occurs before follow-up.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., biliary and pancreatic disease content."
   },
   {
@@ -2607,7 +2607,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Neurology",
     topic: "Thermal causes of altered mental status",
     page: "",
-    stem: "Which thermal conditions are associated with altered mental status according to the source excerpt? Select all that apply.",
+    stem: "Which thermal conditions are associated with altered mental status? Select all that apply.",
     options: [
       "Progressive hypothermia",
       "Temperatures greater than 41°C",
@@ -2616,7 +2616,7 @@ window.QUESTIONS_TINTINALLI = [
       "Local wound margin irregularity"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source states progressive hypothermia leads to insidious altered mental status and temperatures greater than 41°C can lead to headache, weakness, dizziness, confusion, euphoria, combativeness, and altered mental status.",
+    explanation: "progressive hypothermia leads to insidious altered mental status and temperatures greater than 41°C can lead to headache, weakness, dizziness, confusion, euphoria, combativeness, and altered mental status.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2636,7 +2636,7 @@ window.QUESTIONS_TINTINALLI = [
       "Uncomplicated biliary colic"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source lists bacterial meningitis, encephalitis, and brain abscess as important causes of altered mental status in children, especially altered mental status with fever.",
+    explanation: "bacterial meningitis, encephalitis, and brain abscess as important causes of altered mental status in children, especially altered mental status with fever.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2656,7 +2656,7 @@ window.QUESTIONS_TINTINALLI = [
       "Chest wall tenderness before dyspnoea"
     ],
     correctAnswer: 0,
-    explanation: "The source states that brain abscess is characterised by fever and headache before altered mental status changes.",
+    explanation: "brain abscess is characterised by fever and headache before altered mental status changes.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2676,7 +2676,7 @@ window.QUESTIONS_TINTINALLI = [
       "Only through a primary tension headache pattern"
     ],
     correctAnswer: 0,
-    explanation: "The source states that any systemic infection associated with vasculitis or shock may lead to altered mental status secondary to cerebral hypoperfusion.",
+    explanation: "any systemic infection associated with vasculitis or shock may lead to altered mental status secondary to cerebral hypoperfusion.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2696,7 +2696,7 @@ window.QUESTIONS_TINTINALLI = [
       "Uncomplicated asthma trigger exposure only"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists subarachnoid, intracerebral, or intraventricular haemorrhages, and venous thrombosis as intracerebral vascular disorders associated with altered mental status.",
+    explanation: "subarachnoid, intracerebral, or intraventricular haemorrhages, and venous thrombosis as intracerebral vascular disorders associated with altered mental status.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2716,7 +2716,7 @@ window.QUESTIONS_TINTINALLI = [
       "Validated pain scale use"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source states subarachnoid, intracerebral, or intraventricular haemorrhages can be seen with trauma, ruptured aneurysm, or arteriovenous malformations, and venous thrombosis can follow severe dehydration or pyogenic infection of the mastoid, orbit, middle ear, or sinuses.",
+    explanation: "subarachnoid, intracerebral, or intraventricular haemorrhages can be seen with trauma, ruptured aneurysm, or arteriovenous malformations, and venous thrombosis can follow severe dehydration or pyogenic infection of the mastoid, orbit, middle ear, or sinuses.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., altered mental status content."
   },
   {
@@ -2727,7 +2727,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Renal and genitourinary",
     topic: "Pyelonephritis definition",
     page: "",
-    stem: "How is pyelonephritis defined in the retrieved source excerpt?",
+    stem: "How is pyelonephritis defined?",
     options: [
       "An infection of upper urinary tract structures including the ureters and kidneys",
       "A lower urinary tract infection limited to the bladder only",
@@ -2736,7 +2736,7 @@ window.QUESTIONS_TINTINALLI = [
       "A traumatic renal injury"
     ],
     correctAnswer: 0,
-    explanation: "The source defines pyelonephritis as an infection of upper urinary tract structures including the ureters and kidneys.",
+    explanation: "pyelonephritis as an infection of upper urinary tract structures including the ureters and kidneys.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2747,7 +2747,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Renal and genitourinary",
     topic: "Upper versus lower UTI",
     page: "",
-    stem: "What is the differentiation of upper and lower urinary tract infection based on according to the source excerpt?",
+    stem: "What is the differentiation of upper and lower urinary tract infection based on?",
     options: [
       "History and physical examination",
       "Postmortem analysis",
@@ -2756,7 +2756,7 @@ window.QUESTIONS_TINTINALLI = [
       "Presence of chest wall tenderness"
     ],
     correctAnswer: 0,
-    explanation: "The source states that differentiation of upper and lower UTIs is based on history and physical examination.",
+    explanation: "differentiation of upper and lower UTIs is based on history and physical examination.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2776,7 +2776,7 @@ window.QUESTIONS_TINTINALLI = [
       "Patients with underlying predisposing medical conditions increasing infection recurrence"
     ],
     correctAnswer: 0,
-    explanation: "The source describes uncomplicated UTI as occurring in young, healthy, nonpregnant women with structurally and functionally normal urinary tracts.",
+    explanation: "uncomplicated UTI as occurring in young, healthy, nonpregnant women with structurally and functionally normal urinary tracts.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2787,7 +2787,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Renal and genitourinary",
     topic: "Complicated UTI",
     page: "",
-    stem: "Which patients are included in the complicated UTI description in the retrieved excerpt? Select all that apply.",
+    stem: "Which patients are included in the complicated UTI description? Select all that apply.",
     options: [
       "All men",
       "Women with structural or functional genitourinary abnormalities",
@@ -2796,7 +2796,7 @@ window.QUESTIONS_TINTINALLI = [
       "Patients whose antimicrobial effectiveness may be reduced by underlying conditions"
     ],
     correctAnswers: [0, 1, 2, 4],
-    explanation: "The source describes complicated UTI as including all men and women with structural or functional genitourinary abnormalities or underlying predisposing medical conditions that increase risk or recurrence or reduce antimicrobial therapy effectiveness.",
+    explanation: "complicated UTI as including all men and women with structural or functional genitourinary abnormalities or underlying predisposing medical conditions that increase risk or recurrence or reduce antimicrobial therapy effectiveness.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2807,7 +2807,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Renal and genitourinary",
     topic: "Asymptomatic bacteriuria",
     page: "",
-    stem: "How is asymptomatic bacteriuria described in the source excerpt?",
+    stem: "How is asymptomatic bacteriuria described?",
     options: [
       "Significant bacteria in urine without signs or symptoms referable to urinary tract infection",
       "Fever and flank pain with ureteric infection",
@@ -2816,7 +2816,7 @@ window.QUESTIONS_TINTINALLI = [
       "A diagnosis that always requires treatment"
     ],
     correctAnswer: 0,
-    explanation: "The source describes asymptomatic bacteriuria as significant bacteria in urine without signs or symptoms referable to a urinary tract infection.",
+    explanation: "asymptomatic bacteriuria as significant bacteria in urine without signs or symptoms referable to a urinary tract infection.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2827,7 +2827,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Renal and genitourinary",
     topic: "Asymptomatic bacteriuria threshold",
     page: "",
-    stem: "What is the usual cutoff described for asymptomatic bacteriuria in the source excerpt?",
+    stem: "What is the usual cutoff described for asymptomatic bacteriuria?",
     options: [
       "A single organism isolated in a quantity of at least 100,000 colony forming units/mL",
       "Any organism isolated in any quantity",
@@ -2836,7 +2836,7 @@ window.QUESTIONS_TINTINALLI = [
       "A negative urine culture with urinary symptoms"
     ],
     correctAnswer: 0,
-    explanation: "The source states the usual cutoff is a single organism isolated in a quantity of at least 100,000 colony forming units/mL.",
+    explanation: "the usual cutoff is a single organism isolated in a quantity of at least 100,000 colony forming units/mL.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2856,7 +2856,7 @@ window.QUESTIONS_TINTINALLI = [
       "All patients with asthma symptoms"
     ],
     correctAnswers: [0, 1],
-    explanation: "The source states screening and treatment of asymptomatic bacteriuria is not generally recommended, except for women who are pregnant or men who are going to undergo transurethral prostate resection.",
+    explanation: "screening and treatment of asymptomatic bacteriuria is not generally recommended, except for women who are pregnant or men who are going to undergo transurethral prostate resection.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., urinary tract infection content."
   },
   {
@@ -2876,7 +2876,7 @@ window.QUESTIONS_TINTINALLI = [
       "Uncomplicated biliary colic only"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists worsening of preexisting hypertension, transient hypertension, renal disease, fatty liver disease of pregnancy, and coagulation disorders in the differential diagnosis of preeclampsia.",
+    explanation: "worsening of preexisting hypertension, transient hypertension, renal disease, fatty liver disease of pregnancy, and coagulation disorders in the differential diagnosis of preeclampsia.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2896,7 +2896,7 @@ window.QUESTIONS_TINTINALLI = [
       "Postmortem brain tissue analysis"
     ],
     correctAnswer: 0,
-    explanation: "The source states focused ultrasonography or a CT scan of the pelvis and abdomen should be done if concerns for subcapsular haematoma exist.",
+    explanation: "focused ultrasonography or a CT scan of the pelvis and abdomen should be done if concerns for subcapsular haematoma exist.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2905,18 +2905,18 @@ window.QUESTIONS_TINTINALLI = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Preeclampsia and eclampsia content",
     category: "Obstetrics and gynaecology",
-    topic: "Magnesium sulfate loading dose",
+    topic: "Magnesium sulphate loading dose",
     page: "",
-    stem: "What magnesium sulfate loading dose is listed for severe preeclampsia and eclampsia?",
+    stem: "What magnesium sulphate loading dose is listed for severe preeclampsia and eclampsia?",
     options: [
       "4 to 6 g IV over 20 minutes",
       "0.3 to 0.5 mg IM",
       "1 mEq/kg IV",
       "0.5 mg IV repeated every 3 to 5 minutes",
-      "7 mg/kg with epinephrine"
+      "7 mg/kg with adrenaline"
     ],
     correctAnswer: 0,
-    explanation: "The source lists magnesium sulfate loading dose of 4 to 6 g IV over 20 minutes for severe preeclampsia and eclampsia.",
+    explanation: "magnesium sulphate loading dose of 4 to 6 g IV over 20 minutes for severe preeclampsia and eclampsia.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2925,9 +2925,9 @@ window.QUESTIONS_TINTINALLI = [
     book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
     chapter: "Preeclampsia and eclampsia content",
     category: "Obstetrics and gynaecology",
-    topic: "Magnesium sulfate maintenance infusion",
+    topic: "Magnesium sulphate maintenance infusion",
     page: "",
-    stem: "What magnesium sulfate maintenance infusion is listed after the loading dose?",
+    stem: "What magnesium sulphate maintenance infusion is listed after the loading dose?",
     options: [
       "1 to 2 g/h",
       "4 to 6 g/h",
@@ -2936,7 +2936,7 @@ window.QUESTIONS_TINTINALLI = [
       "0.01 mg/kg/h"
     ],
     correctAnswer: 0,
-    explanation: "The source lists a maintenance infusion of magnesium sulfate of 1 to 2 g/h after the loading dose to prevent seizure.",
+    explanation: "a maintenance infusion of magnesium sulphate of 1 to 2 g/h after the loading dose to prevent seizure.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2947,7 +2947,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Obstetrics and gynaecology",
     topic: "Magnesium monitoring",
     page: "",
-    stem: "Which monitoring is listed during magnesium sulfate treatment? Select all that apply.",
+    stem: "Which monitoring is listed during magnesium sulphate treatment? Select all that apply.",
     options: [
       "Serum magnesium levels",
       "Reflexes",
@@ -2956,7 +2956,7 @@ window.QUESTIONS_TINTINALLI = [
       "Chest wall tenderness"
     ],
     correctAnswers: [0, 1],
-    explanation: "The source states to monitor serum magnesium levels and reflexes.",
+    explanation: "to monitor serum magnesium levels and reflexes.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2976,7 +2976,7 @@ window.QUESTIONS_TINTINALLI = [
       "Any blood pressure with normal reflexes"
     ],
     correctAnswer: 0,
-    explanation: "The source states severe hypertension greater than 160/110 mm Hg should be treated with listed therapies.",
+    explanation: "severe hypertension greater than 160/110 mm Hg should be treated with listed therapies.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -2996,7 +2996,7 @@ window.QUESTIONS_TINTINALLI = [
       "7 mg/kg IV"
     ],
     correctAnswer: 0,
-    explanation: "The source lists labetalol 20 mg IV initial bolus, followed if needed by repeat boluses of 40 to 80 mg, to a maximum of 300 mg.",
+    explanation: "labetalol 20 mg IV initial bolus, followed if needed by repeat boluses of 40 to 80 mg, to a maximum of 300 mg.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -3016,7 +3016,7 @@ window.QUESTIONS_TINTINALLI = [
       "4 to 6 g IV over 20 minutes"
     ],
     correctAnswer: 0,
-    explanation: "The source lists hydralazine 5.0 mg IV initially, followed by 5 to 10 mg every 10 minutes.",
+    explanation: "hydralazine 5.0 mg IV initially, followed by 5 to 10 mg every 10 minutes.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -3036,7 +3036,7 @@ window.QUESTIONS_TINTINALLI = [
       "Dental consultation"
     ],
     correctAnswer: 0,
-    explanation: "The source states to consult an obstetrician emergently for severe preeclampsia or eclampsia.",
+    explanation: "to consult an obstetrician emergently for severe preeclampsia or eclampsia.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., preeclampsia and eclampsia content."
   },
   {
@@ -3047,7 +3047,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Endocrine and metabolic",
     topic: "Lactic acidosis",
     page: "",
-    stem: "Which statement best reflects the description of lactic acidosis in the source excerpt?",
+    stem: "Which statement best reflects the description of lactic acidosis?",
     options: [
       "It is a syndrome with its own differential diagnosis rather than a diagnosis by itself",
       "It is always a single diagnosis with one cause",
@@ -3056,7 +3056,7 @@ window.QUESTIONS_TINTINALLI = [
       "It excludes toxicologic causes"
     ],
     correctAnswer: 0,
-    explanation: "The source states that lactic acidosis is not a diagnosis, but a syndrome with its own differential diagnosis.",
+    explanation: "lactic acidosis is not a diagnosis, but a syndrome with its own differential diagnosis.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
   },
   {
@@ -3076,7 +3076,7 @@ window.QUESTIONS_TINTINALLI = [
       "Avoid identifying underlying causes such as sepsis or diabetic ketoacidosis"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists treating the underlying disorder with emphasis on perfusion and oxygenation, determining respiratory contribution, addressing electrolyte disturbances, and administering toxin antidotes as appropriate.",
+    explanation: "treating the underlying disorder with emphasis on perfusion and oxygenation, determining respiratory contribution, addressing electrolyte disturbances, and administering toxin antidotes as appropriate.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
   },
   {
@@ -3096,7 +3096,7 @@ window.QUESTIONS_TINTINALLI = [
       "PCO2 is irrelevant to compensation"
     ],
     correctAnswer: 0,
-    explanation: "The source states that with normal respiratory compensation, PCO2 decreases by 1 mm Hg for every 1 mEq/L net decrease in bicarbonate.",
+    explanation: "with normal respiratory compensation, PCO2 decreases by 1 mm Hg for every 1 mEq/L net decrease in bicarbonate.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
   },
   {
@@ -3107,7 +3107,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Endocrine and metabolic",
     topic: "Bicarbonate therapy",
     page: "",
-    stem: "What does the source excerpt state about bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis?",
+    stem: "What does the chapter state about bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis?",
     options: [
       "It has not shown benefit",
       "It is always first-line therapy",
@@ -3116,7 +3116,7 @@ window.QUESTIONS_TINTINALLI = [
       "It makes respiratory assessment unnecessary"
     ],
     correctAnswer: 0,
-    explanation: "The source states that bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis has not shown benefit.",
+    explanation: "bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis has not shown benefit.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
   },
   {
@@ -3129,14 +3129,14 @@ window.QUESTIONS_TINTINALLI = [
     page: "",
     stem: "What increased risk is noted in paediatric patients with diabetic ketoacidosis treated with bicarbonate?",
     options: [
-      "Development of cerebral oedema",
+      "Development of cerebral ooedema",
       "Development of rabies infection",
       "Development of local anaesthetic toxicity",
       "Development of pulmonary embolism",
       "Development of biliary colic"
     ],
     correctAnswer: 0,
-    explanation: "The source states paediatric patients with diabetic ketoacidosis treated with bicarbonate have an increased rate of development of cerebral oedema.",
+    explanation: "paediatric patients with diabetic ketoacidosis treated with bicarbonate have an increased rate of development of cerebral ooedema.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
   },
   {
@@ -3147,16 +3147,16 @@ window.QUESTIONS_TINTINALLI = [
     category: "Environmental emergencies",
     topic: "Initial hypothermia care",
     page: "",
-    stem: "Which initial care measures are described for hypothermia in the retrieved excerpt? Select all that apply.",
+    stem: "Which initial care measures are described for hypothermia? Select all that apply.",
     options: [
       "Remove wet clothing, dry, and cover the patient",
       "Initiate warmed intravenous fluids titrated to volume status",
       "Handle the patient gently to avoid precipitating lethal dysrhythmia",
       "Avoid assessing pulse or respirations for more than five seconds",
-      "Routine epinephrine as first-line therapy for all mild hypothermia"
+      "Routine adrenaline as first-line therapy for all mild hypothermia"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source describes removing wet clothing, drying and covering patients, initiating warmed IV fluids according to volume status, and handling patients gently to avoid precipitating lethal dysrhythmia.",
+    explanation: "removing wet clothing, drying and covering patients, initiating warmed IV fluids according to volume status, and handling patients gently to avoid precipitating lethal dysrhythmia.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., accidental hypothermia content."
   },
   {
@@ -3176,7 +3176,7 @@ window.QUESTIONS_TINTINALLI = [
       "No assessment is recommended"
     ],
     correctAnswer: 0,
-    explanation: "The source states to attempt to palpate a pulse and detect respirations for 30 to 45 seconds; if none are detected, initiate CPR.",
+    explanation: "to attempt to palpate a pulse and detect respirations for 30 to 45 seconds; if none are detected, initiate CPR.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., accidental hypothermia content."
   },
   {
@@ -3187,7 +3187,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Environmental emergencies",
     topic: "Hypothermia dysrhythmias",
     page: "",
-    stem: "Which statement best reflects the source excerpt on dysrhythmias during hypothermia?",
+    stem: "Which statement best reflects the chapter on dysrhythmias during hypothermia?",
     options: [
       "Sinus bradycardia, atrial fibrillation, and atrial flutter usually require no therapy and resolve with rewarming",
       "All hypothermia-associated atrial rhythms require immediate cardioversion",
@@ -3196,7 +3196,7 @@ window.QUESTIONS_TINTINALLI = [
       "Atrial fibrillation in hypothermia always requires anticoagulation before rewarming"
     ],
     correctAnswer: 0,
-    explanation: "The source states sinus bradycardia, atrial fibrillation, and atrial flutter usually require no therapy and will resolve with rewarming.",
+    explanation: "sinus bradycardia, atrial fibrillation, and atrial flutter usually require no therapy and will resolve with rewarming.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., accidental hypothermia content."
   },
   {
@@ -3207,7 +3207,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Haematology and oncology",
     topic: "Leukaemia suspicion",
     page: "",
-    stem: "Which blood count pattern should raise suspicion for acute leukaemia according to the retrieved excerpt?",
+    stem: "Which blood count pattern should raise suspicion for acute leukaemia?",
     options: [
       "White blood cell count below 4000/mL3, mild anaemia, and mild thrombocytopenia",
       "Isolated high haemoglobin with normal platelets",
@@ -3216,7 +3216,7 @@ window.QUESTIONS_TINTINALLI = [
       "Normal uric acid and phosphate only"
     ],
     correctAnswer: 0,
-    explanation: "The source states that WBC counts below 4000/mL3, mild anaemia, and mild thrombocytopenia should raise suspicion in these cases.",
+    explanation: "WBC counts below 4000/mL3, mild anaemia, and mild thrombocytopenia should raise suspicion in these cases.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., hematologic and oncologic emergencies content."
   },
   {
@@ -3227,7 +3227,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Haematology and oncology",
     topic: "Leukaemia cell lines",
     page: "",
-    stem: "What does the source excerpt state about abnormalities of two or more blood cell lines?",
+    stem: "What does the chapter state about abnormalities of two or more blood cell lines?",
     options: [
       "They make leukaemia more likely",
       "They exclude leukaemia",
@@ -3236,7 +3236,7 @@ window.QUESTIONS_TINTINALLI = [
       "They indicate uncomplicated erysipelas"
     ],
     correctAnswer: 0,
-    explanation: "The source states that abnormalities of two or more cell lines make leukaemia more likely.",
+    explanation: "abnormalities of two or more cell lines make leukaemia more likely.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., hematologic and oncologic emergencies content."
   },
   {
@@ -3247,7 +3247,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Haematology and oncology",
     topic: "Acute leukaemia evaluation",
     page: "",
-    stem: "If the CBC is concerning for acute leukaemia, which investigations are listed in the retrieved excerpt? Select all that apply.",
+    stem: "If the CBC is concerning for acute leukaemia, which investigations are listed? Select all that apply.",
     options: [
       "Chest radiograph for mediastinal mass",
       "Electrolytes with creatinine, calcium, uric acid, and phosphate for evidence of tumour lysis",
@@ -3256,7 +3256,7 @@ window.QUESTIONS_TINTINALLI = [
       "Routine discharge without further testing"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source lists chest radiograph, tumour lysis labs, liver tests, LDH, PT/PTT, peripheral smear, type and screen if anaemic, and blood and urine cultures if febrile.",
+    explanation: "chest radiograph, tumour lysis labs, liver tests, LDH, PT/PTT, peripheral smear, type and screen if anaemic, and blood and urine cultures if febrile.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., hematologic and oncologic emergencies content."
   },
   {
@@ -3267,7 +3267,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "ENT, eye and oral",
     topic: "Sinusitis diagnosis",
     page: "369",
-    stem: "How is sinusitis diagnosis made according to the retrieved excerpt?",
+    stem: "How is sinusitis diagnosis made?",
     options: [
       "On clinical grounds without laboratory or radiographic studies",
       "By laboratory testing in all patients",
@@ -3276,7 +3276,7 @@ window.QUESTIONS_TINTINALLI = [
       "By coloured nasal drainage as a solitary symptom"
     ],
     correctAnswer: 0,
-    explanation: "The source states that the diagnosis is made on clinical grounds without laboratory or radiographic studies.",
+    explanation: "the diagnosis is made on clinical grounds without laboratory or radiographic studies.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 68: Common Infections of the Ears, Nose, Neck, and Throat, p. 369."
   },
   {
@@ -3287,7 +3287,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "ENT, eye and oral",
     topic: "Sinusitis and URI",
     page: "369",
-    stem: "What does the source excerpt say about nasal congestion lasting 3 to 7 days with viral upper respiratory infection?",
+    stem: "What does the chapter say about nasal congestion lasting 3 to 7 days with viral upper respiratory infection?",
     options: [
       "It often accompanies viral URIs and should not be diagnosed as acute sinusitis or treated with antibiotics",
       "It always confirms acute sinusitis requiring antibiotics",
@@ -3296,7 +3296,7 @@ window.QUESTIONS_TINTINALLI = [
       "It is diagnostic of facial cellulitis"
     ],
     correctAnswer: 0,
-    explanation: "The source states that nasal congestion lasting 3 to 7 days often accompanies viral upper respiratory infections and should not be diagnosed as acute sinusitis or treated with antibiotics.",
+    explanation: "nasal congestion lasting 3 to 7 days often accompanies viral upper respiratory infections and should not be diagnosed as acute sinusitis or treated with antibiotics.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 68: Common Infections of the Ears, Nose, Neck, and Throat, p. 369."
   },
   {
@@ -3307,7 +3307,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "ENT, eye and oral",
     topic: "Coloured nasal drainage",
     page: "369",
-    stem: "What does the source excerpt state about coloured nasal drainage as a solitary symptom?",
+    stem: "What does the chapter state about coloured nasal drainage as a solitary symptom?",
     options: [
       "It does not suggest a diagnosis of sinusitis and should not be treated with antibiotics",
       "It confirms sinusitis requiring antibiotics",
@@ -3316,7 +3316,7 @@ window.QUESTIONS_TINTINALLI = [
       "It confirms dental abscess"
     ],
     correctAnswer: 0,
-    explanation: "The source states that coloured drainage from the nose as a solitary symptom does not suggest sinusitis and should not be treated with antibiotics.",
+    explanation: "coloured drainage from the nose as a solitary symptom does not suggest sinusitis and should not be treated with antibiotics.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 68: Common Infections of the Ears, Nose, Neck, and Throat, p. 369."
   },
   {
@@ -3327,7 +3327,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Skin",
     topic: "Erysipelas clinical features",
     page: "",
-    stem: "Which clinical description is given for erysipelas in the retrieved excerpt?",
+    stem: "Which clinical description is given for erysipelas?",
     options: [
       "Sharply demarcated, tense, painful erythema from surrounding skin",
       "A painless non-demarcated rash that always resolves without treatment",
@@ -3336,7 +3336,7 @@ window.QUESTIONS_TINTINALLI = [
       "A fracture confirmed by fat pad sign"
     ],
     correctAnswer: 0,
-    explanation: "The source describes erysipelas as sharply demarcated from surrounding skin, tense, and painful.",
+    explanation: "erysipelas as sharply demarcated from surrounding skin, tense, and painful.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., skin infection content."
   },
   {
@@ -3356,7 +3356,7 @@ window.QUESTIONS_TINTINALLI = [
       "Coloured nasal drainage as a solitary symptom"
     ],
     correctAnswers: [0, 1, 2, 3],
-    explanation: "The source says to consider surgical consultation for bullae, crepitus, pain out of proportion to examination, or rapidly progressing erythema with systemic toxicity because these may suggest necrotising infection.",
+    explanation: "to consider surgical consultation for bullae, crepitus, pain out of proportion to examination, or rapidly progressing erythema with systemic toxicity because these may suggest necrotising infection.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., skin infection content."
   },
   {
@@ -3367,7 +3367,7 @@ window.QUESTIONS_TINTINALLI = [
     category: "Skin",
     topic: "Cutaneous abscesses",
     page: "",
-    stem: "What does the source excerpt state about cutaneous skin abscesses?",
+    stem: "What does the chapter state about cutaneous skin abscesses?",
     options: [
       "They are frequently the result of breakdown in the cutaneous barrier with subsequent focal infection caused by resident bacterial flora",
       "They are always caused by viral upper respiratory infection",
@@ -3376,7 +3376,7 @@ window.QUESTIONS_TINTINALLI = [
       "They are treated as sinusitis"
     ],
     correctAnswer: 0,
-    explanation: "The source states that cutaneous skin abscesses are frequently the result of breakdown in the cutaneous barrier with subsequent focal infection caused by resident bacterial flora.",
+    explanation: "cutaneous skin abscesses are frequently the result of breakdown in the cutaneous barrier with subsequent focal infection caused by resident bacterial flora.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., skin infection content."
   },
   {
@@ -3396,7 +3396,7 @@ window.QUESTIONS_TINTINALLI = [
       "Bicarbonate therapy for DKA"
     ],
     correctAnswer: 0,
-    explanation: "The source states that the mechanism is commonly a fall onto the outstretched arm.",
+    explanation: "the mechanism is commonly a fall onto the outstretched arm.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., forearm and elbow injuries content."
   },
   {
@@ -3416,7 +3416,7 @@ window.QUESTIONS_TINTINALLI = [
       "No risk of distal circulation compromise"
     ],
     correctAnswers: [0, 1, 2],
-    explanation: "The source notes proximity of the brachial artery, possible arterial spasm or cast compression compromising distal circulation, and forearm compartment syndrome with Volkmann ischemic contracture.",
+    explanation: "proximity of the brachial artery, possible arterial spasm or cast compression compromising distal circulation, and forearm compartment syndrome with Volkmann ischemic contracture.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., forearm and elbow injuries content."
   },
   {
@@ -3432,11 +3432,291 @@ window.QUESTIONS_TINTINALLI = [
       "Posterior fat pad",
       "Complete displacement with no cortical contact",
       "Atrial flutter waves",
-      "Papilledema",
+      "Papilloedema",
       "Pleural effusion"
     ],
     correctAnswer: 0,
-    explanation: "The source states type I fractures have no displacement or angulation, or may have a posterior fat pad as the only radiographic manifestation of fracture.",
+    explanation: "type I fractures have no displacement or angulation, or may have a posterior fat pad as the only radiographic manifestation of fracture.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., forearm and elbow injuries content."
+  },
+  {
+    id: "TINT-HEAT-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Heat stroke classification",
+    page: "",
+    stem: "How is heat stroke further classified?",
+    options: [
+      "Exertional and nonexertional",
+      "Primary and secondary",
+      "Warm and cold shock",
+      "Upper and lower urinary tract",
+      "Cardiac and noncardiac"
+    ],
+    correctAnswer: 0,
+    explanation: "heat stroke is further classified as exertional and nonexertional.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-HEAT-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Exertional heat stroke",
+    page: "",
+    stem: "What situation is described as producing exertional heat stroke?",
+    options: [
+      "Physical activity during high heat and humidity",
+      "Resting in a cold environment",
+      "Viral upper respiratory infection",
+      "Asymptomatic bacteriuria",
+      "A fall onto an outstretched arm"
+    ],
+    correctAnswer: 0,
+    explanation: "physical activity during high heat and humidity produces exertional heat stroke.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-HEAT-0003",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Humidity and heat loss",
+    page: "",
+    stem: "Why does high humidity impair heat loss?",
+    options: [
+      "Evaporation is the principal mechanism of heat loss but is ineffective when humidity exceeds 75%",
+      "Conduction is the only mechanism of heat loss and stops when humidity exceeds 25%",
+      "Radiation is the only mechanism of heat loss and stops in cold air",
+      "Sweating becomes diagnostic of pulmonary embolism",
+      "Humidity prevents any need for acclimatisation"
+    ],
+    correctAnswer: 0,
+    explanation: "evaporation is the principal mechanism of heat loss, but is ineffective when humidity exceeds 75%.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-HEAT-0004",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Nonexertional heat stroke risk",
+    page: "",
+    stem: "Which groups or situations are associated with nonexertional heat stroke? Select all that apply.",
+    options: [
+      "Debilitated or chronically ill persons",
+      "People unable to escape hot environments",
+      "Closed vehicles or isolated hot residences",
+      "Heavily bundled infants in cribs",
+      "Young healthy adults exercising in cold rain as the defining scenario"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "nonexertional heat stroke in debilitated, chronically ill, or otherwise trapped people, including closed vehicles, heavily bundled cribs, or isolated hot residences.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-HEAT-0005",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Heat syncope physiology",
+    page: "",
+    stem: "What physiologic changes are described as causing heat syncope?",
+    options: [
+      "Volume depletion, peripheral vasodilation, and decreased vasomotor tone",
+      "Brachial artery injury and cast compression",
+      "Lignocaine systemic absorption and wound haemostasis",
+      "Postmortem brain tissue changes",
+      "Nasal congestion from viral upper respiratory infection"
+    ],
+    correctAnswer: 0,
+    explanation: "heat syncope results from volume depletion, peripheral vasodilation, and decreased vasomotor tone.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-HEAT-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Heat illness content",
+    category: "Environmental emergencies",
+    topic: "Heat cramps",
+    page: "",
+    stem: "Which description best matches heat cramps?",
+    options: [
+      "Painful muscle spasms, especially in calves, thighs, and shoulders during athletic events",
+      "Painless erythema with no muscular symptoms",
+      "Hydrophobia and dysphagia after animal exposure",
+      "Acute cholecystitis requiring immediate surgical admission",
+      "An infection of the upper urinary tract"
+    ],
+    correctAnswer: 0,
+    explanation: "heat cramps are painful muscle spasms, especially in the calves, thighs, and shoulders during athletic events.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., heat illness content."
+  },
+  {
+    id: "TINT-CHEMBURN-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Alkali versus acid burns",
+    page: "",
+    stem: "Which statement best compares alkali and acid burns?",
+    options: [
+      "Alkalis usually produce more damage than acids",
+      "Acids always produce deeper damage than alkalis",
+      "Alkalis are harmless on intact skin",
+      "Acids cause liquefaction necrosis allowing deeper penetration",
+      "Alkalis only affect the eye and never the skin"
+    ],
+    correctAnswer: 0,
+    explanation: "alkalis usually produce more damage than acids.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Acid burn necrosis",
+    page: "",
+    stem: "What type of necrosis do acids typically cause?",
+    options: [
+      "Coagulation necrosis producing an eschar that limits further damage",
+      "Liquefaction necrosis allowing deeper damage",
+      "No tissue effect",
+      "Necrosis only after postmortem analysis",
+      "Necrosis limited to bone"
+    ],
+    correctAnswer: 0,
+    explanation: "acids typically cause coagulation necrosis, producing an eschar that limits further damage.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0003",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Alkali burn necrosis",
+    page: "",
+    stem: "What type of necrosis do alkalis produce?",
+    options: [
+      "Liquefaction necrosis allowing deeper damage",
+      "Coagulation necrosis producing a protective eschar",
+      "No necrosis",
+      "Tumour lysis",
+      "Cellulitis without tissue penetration"
+    ],
+    correctAnswer: 0,
+    explanation: "alkalis produce liquefaction necrosis, allowing deeper damage to occur.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0004",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Hydrofluoric acid burns",
+    page: "",
+    stem: "Why is hydrofluoric acid described as a special case?",
+    options: [
+      "It rapidly penetrates intact skin and can cause progressive pain and deep tissue destruction without obvious superficial damage",
+      "It causes only superficial painless erythema",
+      "It is less serious than all other acids",
+      "It cannot be absorbed systemically",
+      "It affects only the respiratory tract"
+    ],
+    correctAnswer: 0,
+    explanation: "hydrofluoric acid rapidly penetrates intact skin and can cause progressive pain and deep tissue destruction without obvious superficial tissue damage.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0005",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Chemical burn systemic toxicity",
+    page: "",
+    stem: "Which systemic toxic effects may occur if certain chemicals are absorbed? Select all that apply.",
+    options: [
+      "Hypotension",
+      "Acidosis",
+      "Shock",
+      "Migraine as the defining systemic toxicity",
+      "Posterior fat pad as the defining systemic toxicity"
+    ],
+    correctAnswers: [0, 1, 2],
+    explanation: "systemic toxicity, including hypotension, acidosis, and shock, may occur if certain chemicals are absorbed.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "ENT, eye and oral",
+    topic: "Chemical ocular burns",
+    page: "",
+    stem: "Which statement best reflects chemical burns of the eye?",
+    options: [
+      "Chemical burns of the eye are true ocular emergencies",
+      "Chemical ocular burns are never urgent",
+      "Alkali ocular burns are less severe because penetration stops immediately",
+      "Acid ocular burns never affect superficial structures",
+      "Tear gas causes only skin symptoms"
+    ],
+    correctAnswer: 0,
+    explanation: "chemical burns of the eye are true ocular emergencies.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "ENT, eye and oral",
+    topic: "Acid ocular burns",
+    page: "",
+    stem: "What appearance can acid ocular burns produce by quickly precipitating proteins in superficial eye structures?",
+    options: [
+      "A ground glass appearance of the cornea",
+      "A posterior fat pad sign",
+      "Saw tooth flutter waves",
+      "A sharply demarcated erysipelas margin",
+      "A hydrophobic response"
+    ],
+    correctAnswer: 0,
+    explanation: "acid ocular burns quickly precipitate proteins in superficial eye structures, producing a ground glass appearance of the cornea.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
+  },
+  {
+    id: "TINT-CHEMBURN-0008",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chemical burn content",
+    category: "Environmental emergencies",
+    topic: "Chemical burn diagnosis",
+    page: "",
+    stem: "How is the diagnosis of chemical burn usually made?",
+    options: [
+      "By history of exposure to a chemical agent",
+      "Only by chest radiograph",
+      "Only by blood glucose concentration",
+      "Only by postmortem brain analysis",
+      "Only by response to nitroglycerin"
+    ],
+    correctAnswer: 0,
+    explanation: "the diagnosis of chemical burn usually is made by history of exposure to a chemical agent.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., chemical burn content."
   }
 ];
