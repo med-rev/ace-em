@@ -91,6 +91,11 @@
       background: #0f4f82;
     }
 
+    button:disabled {
+      background: #9aa9b5;
+      cursor: not-allowed;
+    }
+
     button.secondary {
       background: #405566;
     }
@@ -242,7 +247,7 @@
 
         <div>
           <label>&nbsp;</label>
-          <button id="startBtn" type="button">Start</button>
+          <button id="startBtn" type="button" disabled>Loading</button>
         </div>
       </div>
     </section>
@@ -288,8 +293,9 @@
     </section>
   </main>
 
-  <script src="questions.js"></script>
+  <script src="question-banks.js"></script>
   <script>
+    let allQuestions = [];
     let activeQuestions = [];
     let currentIndex = 0;
     let correct = 0;
@@ -326,19 +332,48 @@
       return String(type).toUpperCase();
     }
 
-    function getQuestions() {
-      if (!Array.isArray(window.QUESTIONS)) {
-        alert("questions.js did not load correctly. Check that questions.js exists in the repository root and contains window.QUESTIONS = [...];");
+    function loadScript(src) {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = src;
+        script.onload = resolve;
+        script.onerror = () => reject(new Error(`Could not load ${src}`));
+        document.head.appendChild(script);
+      });
+    }
+
+    async function loadQuestionBanks() {
+      if (!Array.isArray(window.QUESTION_BANKS)) {
+        alert("question-banks.js did not load correctly. Check that it exists in the repository root.");
         return [];
       }
 
-      return window.QUESTIONS;
+      for (const bank of window.QUESTION_BANKS) {
+        await loadScript(bank.src);
+      }
+
+      const combinedQuestions = [];
+
+      window.QUESTION_BANKS.forEach(bank => {
+        const bankQuestions = window[bank.variable];
+
+        if (!Array.isArray(bankQuestions)) {
+          alert(`${bank.src} did not define ${bank.variable} correctly.`);
+          return;
+        }
+
+        combinedQuestions.push(...bankQuestions);
+      });
+
+      return combinedQuestions;
     }
 
     function initialiseFilters() {
-      const questions = getQuestions();
-      const books = [...new Set(questions.map(question => question.book))].sort();
-      const topics = [...new Set(questions.map(question => question.topic))].sort();
+      bookFilter.innerHTML = '<option value="all">All books</option>';
+      topicFilter.innerHTML = '<option value="all">All topics</option>';
+
+      const books = [...new Set(allQuestions.map(question => question.book))].sort();
+      const topics = [...new Set(allQuestions.map(question => question.topic))].sort();
 
       books.forEach(book => {
         const option = document.createElement("option");
@@ -356,12 +391,11 @@
     }
 
     function startQuiz() {
-      const questions = getQuestions();
       const selectedBook = bookFilter.value;
       const selectedTopic = topicFilter.value;
       const selectedType = typeFilter.value;
 
-      activeQuestions = questions.filter(question => {
+      activeQuestions = allQuestions.filter(question => {
         const bookMatch = selectedBook === "all" || question.book === selectedBook;
         const topicMatch = selectedTopic === "all" || question.topic === selectedTopic;
         const typeMatch = selectedType === "all" || question.type === selectedType;
@@ -524,11 +558,27 @@
       return copy;
     }
 
+    async function initialiseApp() {
+      startBtn.textContent = "Loading";
+      startBtn.disabled = true;
+
+      try {
+        allQuestions = await loadQuestionBanks();
+        initialiseFilters();
+        startBtn.textContent = "Start";
+        startBtn.disabled = false;
+      } catch (error) {
+        alert(error.message);
+        startBtn.textContent = "Load error";
+        startBtn.disabled = true;
+      }
+    }
+
     startBtn.addEventListener("click", startQuiz);
     submitBtn.addEventListener("click", submitAnswer);
     nextBtn.addEventListener("click", nextQuestion);
 
-    initialiseFilters();
+    initialiseApp();
   </script>
 </body>
 </html>
