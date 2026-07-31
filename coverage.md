@@ -1,15 +1,65 @@
 # ACE-EM Question Bank Coverage
 
-## Batch 1 complete
+## Current structure
 
-### Tintinalli's Emergency Medicine Manual, 8th ed.
+- index.html: stable quiz engine
+- question-banks.js: loads textbook-specific question banks
+- questions-tintinalli.js: Tintinalli questions only
+- questions-rosen.js: Rosen questions only
 
-- Chapter 1: Advanced Airway Support, pp. 1-8
-  - Status: Started
-  - Questions added: TINT-AIRWAY-0001 to TINT-AIRWAY-0025
-  - Topics covered: rapid airway assessment, basic airway management, noninvasive ventilation, mask ventilation, extraglottic devices, intubation, RSI, tube confirmation, failed airway, surgical airway
+## Question format standard
 
-- Chapter 2: Management of Cardiac Rhythm Disturbances, pp. 10-17
-  - Status: Started
-  - Questions added: TINT-RHYTHM-0001 to TINT-RHYTHM-0015
-  - Topics covered: sinus arrhythmia, PACs, PVCs, sinus bradycardia, junctional rhythms, idioventricular rhythm, first-degree AV block, Mobitz I, Mobitz II, third-degree AV block
+Each question must include:
+
+- id
+- type
+- book
+- chapter
+- category
+- topic
+- page
+- stem
+- options
+- correctAnswer or correctAnswers
+- explanation
+- source
+
+Page numbers must refer to the printed page number shown in the textbook, not the PDF page number.
+
+## Tranche 1 target
+
+Target: 250 Tintinalli questions for broad initial coverage.
+
+### Tranche 1A: Section 1, Resuscitation Techniques
+
+Target: 75 questions
+
+Source: Tintinalli's Emergency Medicine Manual, 8th ed.
+
+Chapters:
+- Chapter 1: Advanced Airway Support, p. 1
+- Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10
+- Chapter 3: Resuscitation of Children and Neonates, p. 29
+- Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders, p. 37
+- Chapter 5: Therapeutic Approach to the Hypotensive Patient, p. 60
+- Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 64
+
+Status: In progress
+
+### Tranche 1B: Cardiovascular and Pulmonary
+
+Target: 75 questions
+
+Status: Not started
+
+### Tranche 1C: Gastrointestinal, Renal/GU, OB/Gyn, Paediatrics
+
+Target: 50 questions
+
+Status: Not started
+
+### Tranche 1D: Toxicology, Environmental, Endocrine, Haematology/Oncology, Neurology, ENT/Eye/Oral, Skin, Trauma, Musculoskeletal, Psychosocial, Abuse/Assault, Palliative Care
+
+Target: 50 questions
+
+Status: Not started
