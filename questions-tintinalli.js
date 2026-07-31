@@ -498,5 +498,405 @@ window.QUESTIONS_TINTINALLI = [
     correctAnswer: 0,
     explanation: "A surgical airway is contraindicated in children younger than 10 years, in whom transtracheal jet ventilation is the preferred subglottic technique.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 1: Advanced Airway Support, p. 8."
+  },
+  {
+    id: "TINT-RHYTHM-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus arrhythmia",
+    page: "10",
+    stem: "Which ECG feature is part of sinus arrhythmia?",
+    options: [
+      "Variation of at least 120 milliseconds between the shortest and longest P-P interval",
+      "A wide QRS complex without preceding P waves",
+      "A constant PR interval with intermittent nonconducted atrial beats",
+      "A ventricular escape rhythm slower than 40 beats per minute",
+      "A progressive dropped QRS complex after fixed PR intervals"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus arrhythmia has normal sinus P waves and PR intervals, 1:1 AV conduction, and variation of at least 120 milliseconds between the shortest and longest P-P interval.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus arrhythmia",
+    page: "10",
+    stem: "Which rhythm commonly requires no treatment and is most commonly found in children and young adults?",
+    options: [
+      "Sinus arrhythmia",
+      "Unstable Mobitz II AV block",
+      "Symptomatic complete heart block",
+      "Pulseless idioventricular rhythm",
+      "Unstable sinus bradycardia with hypoperfusion"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus arrhythmia is often affected by respiration, is most commonly found in children and young adults, and requires no treatment.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0003",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Premature atrial contractions",
+    page: "10",
+    stem: "Which factors are associated with premature atrial contractions? Select all that apply.",
+    options: [
+      "Stress",
+      "Fatigue",
+      "Alcohol use",
+      "Coffee",
+      "Subarachnoid haemorrhage as the defining cause"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Premature atrial contractions are associated with stress, fatigue, alcohol use, tobacco, coffee, COPD, digoxin toxicity, and coronary artery disease.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0004",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Premature atrial contractions",
+    page: "10",
+    stem: "What is the key ECG relationship between premature atrial contractions and QRS morphology?",
+    options: [
+      "Premature atrial complexes have early P waves that resemble normal P waves, and the QRS is narrow unless bundle branch block is present",
+      "Premature atrial complexes always have wide QRS complexes without P waves",
+      "Premature atrial complexes require complete absence of AV conduction",
+      "Premature atrial complexes are defined by an atrial rate between 250 and 350 beats/min",
+      "Premature atrial complexes show progressive PR prolongation before every dropped beat"
+    ],
+    correctAnswer: 0,
+    explanation: "Premature atrial complexes have early P waves that often resemble normal sinus P waves. The QRS complex is narrow unless bundle branch block is present.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 10."
+  },
+  {
+    id: "TINT-RHYTHM-0005",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Premature ventricular contractions",
+    page: "11",
+    stem: "Which ECG feature is most consistent with a premature ventricular contraction?",
+    options: [
+      "A premature and wide QRS complex without a preceding P wave",
+      "A narrow QRS with progressive PR prolongation",
+      "A normal sinus P wave followed by 1:1 AV conduction",
+      "A dropped beat after a constant PR interval",
+      "A narrow junctional escape complex at 40 to 60 beats per minute"
+    ],
+    correctAnswer: 0,
+    explanation: "Premature ventricular contractions are premature, wide QRS complexes without a preceding P wave.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 11."
+  },
+  {
+    id: "TINT-RHYTHM-0006",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Premature ventricular contractions",
+    page: "12",
+    stem: "How should stable patients with premature ventricular contractions generally be managed?",
+    options: [
+      "No treatment is required",
+      "Immediate cardioversion",
+      "Prophylactic suppressive antiarrhythmic treatment for all patients",
+      "Emergency permanent pacemaker placement",
+      "Chest x-ray confirmation before ECG interpretation"
+    ],
+    correctAnswer: 0,
+    explanation: "Stable patients with premature ventricular contractions require no treatment. Potential causes such as hypoxia, drug effects, or electrolyte disturbances should be treated.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 12."
+  },
+  {
+    id: "TINT-RHYTHM-0007",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus bradycardia",
+    page: "12",
+    stem: "Which ECG feature is part of sinus bradycardia?",
+    options: [
+      "Normal sinus P waves and PR intervals with 1:1 AV conduction and atrial rate slower than 60 beats/min",
+      "Wide QRS complexes without preceding P waves",
+      "Constant PR interval with intermittent nonconducted atrial beats",
+      "Atrial rate between 250 and 350 beats/min",
+      "Complete absence of AV conduction"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus bradycardia has normal sinus P waves and PR intervals, 1:1 AV conduction, and an atrial rate slower than 60 beats/min.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 12."
+  },
+  {
+    id: "TINT-RHYTHM-0008",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus bradycardia",
+    page: "13",
+    stem: "For unstable sinus bradycardia, which treatment is the only Class I treatment?",
+    options: [
+      "Transcutaneous cardiac pacing",
+      "Atropine alone",
+      "Dopamine infusion as universal first-line treatment",
+      "Glucagon for all unstable bradycardia",
+      "Permanent pacemaker placement in the emergency department for all cases"
+    ],
+    correctAnswer: 0,
+    explanation: "Transcutaneous cardiac pacing is the only Class I treatment for unstable patients with sinus bradycardia.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0009",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus bradycardia",
+    page: "13",
+    stem: "What atropine dose is listed for symptomatic bradycardia?",
+    options: [
+      "0.5 mg IV push, repeated every 3 to 5 minutes as needed up to 3 mg IV",
+      "3 mg IV push every minute without maximum dose",
+      "0.05 mg IV push once only",
+      "5 mg IV infusion over 60 minutes",
+      "10 mg IM once only"
+    ],
+    correctAnswer: 0,
+    explanation: "Atropine for symptomatic bradycardia is 0.5 mg IV push, repeated every 3 to 5 minutes as needed up to a total of 3 mg IV.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0010",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Junctional rhythms",
+    page: "13",
+    stem: "Junctional escape beats usually occur at what rate range?",
+    options: [
+      "40 to 60 beats/min",
+      "10 to 20 beats/min",
+      "80 to 120 beats/min",
+      "150 to 250 beats/min",
+      "250 to 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "Junctional escape beats usually occur at 40 to 60 beats/min, depending on the level of the rescue pacemaker within the conduction system.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 13."
+  },
+  {
+    id: "TINT-RHYTHM-0011",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Idioventricular rhythm",
+    page: "14",
+    stem: "When is treatment generally necessary for idioventricular rhythm?",
+    options: [
+      "When the patient is unstable or pulseless",
+      "Whenever the rhythm is observed",
+      "Only when the QRS complex is narrow",
+      "Only after chest x-ray confirmation",
+      "Only when the rhythm occurs in a child"
+    ],
+    correctAnswer: 0,
+    explanation: "Treatment is not necessary for idioventricular rhythm unless the patient is unstable or pulseless.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 14."
+  },
+  {
+    id: "TINT-RHYTHM-0012",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "First-degree AV block",
+    page: "15",
+    stem: "What defines first-degree AV block?",
+    options: [
+      "Prolonged PR interval greater than 200 milliseconds",
+      "Progressive PR shortening before a dropped beat",
+      "No AV conduction with a ventricular escape rhythm",
+      "Wide premature QRS complex without a preceding P wave",
+      "Atrial rate between 250 and 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "First-degree AV block is a delay in AV conduction manifested by a prolonged PR interval greater than 200 milliseconds.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 15."
+  },
+  {
+    id: "TINT-RHYTHM-0013",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Mobitz I AV block",
+    page: "15",
+    stem: "Which statement best describes Mobitz I (Wenckebach) AV block?",
+    options: [
+      "Progressive prolongation through the AV node until an atrial impulse is blocked",
+      "Constant PR interval with intermittent nonconducted atrial beats",
+      "No AV conduction with escape pacemaker rhythm",
+      "Premature wide QRS complexes without preceding P waves",
+      "A regular atrial rate between 250 and 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "Mobitz I AV block is a nodal block causing progressive prolongation of conduction through the AV node until an atrial impulse is completely blocked.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 15."
+  },
+  {
+    id: "TINT-RHYTHM-0014",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Mobitz II AV block",
+    page: "16",
+    stem: "Which statement best distinguishes Mobitz II AV block?",
+    options: [
+      "It has a constant PR interval with intermittent nonconducted atrial beats",
+      "It is defined by progressive PR prolongation before a dropped beat",
+      "It has normal sinus P waves with respiratory P-P variation",
+      "It is always a benign nodal block that never progresses",
+      "It is defined by a fully compensatory pause after each atrial ectopic beat"
+    ],
+    correctAnswer: 0,
+    explanation: "Mobitz II AV block is typically due to infranodal disease and causes a constant PR interval with intermittent nonconducted atrial beats.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 16."
+  },
+  {
+    id: "TINT-RHYTHM-0015",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Third-degree AV block",
+    page: "17",
+    stem: "In third-degree AV block, what is the core conduction abnormality?",
+    options: [
+      "There is no AV conduction",
+      "There is progressive AV nodal slowing with each beat",
+      "There are premature atrial beats resetting the sinus node",
+      "There are isolated premature ventricular complexes only",
+      "There is normal atrioventricular conduction with respiratory variation"
+    ],
+    correctAnswer: 0,
+    explanation: "In third-degree AV block, there is no AV conduction and the ventricles are paced by an escape pacemaker.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 17."
+  },
+  {
+    id: "TINT-RHYTHM-0016",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Third-degree AV block",
+    page: "17",
+    stem: "What ventricular rate is associated with a junctional escape pacemaker in nodal third-degree AV block?",
+    options: [
+      "40 to 60 beats/min",
+      "Less than 20 beats/min",
+      "80 to 120 beats/min",
+      "150 to 250 beats/min",
+      "250 to 350 beats/min"
+    ],
+    correctAnswer: 0,
+    explanation: "When third-degree AV block occurs at the AV node, a junctional escape pacemaker takes over with a ventricular rate of 40 to 60 beats/min.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 17."
+  },
+  {
+    id: "TINT-RHYTHM-0017",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Sinus tachycardia",
+    page: "18",
+    stem: "What is the emergency department focus when sinus tachycardia is identified?",
+    options: [
+      "Diagnosing and treating the underlying condition",
+      "Suppressing the rate in all patients regardless of cause",
+      "Immediate transcutaneous pacing",
+      "Treating with defibrillation as first-line therapy",
+      "Avoiding evaluation for compensatory causes"
+    ],
+    correctAnswer: 0,
+    explanation: "Sinus tachycardia is a compensatory rhythm, so management focuses on diagnosing and treating the underlying condition.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 18."
+  },
+  {
+    id: "TINT-RHYTHM-0018",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Atrial flutter",
+    page: "18",
+    stem: "Which ECG characteristic is typical of atrial flutter?",
+    options: [
+      "Regular atrial rate between 250 and 350 beats/min with saw tooth flutter waves",
+      "Wide premature QRS complexes without preceding P waves",
+      "Progressive PR prolongation before a dropped beat",
+      "Complete absence of AV conduction with an escape rhythm",
+      "Normal sinus P waves with respiratory P-P variation"
+    ],
+    correctAnswer: 0,
+    explanation: "Atrial flutter is characterised by a regular atrial rate between 250 and 350 beats/min, saw tooth flutter waves directed superiorly and most visible in II, III, and aVF, and AV block that is usually 2:1.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 18."
+  },
+  {
+    id: "TINT-RHYTHM-0019",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Atrial flutter",
+    page: "18",
+    stem: "Which manoeuvre may help unmask flutter waves when atrial flutter is uncertain?",
+    options: [
+      "Carotid sinus massage or Valsalva manoeuvre",
+      "Immediate portable chest x-ray",
+      "Routine endotracheal intubation",
+      "Transcutaneous pacing in all stable patients",
+      "Chest compressions before ECG interpretation"
+    ],
+    correctAnswer: 0,
+    explanation: "Carotid sinus massage or Valsalva manoeuvres can slow the ventricular response by increasing the degree of AV block, which may unmask flutter waves in uncertain cases.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 18."
+  },
+  {
+    id: "TINT-RHYTHM-0020",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 2: Management of Cardiac Rhythm Disturbances",
+    category: "Cardiovascular",
+    topic: "Atrial flutter",
+    page: "19",
+    stem: "Which conditions are listed as associations of atrial flutter? Select all that apply.",
+    options: [
+      "Ischaemic heart disease",
+      "Congestive heart failure",
+      "Acute myocardial infarction",
+      "Pulmonary embolus",
+      "Simple postictal state as the typical cause"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Atrial flutter is seen most commonly with ischaemic heart disease and is also associated with congestive heart failure, acute myocardial infarction, pulmonary embolus, myocarditis, blunt chest trauma, and digoxin toxicity.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 19."
   }
 ];
