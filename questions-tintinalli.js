@@ -899,4 +899,229 @@ window.QUESTIONS_TINTINALLI = [
     explanation: "Atrial flutter is seen most commonly with ischaemic heart disease and is also associated with congestive heart failure, acute myocardial infarction, pulmonary embolus, myocarditis, blunt chest trauma, and digoxin toxicity.",
     source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 2: Management of Cardiac Rhythm Disturbances, p. 19."
   }
+,
+  {
+    id: "TINT-NEONATE-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 3: Resuscitation of Children and Neonates",
+    category: "Airway and resuscitation",
+    topic: "Neonatal resuscitation fluids",
+    page: "36",
+    stem: "Which crystalloid fluid is specifically not recommended in neonatal resuscitation?",
+    options: [
+      "Lactated Ringer's solution",
+      "Normal saline",
+      "Dextrose-containing crystalloid when clinically indicated",
+      "Blood product replacement when clinically indicated",
+      "Volume therapy guided by clinical context"
+    ],
+    correctAnswer: 0,
+    explanation: "Lactated Ringer's solution is specifically stated as not recommended in the neonatal resuscitation content.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 3: Resuscitation of Children and Neonates, p. 36."
+  },
+  {
+    id: "TINT-NEONATE-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 3: Resuscitation of Children and Neonates",
+    category: "Airway and resuscitation",
+    topic: "Neonatal resuscitation bicarbonate",
+    page: "36",
+    stem: "Which statement best reflects the role of sodium bicarbonate during initial neonatal resuscitation?",
+    options: [
+      "It is generally contraindicated during initial resuscitation",
+      "It is recommended routinely before ventilation is established",
+      "It should be given to all newborns with respiratory depression",
+      "It replaces the need for blood gas assessment",
+      "It is preferred over correction of oxygenation and perfusion"
+    ],
+    correctAnswer: 0,
+    explanation: "Sodium bicarbonate during neonatal resuscitation is generally contraindicated during initial resuscitation. If used for significant metabolic acidosis, the therapy should be guided by blood gas values.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 3: Resuscitation of Children and Neonates, p. 36."
+  },
+  {
+    id: "TINT-NEONATE-0003",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 3: Resuscitation of Children and Neonates",
+    category: "Airway and resuscitation",
+    topic: "Neonatal resuscitation bicarbonate",
+    page: "36",
+    stem: "If sodium bicarbonate is used for significant metabolic acidosis during neonatal resuscitation, which dose is listed?",
+    options: [
+      "1 mEq/kg of a 4.2% solution IV",
+      "0.01 mg/kg of 1:10,000 solution IV",
+      "0.3 to 0.5 mg IM",
+      "5 mg/kg IV bolus",
+      "0.5 mg IV push repeated every 3 to 5 minutes"
+    ],
+    correctAnswer: 0,
+    explanation: "A dose of 1 mEq/kg of a 4.2% sodium bicarbonate solution may be given IV if there is significant metabolic acidosis, guided by blood gas values.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 3: Resuscitation of Children and Neonates, p. 36."
+  },
+  {
+    id: "TINT-NEONATE-0004",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 3: Resuscitation of Children and Neonates",
+    category: "Airway and resuscitation",
+    topic: "Neonatal resuscitation medications",
+    page: "36",
+    stem: "Which medication is no longer recommended in resuscitation for newborns with respiratory depression?",
+    options: [
+      "Naloxone",
+      "Epinephrine",
+      "Normal saline",
+      "Oxygen",
+      "Sodium bicarbonate for blood gas-guided significant metabolic acidosis"
+    ],
+    correctAnswer: 0,
+    explanation: "Naloxone is no longer recommended in resuscitation for newborns with respiratory depression.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 3: Resuscitation of Children and Neonates, p. 36."
+  },
+  {
+    id: "TINT-FLUID-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
+    category: "Endocrine and metabolic",
+    topic: "Fluids and electrolytes",
+    page: "37",
+    stem: "What is the emergency department management focus for fluids, electrolytes, and acid-base disorders?",
+    options: [
+      "Immediate correction of life-threatening abnormalities, identification and treatment of the underlying disorder, and restoration of normal tissue homeostasis",
+      "Routine bicarbonate therapy for all acidosis presentations",
+      "Avoidance of electrolyte correction until inpatient admission",
+      "Treatment based only on serum sodium concentration",
+      "Delayed assessment until all laboratory results are finalised"
+    ],
+    correctAnswer: 0,
+    explanation: "Management involves immediate correction of life-threatening abnormalities, identifying and treating the underlying disorder, and eventual restoration of normal tissue homeostasis.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders, p. 37."
+  },
+  {
+    id: "TINT-FLUID-0002",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
+    category: "Endocrine and metabolic",
+    topic: "Crystalloid fluids",
+    page: "37",
+    stem: "Which three general components are described for crystalloid fluids used in human administration?",
+    options: [
+      "Water, electrolytes, and glucose",
+      "Albumin, red blood cells, and platelets",
+      "Sodium bicarbonate, insulin, and calcium",
+      "Vasopressor, crystalloid, and colloid",
+      "Oxygen, carbon dioxide, and lactate"
+    ],
+    correctAnswer: 0,
+    explanation: "Crystalloid fluids for human administration are described as having three general components: water, electrolytes, and glucose.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders, p. 37."
+  },
+  {
+    id: "TINT-ACIDBASE-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
+    category: "Endocrine and metabolic",
+    topic: "Lactic acidosis",
+    page: "",
+    stem: "Which statement best reflects the description of lactic acidosis?",
+    options: [
+      "It is a syndrome with its own differential diagnosis, not a diagnosis by itself",
+      "It is always caused by diabetic ketoacidosis",
+      "It is treated first-line with bicarbonate in all cases",
+      "It does not require assessment of tissue perfusion",
+      "It is excluded by a normal respiratory rate"
+    ],
+    correctAnswer: 0,
+    explanation: "Lactic acidosis is described as a syndrome with its own differential diagnosis rather than as a diagnosis by itself.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
+  },
+  {
+    id: "TINT-ACIDBASE-0002",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders",
+    category: "Endocrine and metabolic",
+    topic: "Lactic acidosis management",
+    page: "",
+    stem: "Which actions are listed in emergency department care for lactic acidosis? Select all that apply.",
+    options: [
+      "Treat the underlying disorder with emphasis on restoration of normal tissue perfusion and oxygenation",
+      "Determine whether there is a respiratory component to the acidosis",
+      "Address electrolyte disturbances",
+      "Administer antidotes for toxins as appropriate",
+      "Use bicarbonate routinely for cardiac arrest, diabetic ketoacidosis, and lactic acidosis because benefit is established"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "Care includes treating the underlying disorder, restoring tissue perfusion and oxygenation, assessing for respiratory acidosis, addressing electrolyte disturbances, and using antidotes where appropriate. The source states bicarbonate therapy for cardiac arrest, diabetic ketoacidosis, and lactic acidosis has not shown benefit.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 4: Fluids, Electrolytes, and Acid-Base Disorders."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0001",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis initial care",
+    page: "65",
+    stem: "What should resuscitation begin with in anaphylaxis or acute allergic reactions?",
+    options: [
+      "Airway, breathing, and circulation",
+      "Delayed observation until rash progression is clear",
+      "Gastric decontamination for all ingested allergens",
+      "Routine oral antihistamine before airway assessment",
+      "Defibrillation before oxygenation assessment"
+    ],
+    correctAnswer: 0,
+    explanation: "Emergency department care and disposition begins with airway, breathing, and circulation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0002",
+    type: "multi",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis monitoring and access",
+    page: "65",
+    stem: "Which measures are listed early in emergency department care for anaphylaxis? Select all that apply.",
+    options: [
+      "Place the patient on a cardiac monitor",
+      "Use pulse oximetry",
+      "Obtain intravenous access",
+      "Administer oxygen as indicated by oximetry",
+      "Avoid considering intubation in respiratory distress"
+    ],
+    correctAnswers: [0, 1, 2, 3],
+    explanation: "The source lists cardiac monitoring, pulse oximetry, intravenous access, and oxygen as indicated by oximetry. Angioedema or respiratory distress should prompt early consideration for intubation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0003",
+    type: "mcq",
+    book: "Tintinalli's Emergency Medicine Manual, 8th ed.",
+    chapter: "Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema",
+    category: "Airway and resuscitation",
+    topic: "Anaphylaxis airway",
+    page: "65",
+    stem: "Which finding should prompt early consideration for intubation in an acute allergic reaction?",
+    options: [
+      "Angioedema or respiratory distress",
+      "Local itch without airway symptoms",
+      "Resolved urticaria after exposure removal",
+      "Mild nausea after oral intake",
+      "Stable localised skin redness only"
+    ],
+    correctAnswer: 0,
+    explanation: "Angioedema or respiratory distress should prompt early consideration for intubation.",
+    source: "Tintinalli's Emergency Medicine Manual, 8th ed., Chapter 6: Anaphylaxis, Acute Allergic Reactions, and Angioedema, p. 65."
+  },
+  {
+    id: "TINT-ANAPHYLAXIS-0004",
+    type: "mcq",
+    book: "Tintinalli
 ];
